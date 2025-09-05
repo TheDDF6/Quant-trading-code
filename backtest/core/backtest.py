@@ -1,7 +1,20 @@
 # ideal_backtest.py - 理想化动态风险回测系统
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+try:
+    import matplotlib.pyplot as plt
+except Exception:  # pragma: no cover - optional dependency
+    class _DummyPlot:
+        """Fallback object when matplotlib is unavailable."""
+        rcParams = {}
+
+        def __getattr__(self, _):
+            def _noop(*args, **kwargs):
+                pass
+
+            return _noop
+
+    plt = _DummyPlot()
 from pathlib import Path
 import importlib
 import sys
@@ -17,7 +30,7 @@ project_root = current_dir.parent.parent  # 回到项目根目录
 sys.path.insert(0, str(project_root))
 
 # 配置
-DATA_DIR = Path(r"D:\VSC\crypto_data")
+DATA_DIR = Path(__file__).resolve().parents[2] / "crypto_data"
 plt.rcParams['font.sans-serif'] = ['SimHei', 'Arial Unicode MS']
 plt.rcParams['axes.unicode_minus'] = False
 
@@ -507,8 +520,8 @@ def main():
             print(f"   盈亏: ${trade['pnl']:.2f} ({trade['return_pct']:.1f}%), {trade['reason']}")
             print(f"   杠杆: {trade['leverage']:.1f}x, 资金: ${trade['capital_after']:.2f}")
 
-def run_strategy_backtest(symbol="BTC-USDT", start_date=None, end_date=None, 
-                          strategy_name="rsi_divergence_unified_adapter", timeframe="5m",
+def run_strategy_backtest(symbol="BTC-USDT", start_date=None, end_date=None,
+                          strategy_name="rsi_divergence_unified", timeframe="5m",
                           max_leverage=100, risk_pct=0.015, risk_method="fixed_percentage"):
     """
     运行策略回测的包装函数，可以从其他模块调用
@@ -524,7 +537,7 @@ def run_strategy_backtest(symbol="BTC-USDT", start_date=None, end_date=None,
     
     # 加载策略
     try:
-        if strategy_name == "rsi_divergence_unified_adapter" or strategy_name == "rsi_divergence_unified":
+        if strategy_name == "rsi_divergence_unified":
             # 使用RSI统一策略
             from unified_strategies.rsi_divergence_unified import generate_signals
             strategy_func = lambda df: generate_signals(df, risk_pct, 1.5, 20, risk_method, timeframe=timeframe)
