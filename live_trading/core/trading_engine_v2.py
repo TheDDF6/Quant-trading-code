@@ -880,14 +880,15 @@ class MultiStrategyTradingEngine:
             position.close_reason = reason
             
             # 执行平仓 (使用反向下单)
-            # 对于SWAP合约，平仓时可能不需要posSide参数
+            pos_side = 'long' if position.side == 'long' else 'short'
             close_result = self.client.place_order(
                 instId=position.symbol,
                 tdMode='cross',
                 side='sell' if position.side == 'long' else 'buy',
                 ordType='market',
                 sz=str(position.size),
-                reduceOnly=True  # 平仓使用reduceOnly，不指定posSide
+                reduceOnly=True,
+                posSide=pos_side  # 指定持仓方向，避免OKX接口报错
             )
             
             if close_result and close_result.get('code') == '0':
