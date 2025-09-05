@@ -46,10 +46,12 @@ def load_test_data():
     return df
 
 
-@pytest.fixture
+@pytest.fixture(scope="module")
 def df():
-    """Fixture providing test market data"""
-    return load_test_data()
+    """加载用于测试的一小段行情数据"""
+    data = load_test_data()
+    assert data is not None, "测试数据加载失败"
+    return data
 
 def test_unified_strategy_backtest(df):
     """测试统一策略在回测系统中的表现"""
