@@ -43,34 +43,37 @@ class StrategyRegistry:
     def _register_builtin_strategies(self):
         """自动发现并注册strategies目录中的策略"""
         strategies_dir = "strategies"
-        
-        
+
         if not os.path.exists(strategies_dir):
             self.logger.warning(f"策略目录不存在: {strategies_dir}")
             return
-        
-        # 扫描strategies目录中的py文件
-        for filename in os.listdir(strategies_dir):
-            if filename.endswith('.py') and filename != '__init__.py' and filename != 'base_strategy.py':
-                module_name = filename[:-3]  # 移除.py扩展名
-                
-                try:
-                    # 动态导入模块
-                    module = importlib.import_module(f'strategies.{module_name}')
-                    
-                    # 查找BaseStrategy的子类
-                    for name, obj in inspect.getmembers(module):
-                        if (inspect.isclass(obj) and 
-                            issubclass(obj, BaseStrategy) and 
-                            obj != BaseStrategy):
-                            
-                            # 自动注册发现的策略
-                            self._register_discovered_strategy(name, obj, module_name)
-                            
-                except Exception as e:
-                    self.logger.error(f"导入策略模块失败 {module_name}: {e}")
-                    continue
-        
+
+        # 递归扫描strategies目录及子目录
+        for root, _, files in os.walk(strategies_dir):
+            rel_path = os.path.relpath(root, strategies_dir)
+            package = "strategies" if rel_path == "." else f"strategies.{rel_path.replace(os.sep, '.')}"
+
+            for filename in files:
+                if filename.endswith('.py') and filename not in ('__init__.py', 'base_strategy.py'):
+                    module_base = filename[:-3]
+                    full_module = f"{package}.{module_base}" if package != "strategies" else f"strategies.{module_base}"
+
+                    try:
+                        module = importlib.import_module(full_module)
+
+                        # 查找BaseStrategy的子类
+                        for name, obj in inspect.getmembers(module):
+                            if (
+                                inspect.isclass(obj)
+                                and issubclass(obj, BaseStrategy)
+                                and obj != BaseStrategy
+                            ):
+                                self._register_discovered_strategy(name, obj, module_base)
+
+                    except Exception as e:
+                        self.logger.error(f"导入策略模块失败 {full_module}: {e}")
+                        continue
+
         self.logger.info(f"已自动发现并注册 {len(self._strategy_classes)} 个策略")
     
     def _register_discovered_strategy(self, class_name: str, strategy_class: Type[BaseStrategy], module_name: str):

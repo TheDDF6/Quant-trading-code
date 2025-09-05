@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
-"""
-简化的RSI背离策略 - 用于参数敏感性测试
-"""
+# rsi_simple.py - 简化的RSI背离策略
+"""用于参数敏感性测试的简化RSI背离策略"""
 
 import pandas as pd
 import numpy as np

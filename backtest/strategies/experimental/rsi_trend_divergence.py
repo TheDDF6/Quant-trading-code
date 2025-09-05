@@ -1,3 +1,5 @@
+"""rsi_trend_divergence.py - RSI趋势背离策略"""
+
 import pandas as pd
 import talib
 

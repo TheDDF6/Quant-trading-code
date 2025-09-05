@@ -46,7 +46,7 @@ def realistic_parameter_test(df):
     # 导入策略
     import importlib
     try:
-        strategy_module = importlib.import_module("strategies.rsi_divergence")
+        strategy_module = importlib.import_module("strategies.legacy.rsi_divergence")
     except ImportError as e:
         print(f"无法加载策略: {e}")
         return None

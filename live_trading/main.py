@@ -783,8 +783,10 @@ def show_documentation():
     │   └── strategy_configurator.py # 策略配置器
     ├── strategies/                 # 交易策略
     │   ├── base_strategy.py       # 策略基类
-    │   ├── rsi_divergence_v2.py   # RSI背离策略v2
-    │   └── ma_crossover.py        # 移动平均交叉策略
+    │   ├── ma_crossover.py        # 移动平均交叉策略
+    │   ├── volatility_breakout.py # 波动率突破策略
+    │   └── experimental/
+    │       └── rsi_divergence_v2.py # RSI背离策略v2 (实验)
     ├── config/                     # 配置管理
     │   ├── config.py              # 单策略配置
     │   ├── trading_config.json    # 单策略配置文件

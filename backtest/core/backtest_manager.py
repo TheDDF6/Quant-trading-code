@@ -264,7 +264,7 @@ class BacktestManager:
                     # 备选方案：使用本地简化版本
                     print("使用本地RSI简化策略...")
                     try:
-                        from strategies.rsi_simple import generate_signals
+                        from strategies.experimental.rsi_simple import generate_signals
                     except ImportError as e:
                         print(f"本地简化策略导入失败: {e}")
                         return []

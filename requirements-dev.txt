@@ -1,0 +1,5 @@
+pandas
+matplotlib
+ta-lib
+pyarrow
+pytest-asyncio

@@ -34,7 +34,7 @@ def run_parameter_sensitivity_test_optimized(symbol, strategy_name, timeframe='5
     modules_to_reload = [
         'core.backtest_manager',
         'core.backtest',
-        'strategies.rsi_simple'
+        'strategies.experimental.rsi_simple'
     ]
     
     for module_name in modules_to_reload:
