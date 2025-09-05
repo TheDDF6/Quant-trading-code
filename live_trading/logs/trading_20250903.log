@@ -1,0 +1,42 @@
+2025-09-03 11:09:06,438 - core.okx_client - INFO - ³õÊ¼»¯ÊµÅÌÄ£Ê½¿Í»§¶Ë£¨ÕæÊµ×Ê½ğ£©
+2025-09-03 11:09:07,586 - core.trading_engine - INFO - ½»Ò×ÒıÇæ³õÊ¼»¯Íê³É
+2025-09-03 11:09:07,586 - core.trading_engine - INFO - Æô¶¯ÊµÅÌ½»Ò×ÒıÇæ
+2025-09-03 11:09:07,586 - core.trading_engine - INFO - ½»Ò×¶Ô: BTC-USDT-SWAP
+2025-09-03 11:09:07,586 - core.trading_engine - INFO - É³ºĞÄ£Ê½: False
+2025-09-03 11:09:07,587 - core.trading_engine - INFO - 
+=== ½»Ò×ÖÜÆÚ 1 ===
+2025-09-03 11:09:12,366 - core.trading_engine - INFO - OKX³Ö²ÖÍ¬²½ BTC-USDT-SWAP - [SHORT] ¿Õ²Ö:
+2025-09-03 11:09:12,367 - core.trading_engine - INFO -   Ô­Ê¼ÊıÁ¿: 0.1, ´¦ÀíºóÊıÁ¿: 0.1
+2025-09-03 11:09:12,367 - core.trading_engine - INFO -   ¿ª²Ö¼Û¸ñ: $111,280.00
+2025-09-03 11:09:12,400 - core.trading_engine - INFO -   µ±Ç°¼Û¸ñ: $111,330.80
+2025-09-03 11:09:12,400 - core.trading_engine - INFO -   ³Ö²Ö¼ÛÖµ: $111.28 USDT
+2025-09-03 11:09:12,400 - core.trading_engine - INFO -   Õ¼ÓÃ±£Ö¤½ğ: $111.33 USDT
+2025-09-03 11:09:12,400 - core.trading_engine - INFO -   Î´ÊµÏÖÓ¯¿÷: $-0.05 USDT (-0.05%)
+2025-09-03 11:09:12,400 - core.trading_engine - INFO -   ¹ØÁªµÄÖ¹Ó¯Ö¹Ëğ¶©µ¥: ÎŞ
+2025-09-03 11:09:15,055 - core.trading_engine - INFO -   ²ßÂÔÎ¯ÍĞµ¥: 1¸ö
+2025-09-03 11:09:15,056 - core.trading_engine - INFO -     [OCO] Ë«ÏòÖ¹Ó¯Ö¹Ëğ:
+2025-09-03 11:09:15,056 - core.trading_engine - INFO -       Ö¹Ó¯: ´¥·¢¼Û$108,778.20, Î¯ÍĞ¼Û$108,778.30
+2025-09-03 11:09:15,056 - core.trading_engine - INFO -       Ö¹Ëğ: ´¥·¢¼Û$112,951.30, Î¯ÍĞ¼Û$112,951.40
+2025-09-03 11:09:15,056 - core.trading_engine - INFO -       ´´½¨Ê±¼ä: 2025-09-02 22:53:54
+2025-09-03 11:09:15,062 - core.trading_engine - INFO - µÈ´ı60Ãëºó¼ÌĞø...
+2025-09-03 11:09:21,513 - core.trading_engine - INFO - ½ÓÊÕµ½Í£Ö¹ĞÅºÅ
+2025-09-03 11:09:21,513 - core.trading_engine - INFO - Í£Ö¹½»Ò×ÒıÇæ
+2025-09-03 16:09:31,276 - TradingEngineV2 - INFO - å¤šç­–ç•¥äº¤æ˜“å¼•æ“åˆå§‹åŒ–å®Œæˆ
+2025-09-03 16:09:31,276 - TradingEngineV2 - ERROR - é¢„æ£€æŸ¥å¤±è´¥: 'OKXClient' object has no attribute 'test_connection'
+2025-09-03 16:10:08,460 - TradingEngineV2 - INFO - å¤šç­–ç•¥äº¤æ˜“å¼•æ“åˆå§‹åŒ–å®Œæˆ
+2025-09-03 16:10:08,461 - TradingEngineV2 - ERROR - APIè¿æ¥æµ‹è¯•å¤±è´¥
+2025-09-03 16:10:18,465 - TradingEngineV2 - INFO - æ­£åœ¨åœæ­¢äº¤æ˜“å¼•æ“...
+2025-09-03 16:10:18,465 - TradingEngineV2 - INFO - å¼•æ“å·²åœæ­¢ - æœ€ç»ˆçŠ¶æ€: {'timestamp': '2025-09-03T16:10:18.465939', 'is_running': False, 'balance': {'total': 0.0, 'available': 0.0, 'unrealized_pnl': 0, 'net_balance': 0.0}, 'positions': {'count': 0, 'details': []}, 'strategies': {'manager_status': {'is_running': False, 'total_balance': 10000.0, 'available_balance': 9000.0, 'active_strategies': 0, 'total_strategies': 0, 'current_risk': 0.0, 'active_signals': 0, 'fund_allocation_mode': 'shared_pool', 'shared_pool_balance': 9000.0, 'pool_locked': False}, 'strategies': {}}, 'risk': {'status': 'no_data'}}
+2025-09-03 16:11:13,413 - TradingEngineV2 - INFO - å¤šç­–ç•¥äº¤æ˜“å¼•æ“åˆå§‹åŒ–å®Œæˆ
+2025-09-03 16:11:13,415 - TradingEngineV2 - ERROR - APIè¿æ¥æµ‹è¯•å¤±è´¥
+2025-09-03 16:17:56,305 - TradingEngineV2 - INFO - å¤šç­–ç•¥äº¤æ˜“å¼•æ“åˆå§‹åŒ–å®Œæˆ
+2025-09-03 16:17:56,306 - TradingEngineV2 - ERROR - APIè¿æ¥æµ‹è¯•å¤±è´¥
+2025-09-03 16:18:48,985 - TradingEngineV2 - INFO - å¤šç­–ç•¥äº¤æ˜“å¼•æ“åˆå§‹åŒ–å®Œæˆ
+2025-09-03 16:18:48,986 - TradingEngineV2 - ERROR - APIè¿æ¥æµ‹è¯•å¤±è´¥
+2025-09-03 16:19:31,748 - TradingEngineV2 - INFO - å¤šç­–ç•¥äº¤æ˜“å¼•æ“åˆå§‹åŒ–å®Œæˆ
+2025-09-03 16:19:31,749 - TradingEngineV2 - ERROR - APIè¿æ¥æµ‹è¯•å¤±è´¥
+2025-09-03 16:20:14,266 - TradingEngineV2 - INFO - å¤šç­–ç•¥äº¤æ˜“å¼•æ“åˆå§‹åŒ–å®Œæˆ
+2025-09-03 16:20:46,745 - TradingEngineV2 - INFO - å¤šç­–ç•¥äº¤æ˜“å¼•æ“åˆå§‹åŒ–å®Œæˆ
+2025-09-03 16:20:53,768 - TradingEngineV2 - ERROR - æ²¡æœ‰æ³¨å†Œçš„ç­–ç•¥
+2025-09-03 16:22:35,135 - TradingEngineV2 - INFO - å¤šç­–ç•¥äº¤æ˜“å¼•æ“åˆå§‹åŒ–å®Œæˆ
+2025-09-03 16:22:37,033 - TradingEngineV2 - ERROR - è´¦æˆ·ä½™é¢ä¸è¶³

@@ -1,0 +1,1073 @@
+2025-09-04 01:17:41,881 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 01:17:43,287 - TradingEngineV2 - ERROR - 没有注册的策略
+2025-09-04 01:28:37,321 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 01:28:39,784 - TradingEngineV2 - ERROR - 账户余额不足
+2025-09-04 01:36:24,527 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 01:36:25,950 - TradingEngineV2 - ERROR - 没有注册的策略
+2025-09-04 01:37:17,158 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 01:37:20,297 - TradingEngineV2 - INFO - 检测到持仓: BTC-USDT-SWAP - 0.1
+2025-09-04 01:37:20,297 - TradingEngineV2 - ERROR - 账户余额不足
+2025-09-04 01:38:12,133 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 01:38:14,543 - TradingEngineV2 - INFO - 检测到持仓: BTC-USDT-SWAP - 0.1
+2025-09-04 01:38:14,543 - TradingEngineV2 - INFO - 检测到现有持仓/挂单，进入监控模式
+2025-09-04 01:38:14,544 - TradingEngineV2 - INFO - 账户状态 - 总余额: $0.00, 可用余额: $11.01
+2025-09-04 01:38:14,544 - TradingEngineV2 - INFO - 多策略交易引擎启动
+2025-09-04 01:39:00,215 - TradingEngineV2 - INFO - 执行策略分析 - 01:39 - 周期: 1分钟
+2025-09-04 01:39:00,216 - TradingEngineV2 - WARNING - 交易暂停: 可用余额不足
+2025-09-04 01:42:31,150 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 01:42:33,720 - TradingEngineV2 - INFO - 检测到持仓: BTC-USDT-SWAP - 0.1
+2025-09-04 01:42:33,720 - TradingEngineV2 - INFO - 检测到现有持仓/挂单，进入监控模式
+2025-09-04 01:42:33,720 - TradingEngineV2 - INFO - 账户状态 - 总余额: $0.00, 可用余额: $11.31
+2025-09-04 01:42:33,720 - TradingEngineV2 - INFO - 多策略交易引擎启动
+2025-09-04 01:43:00,194 - TradingEngineV2 - INFO - 执行策略分析 - 01:43 - 周期: 1分钟
+2025-09-04 01:43:00,194 - TradingEngineV2 - WARNING - 交易暂停: 可用余额不足
+2025-09-04 01:44:37,907 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 01:44:40,272 - TradingEngineV2 - INFO - 检测到持仓: BTC-USDT-SWAP - 0.1
+2025-09-04 01:44:40,272 - TradingEngineV2 - INFO - 检测到现有持仓/挂单，进入监控模式
+2025-09-04 01:44:40,272 - TradingEngineV2 - INFO - 账户状态 - 总余额: $0.00, 可用余额: $11.35
+2025-09-04 01:44:40,273 - TradingEngineV2 - INFO - 多策略交易引擎启动
+2025-09-04 01:45:00,223 - TradingEngineV2 - INFO - 执行策略分析 - 01:45 - 周期: 1分钟, 5分钟, 15分钟
+2025-09-04 01:45:00,224 - TradingEngineV2 - WARNING - 交易暂停: 可用余额不足
+2025-09-04 01:46:19,913 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 01:46:22,551 - TradingEngineV2 - INFO - 检测到持仓: BTC-USDT-SWAP - 0.1
+2025-09-04 01:46:22,552 - TradingEngineV2 - INFO - 检测到现有持仓/挂单，进入监控模式
+2025-09-04 01:46:22,552 - TradingEngineV2 - INFO - 账户状态 - 总余额: $0.00, 可用余额: $11.30
+2025-09-04 01:46:22,552 - TradingEngineV2 - INFO - 多策略交易引擎启动
+2025-09-04 01:47:00,222 - TradingEngineV2 - INFO - 执行策略分析 - 01:47 - 周期: 1分钟
+2025-09-04 01:47:00,222 - TradingEngineV2 - WARNING - 交易暂停: 可用余额不足
+2025-09-04 01:49:07,832 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 01:49:09,922 - TradingEngineV2 - INFO - 余额API返回: {'code': '0', 'data': [{'adjEq': '', 'availEq': '', 'borrowFroz': '', 'details': [{'accAvgPx': '', 'autoLendAmt': '0', 'autoLendMtAmt': '0', 'autoLendStatus': 'unsupported', 'availBal': '11.032600548319209', 'availEq': '11.032600548319209', 'borrowFroz': '', 'cashBal': '124.49260054831922', 'ccy': 'USDT', 'clSpotInUseAmt': '', 'colBorrAutoConversion': '0', 'colRes': '0', 'collateralEnabled': False, 'collateralRestrict': False, 'crossLiab': '', 'disEq': '0', 'eq': '123.40260054831921', 'eqUsd': '123.42357899041242', 'fixedBal': '0', 'frozenBal': '112.37', 'imr': '112.37', 'interest': '', 'isoEq': '0', 'isoLiab': '', 'isoUpl': '0', 'liab': '', 'maxLoan': '', 'maxSpotInUse': '', 'mgnRatio': '244.0402253434966', 'mmr': '0.44948', 'notionalLever': '0.9105966932682321', 'openAvgPx': '', 'ordFrozen': '0', 'rewardBal': '0', 'smtSyncEq': '0', 'spotBal': '', 'spotCopyTradingEq': '0', 'spotInUseAmt': '', 'spotIsoBal': '0', 'spotUpl': '', 'spotUplRatio': '', 'stgyEq': '0', 'totalPnl': '', 'totalPnlRatio': '', 'twap': '0', 'uTime': '1756915200100', 'upl': '-1.09', 'uplLiab': ''}, {'accAvgPx': '', 'autoLendAmt': '0', 'autoLendMtAmt': '0', 'autoLendStatus': 'unsupported', 'availBal': '0.0000006147597398', 'availEq': '0.0000006147597398', 'borrowFroz': '', 'cashBal': '0.0000006147597398', 'ccy': 'DOGE', 'clSpotInUseAmt': '', 'colBorrAutoConversion': '0', 'colRes': '0', 'collateralEnabled': False, 'collateralRestrict': False, 'crossLiab': '', 'disEq': '0', 'eq': '0.0000006147597398', 'eqUsd': '0.0000001351118956', 'fixedBal': '0', 'frozenBal': '0', 'imr': '0', 'interest': '', 'isoEq': '0', 'isoLiab': '', 'isoUpl': '0', 'liab': '', 'maxLoan': '', 'maxSpotInUse': '', 'mgnRatio': '', 'mmr': '0', 'notionalLever': '0', 'openAvgPx': '', 'ordFrozen': '0', 'rewardBal': '0', 'smtSyncEq': '0', 'spotBal': '', 'spotCopyTradingEq': '0', 'spotInUseAmt': '', 'spotIsoBal': '0', 'spotUpl': '', 'spotUplRatio': '', 'stgyEq': '0', 'totalPnl': '', 'totalPnlRatio': '', 'twap': '0', 'uTime': '1755447334452', 'upl': '0', 'uplLiab': ''}], 'imr': '', 'isoEq': '0', 'mgnRatio': '', 'mmr': '', 'notionalUsd': '', 'notionalUsdForBorrow': '', 'notionalUsdForFutures': '', 'notionalUsdForOption': '', 'notionalUsdForSwap': '', 'ordFroz': '', 'totalEq': '123.42357912552431', 'uTime': '1756921749521', 'upl': ''}], 'msg': ''}
+2025-09-04 01:49:10,301 - TradingEngineV2 - INFO - 检测到持仓: BTC-USDT-SWAP - 0.1
+2025-09-04 01:49:10,302 - TradingEngineV2 - INFO - 检测到现有持仓/挂单，进入监控模式
+2025-09-04 01:49:10,302 - TradingEngineV2 - INFO - 账户状态 - 总余额: $0.00, 可用余额: $11.03
+2025-09-04 01:49:10,302 - TradingEngineV2 - INFO - 多策略交易引擎启动
+2025-09-04 01:49:11,597 - TradingEngineV2 - INFO - 检测到持仓: BTC-USDT-SWAP - 0.1
+2025-09-04 01:49:12,614 - TradingEngineV2 - INFO - 检测到持仓: BTC-USDT-SWAP - 0.1
+2025-09-04 01:49:13,861 - TradingEngineV2 - INFO - 检测到持仓: BTC-USDT-SWAP - 0.1
+2025-09-04 01:49:14,589 - TradingEngineV2 - INFO - 检测到持仓: BTC-USDT-SWAP - 0.1
+2025-09-04 01:49:15,592 - TradingEngineV2 - INFO - 检测到持仓: BTC-USDT-SWAP - 0.1
+2025-09-04 01:49:16,597 - TradingEngineV2 - INFO - 检测到持仓: BTC-USDT-SWAP - 0.1
+2025-09-04 01:49:17,609 - TradingEngineV2 - INFO - 检测到持仓: BTC-USDT-SWAP - 0.1
+2025-09-04 01:49:18,621 - TradingEngineV2 - INFO - 检测到持仓: BTC-USDT-SWAP - 0.1
+2025-09-04 01:49:19,599 - TradingEngineV2 - INFO - 检测到持仓: BTC-USDT-SWAP - 0.1
+2025-09-04 01:50:28,135 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 01:50:31,613 - TradingEngineV2 - INFO - 检测到现有持仓/挂单，进入监控模式
+2025-09-04 01:50:31,613 - TradingEngineV2 - INFO - 账户状态 - 总余额: $123.39, 可用余额: $11.00
+2025-09-04 01:50:31,613 - TradingEngineV2 - INFO - 多策略交易引擎启动
+2025-09-04 01:51:00,204 - TradingEngineV2 - INFO - 执行策略分析 - 01:51 - 周期: 1分钟
+2025-09-04 01:52:00,212 - TradingEngineV2 - INFO - 执行策略分析 - 01:52 - 周期: 1分钟
+2025-09-04 01:53:00,200 - TradingEngineV2 - INFO - 执行策略分析 - 01:53 - 周期: 1分钟
+2025-09-04 01:54:00,212 - TradingEngineV2 - INFO - 执行策略分析 - 01:54 - 周期: 1分钟
+2025-09-04 01:55:00,202 - TradingEngineV2 - INFO - 执行策略分析 - 01:55 - 周期: 1分钟, 5分钟
+2025-09-04 01:55:59,988 - TradingEngineV2 - INFO - 执行策略分析 - 01:56 - 周期: 1分钟
+2025-09-04 01:56:59,994 - TradingEngineV2 - INFO - 执行策略分析 - 01:57 - 周期: 1分钟
+2025-09-04 01:57:59,988 - TradingEngineV2 - INFO - 执行策略分析 - 01:58 - 周期: 1分钟
+2025-09-04 01:58:59,992 - TradingEngineV2 - INFO - 执行策略分析 - 01:59 - 周期: 1分钟
+2025-09-04 01:59:59,984 - TradingEngineV2 - INFO - 执行策略分析 - 02:00 - 周期: 1分钟, 5分钟, 15分钟, 30分钟, 1小时
+2025-09-04 02:00:59,992 - TradingEngineV2 - INFO - 执行策略分析 - 02:01 - 周期: 1分钟
+2025-09-04 02:01:59,995 - TradingEngineV2 - INFO - 执行策略分析 - 02:02 - 周期: 1分钟
+2025-09-04 02:02:59,987 - TradingEngineV2 - INFO - 执行策略分析 - 02:03 - 周期: 1分钟
+2025-09-04 02:03:59,991 - TradingEngineV2 - INFO - 执行策略分析 - 02:04 - 周期: 1分钟
+2025-09-04 02:04:59,987 - TradingEngineV2 - INFO - 执行策略分析 - 02:05 - 周期: 1分钟, 5分钟
+2025-09-04 02:05:59,953 - TradingEngineV2 - INFO - 执行策略分析 - 02:06 - 周期: 1分钟
+2025-09-04 02:06:59,950 - TradingEngineV2 - INFO - 执行策略分析 - 02:07 - 周期: 1分钟
+2025-09-04 02:07:59,939 - TradingEngineV2 - INFO - 执行策略分析 - 02:08 - 周期: 1分钟
+2025-09-04 02:08:59,943 - TradingEngineV2 - INFO - 执行策略分析 - 02:09 - 周期: 1分钟
+2025-09-04 02:09:59,949 - TradingEngineV2 - INFO - 执行策略分析 - 02:10 - 周期: 1分钟, 5分钟
+2025-09-04 02:10:59,873 - TradingEngineV2 - INFO - 执行策略分析 - 02:11 - 周期: 1分钟
+2025-09-04 02:11:59,871 - TradingEngineV2 - INFO - 执行策略分析 - 02:12 - 周期: 1分钟
+2025-09-04 02:12:59,869 - TradingEngineV2 - INFO - 执行策略分析 - 02:13 - 周期: 1分钟
+2025-09-04 02:13:59,874 - TradingEngineV2 - INFO - 执行策略分析 - 02:14 - 周期: 1分钟
+2025-09-04 02:14:59,870 - TradingEngineV2 - INFO - 执行策略分析 - 02:15 - 周期: 1分钟, 5分钟, 15分钟
+2025-09-04 02:15:59,945 - TradingEngineV2 - INFO - 执行策略分析 - 02:16 - 周期: 1分钟
+2025-09-04 02:16:59,952 - TradingEngineV2 - INFO - 执行策略分析 - 02:17 - 周期: 1分钟
+2025-09-04 02:17:59,951 - TradingEngineV2 - INFO - 执行策略分析 - 02:18 - 周期: 1分钟
+2025-09-04 02:18:59,956 - TradingEngineV2 - INFO - 执行策略分析 - 02:19 - 周期: 1分钟
+2025-09-04 02:19:59,954 - TradingEngineV2 - INFO - 执行策略分析 - 02:20 - 周期: 1分钟, 5分钟
+2025-09-04 02:21:00,013 - TradingEngineV2 - INFO - 执行策略分析 - 02:21 - 周期: 1分钟
+2025-09-04 02:22:00,017 - TradingEngineV2 - INFO - 执行策略分析 - 02:22 - 周期: 1分钟
+2025-09-04 02:23:00,006 - TradingEngineV2 - INFO - 执行策略分析 - 02:23 - 周期: 1分钟
+2025-09-04 02:24:00,011 - TradingEngineV2 - INFO - 执行策略分析 - 02:24 - 周期: 1分钟
+2025-09-04 02:25:00,006 - TradingEngineV2 - INFO - 执行策略分析 - 02:25 - 周期: 1分钟, 5分钟
+2025-09-04 02:25:59,999 - TradingEngineV2 - INFO - 执行策略分析 - 02:26 - 周期: 1分钟
+2025-09-04 02:26:59,986 - TradingEngineV2 - INFO - 执行策略分析 - 02:27 - 周期: 1分钟
+2025-09-04 02:28:00,000 - TradingEngineV2 - INFO - 执行策略分析 - 02:28 - 周期: 1分钟
+2025-09-04 02:28:59,987 - TradingEngineV2 - INFO - 执行策略分析 - 02:29 - 周期: 1分钟
+2025-09-04 02:29:59,988 - TradingEngineV2 - INFO - 执行策略分析 - 02:30 - 周期: 1分钟, 5分钟, 15分钟, 30分钟
+2025-09-04 02:30:59,999 - TradingEngineV2 - INFO - 执行策略分析 - 02:31 - 周期: 1分钟
+2025-09-04 02:31:59,989 - TradingEngineV2 - INFO - 执行策略分析 - 02:32 - 周期: 1分钟
+2025-09-04 02:32:59,999 - TradingEngineV2 - INFO - 执行策略分析 - 02:33 - 周期: 1分钟
+2025-09-04 02:33:59,992 - TradingEngineV2 - INFO - 执行策略分析 - 02:34 - 周期: 1分钟
+2025-09-04 02:34:59,995 - TradingEngineV2 - INFO - 执行策略分析 - 02:35 - 周期: 1分钟, 5分钟
+2025-09-04 02:36:00,007 - TradingEngineV2 - INFO - 执行策略分析 - 02:36 - 周期: 1分钟
+2025-09-04 02:37:00,008 - TradingEngineV2 - INFO - 执行策略分析 - 02:37 - 周期: 1分钟
+2025-09-04 02:38:00,006 - TradingEngineV2 - INFO - 执行策略分析 - 02:38 - 周期: 1分钟
+2025-09-04 02:39:00,009 - TradingEngineV2 - INFO - 执行策略分析 - 02:39 - 周期: 1分钟
+2025-09-04 02:40:00,016 - TradingEngineV2 - INFO - 执行策略分析 - 02:40 - 周期: 1分钟, 5分钟
+2025-09-04 02:41:00,005 - TradingEngineV2 - INFO - 执行策略分析 - 02:41 - 周期: 1分钟
+2025-09-04 02:42:00,013 - TradingEngineV2 - INFO - 执行策略分析 - 02:42 - 周期: 1分钟
+2025-09-04 02:43:00,013 - TradingEngineV2 - INFO - 执行策略分析 - 02:43 - 周期: 1分钟
+2025-09-04 02:44:00,014 - TradingEngineV2 - INFO - 执行策略分析 - 02:44 - 周期: 1分钟
+2025-09-04 02:45:00,014 - TradingEngineV2 - INFO - 执行策略分析 - 02:45 - 周期: 1分钟, 5分钟, 15分钟
+2025-09-04 02:45:59,972 - TradingEngineV2 - INFO - 执行策略分析 - 02:46 - 周期: 1分钟
+2025-09-04 02:46:59,973 - TradingEngineV2 - INFO - 执行策略分析 - 02:47 - 周期: 1分钟
+2025-09-04 02:47:59,973 - TradingEngineV2 - INFO - 执行策略分析 - 02:48 - 周期: 1分钟
+2025-09-04 02:48:59,968 - TradingEngineV2 - INFO - 执行策略分析 - 02:49 - 周期: 1分钟
+2025-09-04 02:49:59,965 - TradingEngineV2 - INFO - 执行策略分析 - 02:50 - 周期: 1分钟, 5分钟
+2025-09-04 02:50:59,989 - TradingEngineV2 - INFO - 执行策略分析 - 02:51 - 周期: 1分钟
+2025-09-04 02:51:59,998 - TradingEngineV2 - INFO - 执行策略分析 - 02:52 - 周期: 1分钟
+2025-09-04 02:52:59,996 - TradingEngineV2 - INFO - 执行策略分析 - 02:53 - 周期: 1分钟
+2025-09-04 02:54:00,001 - TradingEngineV2 - INFO - 执行策略分析 - 02:54 - 周期: 1分钟
+2025-09-04 02:54:59,993 - TradingEngineV2 - INFO - 执行策略分析 - 02:55 - 周期: 1分钟, 5分钟
+2025-09-04 02:55:59,985 - TradingEngineV2 - INFO - 执行策略分析 - 02:56 - 周期: 1分钟
+2025-09-04 02:56:59,987 - TradingEngineV2 - INFO - 执行策略分析 - 02:57 - 周期: 1分钟
+2025-09-04 02:57:59,987 - TradingEngineV2 - INFO - 执行策略分析 - 02:58 - 周期: 1分钟
+2025-09-04 02:58:59,985 - TradingEngineV2 - INFO - 执行策略分析 - 02:59 - 周期: 1分钟
+2025-09-04 02:59:59,980 - TradingEngineV2 - INFO - 执行策略分析 - 03:00 - 周期: 1分钟, 5分钟, 15分钟, 30分钟, 1小时
+2025-09-04 03:01:00,009 - TradingEngineV2 - INFO - 执行策略分析 - 03:01 - 周期: 1分钟
+2025-09-04 03:01:59,999 - TradingEngineV2 - INFO - 执行策略分析 - 03:02 - 周期: 1分钟
+2025-09-04 03:03:00,011 - TradingEngineV2 - INFO - 执行策略分析 - 03:03 - 周期: 1分钟
+2025-09-04 03:04:00,001 - TradingEngineV2 - INFO - 执行策略分析 - 03:04 - 周期: 1分钟
+2025-09-04 03:05:00,005 - TradingEngineV2 - INFO - 执行策略分析 - 03:05 - 周期: 1分钟, 5分钟
+2025-09-04 03:06:00,001 - TradingEngineV2 - INFO - 执行策略分析 - 03:06 - 周期: 1分钟
+2025-09-04 03:07:00,006 - TradingEngineV2 - INFO - 执行策略分析 - 03:07 - 周期: 1分钟
+2025-09-04 03:08:00,013 - TradingEngineV2 - INFO - 执行策略分析 - 03:08 - 周期: 1分钟
+2025-09-04 03:09:00,001 - TradingEngineV2 - INFO - 执行策略分析 - 03:09 - 周期: 1分钟
+2025-09-04 03:10:00,003 - TradingEngineV2 - INFO - 执行策略分析 - 03:10 - 周期: 1分钟, 5分钟
+2025-09-04 03:10:59,976 - TradingEngineV2 - INFO - 执行策略分析 - 03:11 - 周期: 1分钟
+2025-09-04 03:11:59,982 - TradingEngineV2 - INFO - 执行策略分析 - 03:12 - 周期: 1分钟
+2025-09-04 03:12:59,978 - TradingEngineV2 - INFO - 执行策略分析 - 03:13 - 周期: 1分钟
+2025-09-04 03:13:59,991 - TradingEngineV2 - INFO - 执行策略分析 - 03:14 - 周期: 1分钟
+2025-09-04 03:14:59,987 - TradingEngineV2 - INFO - 执行策略分析 - 03:15 - 周期: 1分钟, 5分钟, 15分钟
+2025-09-04 03:15:59,996 - TradingEngineV2 - INFO - 执行策略分析 - 03:16 - 周期: 1分钟
+2025-09-04 03:16:59,999 - TradingEngineV2 - INFO - 执行策略分析 - 03:17 - 周期: 1分钟
+2025-09-04 03:17:59,996 - TradingEngineV2 - INFO - 执行策略分析 - 03:18 - 周期: 1分钟
+2025-09-04 03:19:00,001 - TradingEngineV2 - INFO - 执行策略分析 - 03:19 - 周期: 1分钟
+2025-09-04 03:20:00,003 - TradingEngineV2 - INFO - 执行策略分析 - 03:20 - 周期: 1分钟, 5分钟
+2025-09-04 03:20:59,894 - TradingEngineV2 - INFO - 执行策略分析 - 03:21 - 周期: 1分钟
+2025-09-04 03:21:59,890 - TradingEngineV2 - INFO - 执行策略分析 - 03:22 - 周期: 1分钟
+2025-09-04 03:22:59,891 - TradingEngineV2 - INFO - 执行策略分析 - 03:23 - 周期: 1分钟
+2025-09-04 03:23:59,896 - TradingEngineV2 - INFO - 执行策略分析 - 03:24 - 周期: 1分钟
+2025-09-04 03:24:59,899 - TradingEngineV2 - INFO - 执行策略分析 - 03:25 - 周期: 1分钟, 5分钟
+2025-09-04 03:25:59,931 - TradingEngineV2 - INFO - 执行策略分析 - 03:26 - 周期: 1分钟
+2025-09-04 03:26:59,932 - TradingEngineV2 - INFO - 执行策略分析 - 03:27 - 周期: 1分钟
+2025-09-04 03:27:59,932 - TradingEngineV2 - INFO - 执行策略分析 - 03:28 - 周期: 1分钟
+2025-09-04 03:28:59,936 - TradingEngineV2 - INFO - 执行策略分析 - 03:29 - 周期: 1分钟
+2025-09-04 03:29:59,942 - TradingEngineV2 - INFO - 执行策略分析 - 03:30 - 周期: 1分钟, 5分钟, 15分钟, 30分钟
+2025-09-04 03:31:00,043 - TradingEngineV2 - INFO - 执行策略分析 - 03:31 - 周期: 1分钟
+2025-09-04 03:32:00,054 - TradingEngineV2 - INFO - 执行策略分析 - 03:32 - 周期: 1分钟
+2025-09-04 03:33:00,048 - TradingEngineV2 - INFO - 执行策略分析 - 03:33 - 周期: 1分钟
+2025-09-04 03:34:00,049 - TradingEngineV2 - INFO - 执行策略分析 - 03:34 - 周期: 1分钟
+2025-09-04 03:35:00,050 - TradingEngineV2 - INFO - 执行策略分析 - 03:35 - 周期: 1分钟, 5分钟
+2025-09-04 03:36:00,020 - TradingEngineV2 - INFO - 执行策略分析 - 03:36 - 周期: 1分钟
+2025-09-04 03:37:00,026 - TradingEngineV2 - INFO - 执行策略分析 - 03:37 - 周期: 1分钟
+2025-09-04 03:38:00,021 - TradingEngineV2 - INFO - 执行策略分析 - 03:38 - 周期: 1分钟
+2025-09-04 03:39:00,024 - TradingEngineV2 - INFO - 执行策略分析 - 03:39 - 周期: 1分钟
+2025-09-04 03:40:00,013 - TradingEngineV2 - INFO - 执行策略分析 - 03:40 - 周期: 1分钟, 5分钟
+2025-09-04 03:41:00,007 - TradingEngineV2 - INFO - 执行策略分析 - 03:41 - 周期: 1分钟
+2025-09-04 03:42:00,007 - TradingEngineV2 - INFO - 执行策略分析 - 03:42 - 周期: 1分钟
+2025-09-04 03:43:00,000 - TradingEngineV2 - INFO - 执行策略分析 - 03:43 - 周期: 1分钟
+2025-09-04 03:44:00,008 - TradingEngineV2 - INFO - 执行策略分析 - 03:44 - 周期: 1分钟
+2025-09-04 03:45:00,000 - TradingEngineV2 - INFO - 执行策略分析 - 03:45 - 周期: 1分钟, 5分钟, 15分钟
+2025-09-04 03:46:00,014 - TradingEngineV2 - INFO - 执行策略分析 - 03:46 - 周期: 1分钟
+2025-09-04 03:47:00,015 - TradingEngineV2 - INFO - 执行策略分析 - 03:47 - 周期: 1分钟
+2025-09-04 03:48:00,020 - TradingEngineV2 - INFO - 执行策略分析 - 03:48 - 周期: 1分钟
+2025-09-04 03:49:00,020 - TradingEngineV2 - INFO - 执行策略分析 - 03:49 - 周期: 1分钟
+2025-09-04 03:50:00,026 - TradingEngineV2 - INFO - 执行策略分析 - 03:50 - 周期: 1分钟, 5分钟
+2025-09-04 03:50:59,949 - TradingEngineV2 - INFO - 执行策略分析 - 03:51 - 周期: 1分钟
+2025-09-04 03:51:59,958 - TradingEngineV2 - INFO - 执行策略分析 - 03:52 - 周期: 1分钟
+2025-09-04 03:52:59,958 - TradingEngineV2 - INFO - 执行策略分析 - 03:53 - 周期: 1分钟
+2025-09-04 03:53:59,950 - TradingEngineV2 - INFO - 执行策略分析 - 03:54 - 周期: 1分钟
+2025-09-04 03:54:59,955 - TradingEngineV2 - INFO - 执行策略分析 - 03:55 - 周期: 1分钟, 5分钟
+2025-09-04 03:56:59,961 - TradingEngineV2 - INFO - 执行策略分析 - 03:57 - 周期: 1分钟
+2025-09-04 03:57:59,959 - TradingEngineV2 - INFO - 执行策略分析 - 03:58 - 周期: 1分钟
+2025-09-04 03:58:59,968 - TradingEngineV2 - INFO - 执行策略分析 - 03:59 - 周期: 1分钟
+2025-09-04 03:59:59,970 - TradingEngineV2 - INFO - 执行策略分析 - 04:00 - 周期: 1分钟, 5分钟, 15分钟, 30分钟, 1小时
+2025-09-04 04:00:59,960 - TradingEngineV2 - INFO - 执行策略分析 - 04:01 - 周期: 1分钟
+2025-09-04 04:02:00,065 - TradingEngineV2 - INFO - 执行策略分析 - 04:02 - 周期: 1分钟
+2025-09-04 04:03:00,069 - TradingEngineV2 - INFO - 执行策略分析 - 04:03 - 周期: 1分钟
+2025-09-04 04:04:00,063 - TradingEngineV2 - INFO - 执行策略分析 - 04:04 - 周期: 1分钟
+2025-09-04 04:05:00,067 - TradingEngineV2 - INFO - 执行策略分析 - 04:05 - 周期: 1分钟, 5分钟
+2025-09-04 04:06:00,063 - TradingEngineV2 - INFO - 执行策略分析 - 04:06 - 周期: 1分钟
+2025-09-04 04:07:00,037 - TradingEngineV2 - INFO - 执行策略分析 - 04:07 - 周期: 1分钟
+2025-09-04 04:08:00,034 - TradingEngineV2 - INFO - 执行策略分析 - 04:08 - 周期: 1分钟
+2025-09-04 04:09:00,036 - TradingEngineV2 - INFO - 执行策略分析 - 04:09 - 周期: 1分钟
+2025-09-04 04:10:00,041 - TradingEngineV2 - INFO - 执行策略分析 - 04:10 - 周期: 1分钟, 5分钟
+2025-09-04 04:11:00,032 - TradingEngineV2 - INFO - 执行策略分析 - 04:11 - 周期: 1分钟
+2025-09-04 04:12:00,045 - TradingEngineV2 - INFO - 执行策略分析 - 04:12 - 周期: 1分钟
+2025-09-04 04:13:00,052 - TradingEngineV2 - INFO - 执行策略分析 - 04:13 - 周期: 1分钟
+2025-09-04 04:14:00,055 - TradingEngineV2 - INFO - 执行策略分析 - 04:14 - 周期: 1分钟
+2025-09-04 04:15:00,050 - TradingEngineV2 - INFO - 执行策略分析 - 04:15 - 周期: 1分钟, 5分钟, 15分钟
+2025-09-04 04:16:00,055 - TradingEngineV2 - INFO - 执行策略分析 - 04:16 - 周期: 1分钟
+2025-09-04 04:17:00,041 - TradingEngineV2 - INFO - 执行策略分析 - 04:17 - 周期: 1分钟
+2025-09-04 04:18:00,036 - TradingEngineV2 - INFO - 执行策略分析 - 04:18 - 周期: 1分钟
+2025-09-04 04:19:00,032 - TradingEngineV2 - INFO - 执行策略分析 - 04:19 - 周期: 1分钟
+2025-09-04 04:20:00,035 - TradingEngineV2 - INFO - 执行策略分析 - 04:20 - 周期: 1分钟, 5分钟
+2025-09-04 04:21:00,035 - TradingEngineV2 - INFO - 执行策略分析 - 04:21 - 周期: 1分钟
+2025-09-04 04:22:00,067 - TradingEngineV2 - INFO - 执行策略分析 - 04:22 - 周期: 1分钟
+2025-09-04 04:23:00,053 - TradingEngineV2 - INFO - 执行策略分析 - 04:23 - 周期: 1分钟
+2025-09-04 04:24:00,064 - TradingEngineV2 - INFO - 执行策略分析 - 04:24 - 周期: 1分钟
+2025-09-04 04:25:00,062 - TradingEngineV2 - INFO - 执行策略分析 - 04:25 - 周期: 1分钟, 5分钟
+2025-09-04 04:26:00,056 - TradingEngineV2 - INFO - 执行策略分析 - 04:26 - 周期: 1分钟
+2025-09-04 04:27:00,052 - TradingEngineV2 - INFO - 执行策略分析 - 04:27 - 周期: 1分钟
+2025-09-04 04:28:00,059 - TradingEngineV2 - INFO - 执行策略分析 - 04:28 - 周期: 1分钟
+2025-09-04 04:29:00,059 - TradingEngineV2 - INFO - 执行策略分析 - 04:29 - 周期: 1分钟
+2025-09-04 04:30:00,060 - TradingEngineV2 - INFO - 执行策略分析 - 04:30 - 周期: 1分钟, 5分钟, 15分钟, 30分钟
+2025-09-04 04:31:00,059 - TradingEngineV2 - INFO - 执行策略分析 - 04:31 - 周期: 1分钟
+2025-09-04 04:32:00,068 - TradingEngineV2 - INFO - 执行策略分析 - 04:32 - 周期: 1分钟
+2025-09-04 04:33:00,063 - TradingEngineV2 - INFO - 执行策略分析 - 04:33 - 周期: 1分钟
+2025-09-04 04:34:00,072 - TradingEngineV2 - INFO - 执行策略分析 - 04:34 - 周期: 1分钟
+2025-09-04 04:35:00,059 - TradingEngineV2 - INFO - 执行策略分析 - 04:35 - 周期: 1分钟, 5分钟
+2025-09-04 04:36:00,068 - TradingEngineV2 - INFO - 执行策略分析 - 04:36 - 周期: 1分钟
+2025-09-04 04:37:00,074 - TradingEngineV2 - INFO - 执行策略分析 - 04:37 - 周期: 1分钟
+2025-09-04 04:38:00,086 - TradingEngineV2 - INFO - 执行策略分析 - 04:38 - 周期: 1分钟
+2025-09-04 04:39:00,079 - TradingEngineV2 - INFO - 执行策略分析 - 04:39 - 周期: 1分钟
+2025-09-04 04:40:00,080 - TradingEngineV2 - INFO - 执行策略分析 - 04:40 - 周期: 1分钟, 5分钟
+2025-09-04 04:41:00,083 - TradingEngineV2 - INFO - 执行策略分析 - 04:41 - 周期: 1分钟
+2025-09-04 04:42:00,084 - TradingEngineV2 - INFO - 执行策略分析 - 04:42 - 周期: 1分钟
+2025-09-04 04:43:00,087 - TradingEngineV2 - INFO - 执行策略分析 - 04:43 - 周期: 1分钟
+2025-09-04 04:44:00,087 - TradingEngineV2 - INFO - 执行策略分析 - 04:44 - 周期: 1分钟
+2025-09-04 04:45:00,077 - TradingEngineV2 - INFO - 执行策略分析 - 04:45 - 周期: 1分钟, 5分钟, 15分钟
+2025-09-04 04:46:00,084 - TradingEngineV2 - INFO - 执行策略分析 - 04:46 - 周期: 1分钟
+2025-09-04 04:47:00,034 - TradingEngineV2 - INFO - 执行策略分析 - 04:47 - 周期: 1分钟
+2025-09-04 04:48:00,037 - TradingEngineV2 - INFO - 执行策略分析 - 04:48 - 周期: 1分钟
+2025-09-04 04:49:00,035 - TradingEngineV2 - INFO - 执行策略分析 - 04:49 - 周期: 1分钟
+2025-09-04 04:50:00,030 - TradingEngineV2 - INFO - 执行策略分析 - 04:50 - 周期: 1分钟, 5分钟
+2025-09-04 04:51:00,037 - TradingEngineV2 - INFO - 执行策略分析 - 04:51 - 周期: 1分钟
+2025-09-04 04:52:00,071 - TradingEngineV2 - INFO - 执行策略分析 - 04:52 - 周期: 1分钟
+2025-09-04 04:53:00,063 - TradingEngineV2 - INFO - 执行策略分析 - 04:53 - 周期: 1分钟
+2025-09-04 04:54:00,064 - TradingEngineV2 - INFO - 执行策略分析 - 04:54 - 周期: 1分钟
+2025-09-04 04:55:00,065 - TradingEngineV2 - INFO - 执行策略分析 - 04:55 - 周期: 1分钟, 5分钟
+2025-09-04 04:56:00,074 - TradingEngineV2 - INFO - 执行策略分析 - 04:56 - 周期: 1分钟
+2025-09-04 04:57:00,063 - TradingEngineV2 - INFO - 执行策略分析 - 04:57 - 周期: 1分钟
+2025-09-04 04:58:00,070 - TradingEngineV2 - INFO - 执行策略分析 - 04:58 - 周期: 1分钟
+2025-09-04 04:59:00,071 - TradingEngineV2 - INFO - 执行策略分析 - 04:59 - 周期: 1分钟
+2025-09-04 05:00:00,074 - TradingEngineV2 - INFO - 执行策略分析 - 05:00 - 周期: 1分钟, 5分钟, 15分钟, 30分钟, 1小时
+2025-09-04 05:01:00,072 - TradingEngineV2 - INFO - 执行策略分析 - 05:01 - 周期: 1分钟
+2025-09-04 05:02:00,107 - TradingEngineV2 - INFO - 执行策略分析 - 05:02 - 周期: 1分钟
+2025-09-04 05:03:00,108 - TradingEngineV2 - INFO - 执行策略分析 - 05:03 - 周期: 1分钟
+2025-09-04 05:04:00,109 - TradingEngineV2 - INFO - 执行策略分析 - 05:04 - 周期: 1分钟
+2025-09-04 05:05:00,106 - TradingEngineV2 - INFO - 执行策略分析 - 05:05 - 周期: 1分钟, 5分钟
+2025-09-04 05:06:00,103 - TradingEngineV2 - INFO - 执行策略分析 - 05:06 - 周期: 1分钟
+2025-09-04 05:07:00,064 - TradingEngineV2 - INFO - 执行策略分析 - 05:07 - 周期: 1分钟
+2025-09-04 05:08:00,072 - TradingEngineV2 - INFO - 执行策略分析 - 05:08 - 周期: 1分钟
+2025-09-04 05:09:00,062 - TradingEngineV2 - INFO - 执行策略分析 - 05:09 - 周期: 1分钟
+2025-09-04 05:10:00,058 - TradingEngineV2 - INFO - 执行策略分析 - 05:10 - 周期: 1分钟, 5分钟
+2025-09-04 05:11:00,068 - TradingEngineV2 - INFO - 执行策略分析 - 05:11 - 周期: 1分钟
+2025-09-04 05:12:00,086 - TradingEngineV2 - INFO - 执行策略分析 - 05:12 - 周期: 1分钟
+2025-09-04 05:13:00,093 - TradingEngineV2 - INFO - 执行策略分析 - 05:13 - 周期: 1分钟
+2025-09-04 05:14:00,094 - TradingEngineV2 - INFO - 执行策略分析 - 05:14 - 周期: 1分钟
+2025-09-04 05:15:00,097 - TradingEngineV2 - INFO - 执行策略分析 - 05:15 - 周期: 1分钟, 5分钟, 15分钟
+2025-09-04 05:16:00,088 - TradingEngineV2 - INFO - 执行策略分析 - 05:16 - 周期: 1分钟
+2025-09-04 05:17:00,008 - TradingEngineV2 - INFO - 执行策略分析 - 05:17 - 周期: 1分钟
+2025-09-04 05:18:00,020 - TradingEngineV2 - INFO - 执行策略分析 - 05:18 - 周期: 1分钟
+2025-09-04 05:19:00,021 - TradingEngineV2 - INFO - 执行策略分析 - 05:19 - 周期: 1分钟
+2025-09-04 05:20:00,013 - TradingEngineV2 - INFO - 执行策略分析 - 05:20 - 周期: 1分钟, 5分钟
+2025-09-04 05:21:00,008 - TradingEngineV2 - INFO - 执行策略分析 - 05:21 - 周期: 1分钟
+2025-09-04 05:22:00,074 - TradingEngineV2 - INFO - 执行策略分析 - 05:22 - 周期: 1分钟
+2025-09-04 05:23:00,066 - TradingEngineV2 - INFO - 执行策略分析 - 05:23 - 周期: 1分钟
+2025-09-04 05:24:00,075 - TradingEngineV2 - INFO - 执行策略分析 - 05:24 - 周期: 1分钟
+2025-09-04 05:25:00,065 - TradingEngineV2 - INFO - 执行策略分析 - 05:25 - 周期: 1分钟, 5分钟
+2025-09-04 05:26:00,070 - TradingEngineV2 - INFO - 执行策略分析 - 05:26 - 周期: 1分钟
+2025-09-04 05:27:00,040 - TradingEngineV2 - INFO - 执行策略分析 - 05:27 - 周期: 1分钟
+2025-09-04 05:28:00,037 - TradingEngineV2 - INFO - 执行策略分析 - 05:28 - 周期: 1分钟
+2025-09-04 05:29:00,036 - TradingEngineV2 - INFO - 执行策略分析 - 05:29 - 周期: 1分钟
+2025-09-04 05:30:00,045 - TradingEngineV2 - INFO - 执行策略分析 - 05:30 - 周期: 1分钟, 5分钟, 15分钟, 30分钟
+2025-09-04 05:31:00,037 - TradingEngineV2 - INFO - 执行策略分析 - 05:31 - 周期: 1分钟
+2025-09-04 05:32:00,089 - TradingEngineV2 - INFO - 执行策略分析 - 05:32 - 周期: 1分钟
+2025-09-04 05:33:00,085 - TradingEngineV2 - INFO - 执行策略分析 - 05:33 - 周期: 1分钟
+2025-09-04 05:34:00,082 - TradingEngineV2 - INFO - 执行策略分析 - 05:34 - 周期: 1分钟
+2025-09-04 05:35:00,097 - TradingEngineV2 - INFO - 执行策略分析 - 05:35 - 周期: 1分钟, 5分钟
+2025-09-04 05:36:00,083 - TradingEngineV2 - INFO - 执行策略分析 - 05:36 - 周期: 1分钟
+2025-09-04 05:37:00,130 - TradingEngineV2 - INFO - 执行策略分析 - 05:37 - 周期: 1分钟
+2025-09-04 05:38:00,134 - TradingEngineV2 - INFO - 执行策略分析 - 05:38 - 周期: 1分钟
+2025-09-04 05:39:00,128 - TradingEngineV2 - INFO - 执行策略分析 - 05:39 - 周期: 1分钟
+2025-09-04 05:40:00,134 - TradingEngineV2 - INFO - 执行策略分析 - 05:40 - 周期: 1分钟, 5分钟
+2025-09-04 05:41:00,125 - TradingEngineV2 - INFO - 执行策略分析 - 05:41 - 周期: 1分钟
+2025-09-04 05:42:00,138 - TradingEngineV2 - INFO - 执行策略分析 - 05:42 - 周期: 1分钟
+2025-09-04 05:43:00,140 - TradingEngineV2 - INFO - 执行策略分析 - 05:43 - 周期: 1分钟
+2025-09-04 05:44:00,135 - TradingEngineV2 - INFO - 执行策略分析 - 05:44 - 周期: 1分钟
+2025-09-04 05:45:00,127 - TradingEngineV2 - INFO - 执行策略分析 - 05:45 - 周期: 1分钟, 5分钟, 15分钟
+2025-09-04 05:46:00,128 - TradingEngineV2 - INFO - 执行策略分析 - 05:46 - 周期: 1分钟
+2025-09-04 05:47:00,060 - TradingEngineV2 - INFO - 执行策略分析 - 05:47 - 周期: 1分钟
+2025-09-04 05:48:00,056 - TradingEngineV2 - INFO - 执行策略分析 - 05:48 - 周期: 1分钟
+2025-09-04 05:49:00,057 - TradingEngineV2 - INFO - 执行策略分析 - 05:49 - 周期: 1分钟
+2025-09-04 05:50:00,057 - TradingEngineV2 - INFO - 执行策略分析 - 05:50 - 周期: 1分钟, 5分钟
+2025-09-04 05:51:00,065 - TradingEngineV2 - INFO - 执行策略分析 - 05:51 - 周期: 1分钟
+2025-09-04 05:52:00,140 - TradingEngineV2 - INFO - 执行策略分析 - 05:52 - 周期: 1分钟
+2025-09-04 05:53:00,142 - TradingEngineV2 - INFO - 执行策略分析 - 05:53 - 周期: 1分钟
+2025-09-04 05:54:00,147 - TradingEngineV2 - INFO - 执行策略分析 - 05:54 - 周期: 1分钟
+2025-09-04 05:55:00,145 - TradingEngineV2 - INFO - 执行策略分析 - 05:55 - 周期: 1分钟, 5分钟
+2025-09-04 05:56:00,147 - TradingEngineV2 - INFO - 执行策略分析 - 05:56 - 周期: 1分钟
+2025-09-04 05:57:00,144 - TradingEngineV2 - INFO - 执行策略分析 - 05:57 - 周期: 1分钟
+2025-09-04 05:58:00,134 - TradingEngineV2 - INFO - 执行策略分析 - 05:58 - 周期: 1分钟
+2025-09-04 05:59:00,142 - TradingEngineV2 - INFO - 执行策略分析 - 05:59 - 周期: 1分钟
+2025-09-04 06:00:00,134 - TradingEngineV2 - INFO - 执行策略分析 - 06:00 - 周期: 1分钟, 5分钟, 15分钟, 30分钟, 1小时
+2025-09-04 06:01:00,137 - TradingEngineV2 - INFO - 执行策略分析 - 06:01 - 周期: 1分钟
+2025-09-04 06:01:00,154 - TradingEngineV2 - WARNING - 检查持仓状态失败: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+2025-09-04 06:01:58,615 - TradingEngineV2 - INFO - 执行策略分析 - 06:02 - 周期: 1分钟
+2025-09-04 06:02:02,692 - TradingEngineV2 - WARNING - 检查持仓状态失败: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+2025-09-04 06:02:33,397 - TradingEngineV2 - WARNING - 检查持仓状态失败: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+2025-09-04 06:02:58,621 - TradingEngineV2 - INFO - 执行策略分析 - 06:03 - 周期: 1分钟
+2025-09-04 06:03:02,772 - TradingEngineV2 - WARNING - 检查持仓状态失败: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+2025-09-04 06:03:40,664 - TradingEngineV2 - WARNING - 检查持仓状态失败: [Errno 11001] getaddrinfo failed
+2025-09-04 06:03:58,618 - TradingEngineV2 - INFO - 执行策略分析 - 06:04 - 周期: 1分钟
+2025-09-04 06:04:10,663 - TradingEngineV2 - WARNING - 检查持仓状态失败: [Errno 11001] getaddrinfo failed
+2025-09-04 06:04:40,646 - TradingEngineV2 - WARNING - 检查持仓状态失败: [Errno 11001] getaddrinfo failed
+2025-09-04 06:04:58,611 - TradingEngineV2 - INFO - 执行策略分析 - 06:05 - 周期: 1分钟, 5分钟
+2025-09-04 06:05:10,650 - TradingEngineV2 - WARNING - 检查持仓状态失败: [Errno 11001] getaddrinfo failed
+2025-09-04 06:05:40,634 - TradingEngineV2 - WARNING - 检查持仓状态失败: [Errno 11001] getaddrinfo failed
+2025-09-04 06:05:58,621 - TradingEngineV2 - INFO - 执行策略分析 - 06:06 - 周期: 1分钟
+2025-09-04 06:06:10,671 - TradingEngineV2 - WARNING - 检查持仓状态失败: [Errno 11001] getaddrinfo failed
+2025-09-04 06:06:40,649 - TradingEngineV2 - WARNING - 检查持仓状态失败: [Errno 11001] getaddrinfo failed
+2025-09-04 06:11:00,037 - TradingEngineV2 - INFO - 执行策略分析 - 06:11 - 周期: 1分钟
+2025-09-04 06:12:00,032 - TradingEngineV2 - INFO - 执行策略分析 - 06:12 - 周期: 1分钟
+2025-09-04 06:13:00,036 - TradingEngineV2 - INFO - 执行策略分析 - 06:13 - 周期: 1分钟
+2025-09-04 06:14:00,033 - TradingEngineV2 - INFO - 执行策略分析 - 06:14 - 周期: 1分钟
+2025-09-04 06:15:00,030 - TradingEngineV2 - INFO - 执行策略分析 - 06:15 - 周期: 1分钟, 5分钟, 15分钟
+2025-09-04 06:16:00,119 - TradingEngineV2 - INFO - 执行策略分析 - 06:16 - 周期: 1分钟
+2025-09-04 06:17:00,124 - TradingEngineV2 - INFO - 执行策略分析 - 06:17 - 周期: 1分钟
+2025-09-04 06:18:00,118 - TradingEngineV2 - INFO - 执行策略分析 - 06:18 - 周期: 1分钟
+2025-09-04 06:19:00,115 - TradingEngineV2 - INFO - 执行策略分析 - 06:19 - 周期: 1分钟
+2025-09-04 06:20:00,124 - TradingEngineV2 - INFO - 执行策略分析 - 06:20 - 周期: 1分钟, 5分钟
+2025-09-04 06:21:00,155 - TradingEngineV2 - INFO - 执行策略分析 - 06:21 - 周期: 1分钟
+2025-09-04 06:22:00,162 - TradingEngineV2 - INFO - 执行策略分析 - 06:22 - 周期: 1分钟
+2025-09-04 06:23:00,150 - TradingEngineV2 - INFO - 执行策略分析 - 06:23 - 周期: 1分钟
+2025-09-04 06:24:00,151 - TradingEngineV2 - INFO - 执行策略分析 - 06:24 - 周期: 1分钟
+2025-09-04 06:25:00,153 - TradingEngineV2 - INFO - 执行策略分析 - 06:25 - 周期: 1分钟, 5分钟
+2025-09-04 06:26:00,163 - TradingEngineV2 - INFO - 执行策略分析 - 06:26 - 周期: 1分钟
+2025-09-04 06:27:00,159 - TradingEngineV2 - INFO - 执行策略分析 - 06:27 - 周期: 1分钟
+2025-09-04 06:28:00,159 - TradingEngineV2 - INFO - 执行策略分析 - 06:28 - 周期: 1分钟
+2025-09-04 06:29:00,162 - TradingEngineV2 - INFO - 执行策略分析 - 06:29 - 周期: 1分钟
+2025-09-04 06:30:00,151 - TradingEngineV2 - INFO - 执行策略分析 - 06:30 - 周期: 1分钟, 5分钟, 15分钟, 30分钟
+2025-09-04 06:31:00,143 - TradingEngineV2 - INFO - 执行策略分析 - 06:31 - 周期: 1分钟
+2025-09-04 06:32:00,146 - TradingEngineV2 - INFO - 执行策略分析 - 06:32 - 周期: 1分钟
+2025-09-04 06:33:00,140 - TradingEngineV2 - INFO - 执行策略分析 - 06:33 - 周期: 1分钟
+2025-09-04 06:34:00,147 - TradingEngineV2 - INFO - 执行策略分析 - 06:34 - 周期: 1分钟
+2025-09-04 06:35:00,142 - TradingEngineV2 - INFO - 执行策略分析 - 06:35 - 周期: 1分钟, 5分钟
+2025-09-04 06:36:00,172 - TradingEngineV2 - INFO - 执行策略分析 - 06:36 - 周期: 1分钟
+2025-09-04 06:37:00,164 - TradingEngineV2 - INFO - 执行策略分析 - 06:37 - 周期: 1分钟
+2025-09-04 06:38:00,169 - TradingEngineV2 - INFO - 执行策略分析 - 06:38 - 周期: 1分钟
+2025-09-04 06:39:00,166 - TradingEngineV2 - INFO - 执行策略分析 - 06:39 - 周期: 1分钟
+2025-09-04 06:40:00,162 - TradingEngineV2 - INFO - 执行策略分析 - 06:40 - 周期: 1分钟, 5分钟
+2025-09-04 06:41:00,171 - TradingEngineV2 - INFO - 执行策略分析 - 06:41 - 周期: 1分钟
+2025-09-04 06:42:00,169 - TradingEngineV2 - INFO - 执行策略分析 - 06:42 - 周期: 1分钟
+2025-09-04 06:43:00,176 - TradingEngineV2 - INFO - 执行策略分析 - 06:43 - 周期: 1分钟
+2025-09-04 06:44:00,179 - TradingEngineV2 - INFO - 执行策略分析 - 06:44 - 周期: 1分钟
+2025-09-04 06:45:00,170 - TradingEngineV2 - INFO - 执行策略分析 - 06:45 - 周期: 1分钟, 5分钟, 15分钟
+2025-09-04 06:46:00,132 - TradingEngineV2 - INFO - 执行策略分析 - 06:46 - 周期: 1分钟
+2025-09-04 06:47:00,125 - TradingEngineV2 - INFO - 执行策略分析 - 06:47 - 周期: 1分钟
+2025-09-04 06:48:00,130 - TradingEngineV2 - INFO - 执行策略分析 - 06:48 - 周期: 1分钟
+2025-09-04 06:49:00,126 - TradingEngineV2 - INFO - 执行策略分析 - 06:49 - 周期: 1分钟
+2025-09-04 06:50:00,125 - TradingEngineV2 - INFO - 执行策略分析 - 06:50 - 周期: 1分钟, 5分钟
+2025-09-04 06:51:00,155 - TradingEngineV2 - INFO - 执行策略分析 - 06:51 - 周期: 1分钟
+2025-09-04 06:52:00,147 - TradingEngineV2 - INFO - 执行策略分析 - 06:52 - 周期: 1分钟
+2025-09-04 06:53:00,152 - TradingEngineV2 - INFO - 执行策略分析 - 06:53 - 周期: 1分钟
+2025-09-04 06:54:00,149 - TradingEngineV2 - INFO - 执行策略分析 - 06:54 - 周期: 1分钟
+2025-09-04 06:55:00,152 - TradingEngineV2 - INFO - 执行策略分析 - 06:55 - 周期: 1分钟, 5分钟
+2025-09-04 06:56:00,152 - TradingEngineV2 - INFO - 执行策略分析 - 06:56 - 周期: 1分钟
+2025-09-04 06:57:00,141 - TradingEngineV2 - INFO - 执行策略分析 - 06:57 - 周期: 1分钟
+2025-09-04 06:58:00,154 - TradingEngineV2 - INFO - 执行策略分析 - 06:58 - 周期: 1分钟
+2025-09-04 06:59:00,141 - TradingEngineV2 - INFO - 执行策略分析 - 06:59 - 周期: 1分钟
+2025-09-04 07:00:00,140 - TradingEngineV2 - INFO - 执行策略分析 - 07:00 - 周期: 1分钟, 5分钟, 15分钟, 30分钟, 1小时
+2025-09-04 07:01:00,155 - TradingEngineV2 - INFO - 执行策略分析 - 07:01 - 周期: 1分钟
+2025-09-04 07:02:00,158 - TradingEngineV2 - INFO - 执行策略分析 - 07:02 - 周期: 1分钟
+2025-09-04 07:03:00,159 - TradingEngineV2 - INFO - 执行策略分析 - 07:03 - 周期: 1分钟
+2025-09-04 07:04:00,157 - TradingEngineV2 - INFO - 执行策略分析 - 07:04 - 周期: 1分钟
+2025-09-04 07:05:00,160 - TradingEngineV2 - INFO - 执行策略分析 - 07:05 - 周期: 1分钟, 5分钟
+2025-09-04 07:06:00,172 - TradingEngineV2 - INFO - 执行策略分析 - 07:06 - 周期: 1分钟
+2025-09-04 07:07:00,168 - TradingEngineV2 - INFO - 执行策略分析 - 07:07 - 周期: 1分钟
+2025-09-04 07:08:00,182 - TradingEngineV2 - INFO - 执行策略分析 - 07:08 - 周期: 1分钟
+2025-09-04 07:09:00,171 - TradingEngineV2 - INFO - 执行策略分析 - 07:09 - 周期: 1分钟
+2025-09-04 07:10:00,176 - TradingEngineV2 - INFO - 执行策略分析 - 07:10 - 周期: 1分钟, 5分钟
+2025-09-04 07:11:00,194 - TradingEngineV2 - INFO - 执行策略分析 - 07:11 - 周期: 1分钟
+2025-09-04 07:12:00,184 - TradingEngineV2 - INFO - 执行策略分析 - 07:12 - 周期: 1分钟
+2025-09-04 07:13:00,198 - TradingEngineV2 - INFO - 执行策略分析 - 07:13 - 周期: 1分钟
+2025-09-04 07:14:00,190 - TradingEngineV2 - INFO - 执行策略分析 - 07:14 - 周期: 1分钟
+2025-09-04 07:15:00,190 - TradingEngineV2 - INFO - 执行策略分析 - 07:15 - 周期: 1分钟, 5分钟, 15分钟
+2025-09-04 07:16:00,196 - TradingEngineV2 - INFO - 执行策略分析 - 07:16 - 周期: 1分钟
+2025-09-04 07:17:00,202 - TradingEngineV2 - INFO - 执行策略分析 - 07:17 - 周期: 1分钟
+2025-09-04 07:18:00,202 - TradingEngineV2 - INFO - 执行策略分析 - 07:18 - 周期: 1分钟
+2025-09-04 07:19:00,194 - TradingEngineV2 - INFO - 执行策略分析 - 07:19 - 周期: 1分钟
+2025-09-04 07:20:00,197 - TradingEngineV2 - INFO - 执行策略分析 - 07:20 - 周期: 1分钟, 5分钟
+2025-09-04 07:21:00,181 - TradingEngineV2 - INFO - 执行策略分析 - 07:21 - 周期: 1分钟
+2025-09-04 07:22:00,188 - TradingEngineV2 - INFO - 执行策略分析 - 07:22 - 周期: 1分钟
+2025-09-04 07:23:00,182 - TradingEngineV2 - INFO - 执行策略分析 - 07:23 - 周期: 1分钟
+2025-09-04 07:24:00,193 - TradingEngineV2 - INFO - 执行策略分析 - 07:24 - 周期: 1分钟
+2025-09-04 07:25:00,193 - TradingEngineV2 - INFO - 执行策略分析 - 07:25 - 周期: 1分钟, 5分钟
+2025-09-04 07:26:00,215 - TradingEngineV2 - INFO - 执行策略分析 - 07:26 - 周期: 1分钟
+2025-09-04 07:27:00,208 - TradingEngineV2 - INFO - 执行策略分析 - 07:27 - 周期: 1分钟
+2025-09-04 07:28:00,219 - TradingEngineV2 - INFO - 执行策略分析 - 07:28 - 周期: 1分钟
+2025-09-04 07:29:00,217 - TradingEngineV2 - INFO - 执行策略分析 - 07:29 - 周期: 1分钟
+2025-09-04 07:30:00,219 - TradingEngineV2 - INFO - 执行策略分析 - 07:30 - 周期: 1分钟, 5分钟, 15分钟, 30分钟
+2025-09-04 07:31:00,194 - TradingEngineV2 - INFO - 执行策略分析 - 07:31 - 周期: 1分钟
+2025-09-04 07:32:00,187 - TradingEngineV2 - INFO - 执行策略分析 - 07:32 - 周期: 1分钟
+2025-09-04 07:33:00,197 - TradingEngineV2 - INFO - 执行策略分析 - 07:33 - 周期: 1分钟
+2025-09-04 07:34:00,185 - TradingEngineV2 - INFO - 执行策略分析 - 07:34 - 周期: 1分钟
+2025-09-04 07:35:00,187 - TradingEngineV2 - INFO - 执行策略分析 - 07:35 - 周期: 1分钟, 5分钟
+2025-09-04 07:36:00,216 - TradingEngineV2 - INFO - 执行策略分析 - 07:36 - 周期: 1分钟
+2025-09-04 07:37:00,216 - TradingEngineV2 - INFO - 执行策略分析 - 07:37 - 周期: 1分钟
+2025-09-04 07:38:00,209 - TradingEngineV2 - INFO - 执行策略分析 - 07:38 - 周期: 1分钟
+2025-09-04 07:39:00,204 - TradingEngineV2 - INFO - 执行策略分析 - 07:39 - 周期: 1分钟
+2025-09-04 07:40:00,211 - TradingEngineV2 - INFO - 执行策略分析 - 07:40 - 周期: 1分钟, 5分钟
+2025-09-04 07:41:00,210 - TradingEngineV2 - INFO - 执行策略分析 - 07:41 - 周期: 1分钟
+2025-09-04 07:42:00,214 - TradingEngineV2 - INFO - 执行策略分析 - 07:42 - 周期: 1分钟
+2025-09-04 07:43:00,205 - TradingEngineV2 - INFO - 执行策略分析 - 07:43 - 周期: 1分钟
+2025-09-04 07:44:00,215 - TradingEngineV2 - INFO - 执行策略分析 - 07:44 - 周期: 1分钟
+2025-09-04 07:45:00,214 - TradingEngineV2 - INFO - 执行策略分析 - 07:45 - 周期: 1分钟, 5分钟, 15分钟
+2025-09-04 07:46:00,174 - TradingEngineV2 - INFO - 执行策略分析 - 07:46 - 周期: 1分钟
+2025-09-04 07:47:00,181 - TradingEngineV2 - INFO - 执行策略分析 - 07:47 - 周期: 1分钟
+2025-09-04 07:48:00,183 - TradingEngineV2 - INFO - 执行策略分析 - 07:48 - 周期: 1分钟
+2025-09-04 07:49:00,186 - TradingEngineV2 - INFO - 执行策略分析 - 07:49 - 周期: 1分钟
+2025-09-04 07:50:00,182 - TradingEngineV2 - INFO - 执行策略分析 - 07:50 - 周期: 1分钟, 5分钟
+2025-09-04 07:51:00,175 - TradingEngineV2 - INFO - 执行策略分析 - 07:51 - 周期: 1分钟
+2025-09-04 07:52:00,177 - TradingEngineV2 - INFO - 执行策略分析 - 07:52 - 周期: 1分钟
+2025-09-04 07:53:00,178 - TradingEngineV2 - INFO - 执行策略分析 - 07:53 - 周期: 1分钟
+2025-09-04 07:54:00,179 - TradingEngineV2 - INFO - 执行策略分析 - 07:54 - 周期: 1分钟
+2025-09-04 07:55:00,181 - TradingEngineV2 - INFO - 执行策略分析 - 07:55 - 周期: 1分钟, 5分钟
+2025-09-04 07:56:00,120 - TradingEngineV2 - INFO - 执行策略分析 - 07:56 - 周期: 1分钟
+2025-09-04 07:57:00,118 - TradingEngineV2 - INFO - 执行策略分析 - 07:57 - 周期: 1分钟
+2025-09-04 07:58:00,112 - TradingEngineV2 - INFO - 执行策略分析 - 07:58 - 周期: 1分钟
+2025-09-04 07:59:00,108 - TradingEngineV2 - INFO - 执行策略分析 - 07:59 - 周期: 1分钟
+2025-09-04 08:00:00,120 - TradingEngineV2 - INFO - 执行策略分析 - 08:00 - 周期: 1分钟, 5分钟, 15分钟, 30分钟, 1小时
+2025-09-04 08:01:00,219 - TradingEngineV2 - INFO - 执行策略分析 - 08:01 - 周期: 1分钟
+2025-09-04 08:02:00,232 - TradingEngineV2 - INFO - 执行策略分析 - 08:02 - 周期: 1分钟
+2025-09-04 08:03:00,217 - TradingEngineV2 - INFO - 执行策略分析 - 08:03 - 周期: 1分钟
+2025-09-04 08:04:00,229 - TradingEngineV2 - INFO - 执行策略分析 - 08:04 - 周期: 1分钟
+2025-09-04 08:05:00,226 - TradingEngineV2 - INFO - 执行策略分析 - 08:05 - 周期: 1分钟, 5分钟
+2025-09-04 08:06:00,085 - TradingEngineV2 - INFO - 执行策略分析 - 08:06 - 周期: 1分钟
+2025-09-04 08:07:00,084 - TradingEngineV2 - INFO - 执行策略分析 - 08:07 - 周期: 1分钟
+2025-09-04 08:08:00,087 - TradingEngineV2 - INFO - 执行策略分析 - 08:08 - 周期: 1分钟
+2025-09-04 08:09:00,084 - TradingEngineV2 - INFO - 执行策略分析 - 08:09 - 周期: 1分钟
+2025-09-04 08:10:00,082 - TradingEngineV2 - INFO - 执行策略分析 - 08:10 - 周期: 1分钟, 5分钟
+2025-09-04 08:11:00,199 - TradingEngineV2 - INFO - 执行策略分析 - 08:11 - 周期: 1分钟
+2025-09-04 08:12:00,202 - TradingEngineV2 - INFO - 执行策略分析 - 08:12 - 周期: 1分钟
+2025-09-04 08:13:00,192 - TradingEngineV2 - INFO - 执行策略分析 - 08:13 - 周期: 1分钟
+2025-09-04 08:14:00,194 - TradingEngineV2 - INFO - 执行策略分析 - 08:14 - 周期: 1分钟
+2025-09-04 08:15:00,192 - TradingEngineV2 - INFO - 执行策略分析 - 08:15 - 周期: 1分钟, 5分钟, 15分钟
+2025-09-04 08:16:00,233 - TradingEngineV2 - INFO - 执行策略分析 - 08:16 - 周期: 1分钟
+2025-09-04 08:17:00,233 - TradingEngineV2 - INFO - 执行策略分析 - 08:17 - 周期: 1分钟
+2025-09-04 08:18:00,229 - TradingEngineV2 - INFO - 执行策略分析 - 08:18 - 周期: 1分钟
+2025-09-04 08:19:00,239 - TradingEngineV2 - INFO - 执行策略分析 - 08:19 - 周期: 1分钟
+2025-09-04 08:20:00,232 - TradingEngineV2 - INFO - 执行策略分析 - 08:20 - 周期: 1分钟, 5分钟
+2025-09-04 08:21:01,073 - TradingEngineV2 - INFO - 执行策略分析 - 08:21 - 周期: 1分钟
+2025-09-04 08:22:00,223 - TradingEngineV2 - INFO - 执行策略分析 - 08:22 - 周期: 1分钟
+2025-09-04 08:23:00,230 - TradingEngineV2 - INFO - 执行策略分析 - 08:23 - 周期: 1分钟
+2025-09-04 08:24:00,231 - TradingEngineV2 - INFO - 执行策略分析 - 08:24 - 周期: 1分钟
+2025-09-04 08:25:00,233 - TradingEngineV2 - INFO - 执行策略分析 - 08:25 - 周期: 1分钟, 5分钟
+2025-09-04 08:26:00,218 - TradingEngineV2 - INFO - 执行策略分析 - 08:26 - 周期: 1分钟
+2025-09-04 08:27:00,243 - TradingEngineV2 - INFO - 执行策略分析 - 08:27 - 周期: 1分钟
+2025-09-04 08:28:00,236 - TradingEngineV2 - INFO - 执行策略分析 - 08:28 - 周期: 1分钟
+2025-09-04 08:29:00,236 - TradingEngineV2 - INFO - 执行策略分析 - 08:29 - 周期: 1分钟
+2025-09-04 08:30:00,243 - TradingEngineV2 - INFO - 执行策略分析 - 08:30 - 周期: 1分钟, 5分钟, 15分钟, 30分钟
+2025-09-04 08:31:00,234 - TradingEngineV2 - INFO - 执行策略分析 - 08:31 - 周期: 1分钟
+2025-09-04 08:32:00,254 - TradingEngineV2 - INFO - 执行策略分析 - 08:32 - 周期: 1分钟
+2025-09-04 08:33:00,253 - TradingEngineV2 - INFO - 执行策略分析 - 08:33 - 周期: 1分钟
+2025-09-04 08:34:00,257 - TradingEngineV2 - INFO - 执行策略分析 - 08:34 - 周期: 1分钟
+2025-09-04 08:35:00,257 - TradingEngineV2 - INFO - 执行策略分析 - 08:35 - 周期: 1分钟, 5分钟
+2025-09-04 08:36:00,260 - TradingEngineV2 - INFO - 执行策略分析 - 08:36 - 周期: 1分钟
+2025-09-04 08:37:00,061 - TradingEngineV2 - INFO - 执行策略分析 - 08:37 - 周期: 1分钟
+2025-09-04 08:38:00,057 - TradingEngineV2 - INFO - 执行策略分析 - 08:38 - 周期: 1分钟
+2025-09-04 08:39:00,058 - TradingEngineV2 - INFO - 执行策略分析 - 08:39 - 周期: 1分钟
+2025-09-04 08:40:00,065 - TradingEngineV2 - INFO - 执行策略分析 - 08:40 - 周期: 1分钟, 5分钟
+2025-09-04 08:41:00,067 - TradingEngineV2 - INFO - 执行策略分析 - 08:41 - 周期: 1分钟
+2025-09-04 08:42:00,248 - TradingEngineV2 - INFO - 执行策略分析 - 08:42 - 周期: 1分钟
+2025-09-04 08:43:00,256 - TradingEngineV2 - INFO - 执行策略分析 - 08:43 - 周期: 1分钟
+2025-09-04 08:44:00,252 - TradingEngineV2 - INFO - 执行策略分析 - 08:44 - 周期: 1分钟
+2025-09-04 08:45:00,257 - TradingEngineV2 - INFO - 执行策略分析 - 08:45 - 周期: 1分钟, 5分钟, 15分钟
+2025-09-04 08:46:00,254 - TradingEngineV2 - INFO - 执行策略分析 - 08:46 - 周期: 1分钟
+2025-09-04 08:47:00,265 - TradingEngineV2 - INFO - 执行策略分析 - 08:47 - 周期: 1分钟
+2025-09-04 08:48:00,263 - TradingEngineV2 - INFO - 执行策略分析 - 08:48 - 周期: 1分钟
+2025-09-04 08:49:00,258 - TradingEngineV2 - INFO - 执行策略分析 - 08:49 - 周期: 1分钟
+2025-09-04 08:50:00,256 - TradingEngineV2 - INFO - 执行策略分析 - 08:50 - 周期: 1分钟, 5分钟
+2025-09-04 08:51:00,258 - TradingEngineV2 - INFO - 执行策略分析 - 08:51 - 周期: 1分钟
+2025-09-04 08:52:00,259 - TradingEngineV2 - INFO - 执行策略分析 - 08:52 - 周期: 1分钟
+2025-09-04 08:53:00,264 - TradingEngineV2 - INFO - 执行策略分析 - 08:53 - 周期: 1分钟
+2025-09-04 08:54:00,260 - TradingEngineV2 - INFO - 执行策略分析 - 08:54 - 周期: 1分钟
+2025-09-04 08:55:00,258 - TradingEngineV2 - INFO - 执行策略分析 - 08:55 - 周期: 1分钟, 5分钟
+2025-09-04 08:56:00,258 - TradingEngineV2 - INFO - 执行策略分析 - 08:56 - 周期: 1分钟
+2025-09-04 08:57:00,237 - TradingEngineV2 - INFO - 执行策略分析 - 08:57 - 周期: 1分钟
+2025-09-04 08:58:00,225 - TradingEngineV2 - INFO - 执行策略分析 - 08:58 - 周期: 1分钟
+2025-09-04 08:59:00,231 - TradingEngineV2 - INFO - 执行策略分析 - 08:59 - 周期: 1分钟
+2025-09-04 09:00:00,239 - TradingEngineV2 - INFO - 执行策略分析 - 09:00 - 周期: 1分钟, 5分钟, 15分钟, 30分钟, 1小时
+2025-09-04 09:01:00,235 - TradingEngineV2 - INFO - 执行策略分析 - 09:01 - 周期: 1分钟
+2025-09-04 09:02:00,222 - TradingEngineV2 - INFO - 执行策略分析 - 09:02 - 周期: 1分钟
+2025-09-04 09:03:00,221 - TradingEngineV2 - INFO - 执行策略分析 - 09:03 - 周期: 1分钟
+2025-09-04 09:04:00,216 - TradingEngineV2 - INFO - 执行策略分析 - 09:04 - 周期: 1分钟
+2025-09-04 09:05:00,221 - TradingEngineV2 - INFO - 执行策略分析 - 09:05 - 周期: 1分钟, 5分钟
+2025-09-04 09:06:00,217 - TradingEngineV2 - INFO - 执行策略分析 - 09:06 - 周期: 1分钟
+2025-09-04 09:07:00,268 - TradingEngineV2 - INFO - 执行策略分析 - 09:07 - 周期: 1分钟
+2025-09-04 09:08:00,265 - TradingEngineV2 - INFO - 执行策略分析 - 09:08 - 周期: 1分钟
+2025-09-04 09:09:00,267 - TradingEngineV2 - INFO - 执行策略分析 - 09:09 - 周期: 1分钟
+2025-09-04 09:10:00,273 - TradingEngineV2 - INFO - 执行策略分析 - 09:10 - 周期: 1分钟, 5分钟
+2025-09-04 09:11:00,267 - TradingEngineV2 - INFO - 执行策略分析 - 09:11 - 周期: 1分钟
+2025-09-04 09:12:00,241 - TradingEngineV2 - INFO - 执行策略分析 - 09:12 - 周期: 1分钟
+2025-09-04 09:13:00,248 - TradingEngineV2 - INFO - 执行策略分析 - 09:13 - 周期: 1分钟
+2025-09-04 09:14:00,240 - TradingEngineV2 - INFO - 执行策略分析 - 09:14 - 周期: 1分钟
+2025-09-04 09:15:00,249 - TradingEngineV2 - INFO - 执行策略分析 - 09:15 - 周期: 1分钟, 5分钟, 15分钟
+2025-09-04 09:16:00,249 - TradingEngineV2 - INFO - 执行策略分析 - 09:16 - 周期: 1分钟
+2025-09-04 09:17:00,280 - TradingEngineV2 - INFO - 执行策略分析 - 09:17 - 周期: 1分钟
+2025-09-04 09:18:00,270 - TradingEngineV2 - INFO - 执行策略分析 - 09:18 - 周期: 1分钟
+2025-09-04 09:19:00,276 - TradingEngineV2 - INFO - 执行策略分析 - 09:19 - 周期: 1分钟
+2025-09-04 09:20:00,266 - TradingEngineV2 - INFO - 执行策略分析 - 09:20 - 周期: 1分钟, 5分钟
+2025-09-04 09:21:00,272 - TradingEngineV2 - INFO - 执行策略分析 - 09:21 - 周期: 1分钟
+2025-09-04 09:22:00,286 - TradingEngineV2 - INFO - 执行策略分析 - 09:22 - 周期: 1分钟
+2025-09-04 09:23:00,277 - TradingEngineV2 - INFO - 执行策略分析 - 09:23 - 周期: 1分钟
+2025-09-04 09:24:00,286 - TradingEngineV2 - INFO - 执行策略分析 - 09:24 - 周期: 1分钟
+2025-09-04 09:25:00,281 - TradingEngineV2 - INFO - 执行策略分析 - 09:25 - 周期: 1分钟, 5分钟
+2025-09-04 09:26:00,278 - TradingEngineV2 - INFO - 执行策略分析 - 09:26 - 周期: 1分钟
+2025-09-04 09:27:00,266 - TradingEngineV2 - INFO - 执行策略分析 - 09:27 - 周期: 1分钟
+2025-09-04 09:28:00,272 - TradingEngineV2 - INFO - 执行策略分析 - 09:28 - 周期: 1分钟
+2025-09-04 09:29:00,267 - TradingEngineV2 - INFO - 执行策略分析 - 09:29 - 周期: 1分钟
+2025-09-04 09:30:00,268 - TradingEngineV2 - INFO - 执行策略分析 - 09:30 - 周期: 1分钟, 5分钟, 15分钟, 30分钟
+2025-09-04 09:31:00,263 - TradingEngineV2 - INFO - 执行策略分析 - 09:31 - 周期: 1分钟
+2025-09-04 09:32:00,282 - TradingEngineV2 - INFO - 执行策略分析 - 09:32 - 周期: 1分钟
+2025-09-04 09:33:00,276 - TradingEngineV2 - INFO - 执行策略分析 - 09:33 - 周期: 1分钟
+2025-09-04 09:34:00,278 - TradingEngineV2 - INFO - 执行策略分析 - 09:34 - 周期: 1分钟
+2025-09-04 09:35:00,279 - TradingEngineV2 - INFO - 执行策略分析 - 09:35 - 周期: 1分钟, 5分钟
+2025-09-04 09:36:00,278 - TradingEngineV2 - INFO - 执行策略分析 - 09:36 - 周期: 1分钟
+2025-09-04 09:37:00,265 - TradingEngineV2 - INFO - 执行策略分析 - 09:37 - 周期: 1分钟
+2025-09-04 09:38:00,266 - TradingEngineV2 - INFO - 执行策略分析 - 09:38 - 周期: 1分钟
+2025-09-04 09:39:00,269 - TradingEngineV2 - INFO - 执行策略分析 - 09:39 - 周期: 1分钟
+2025-09-04 09:40:00,274 - TradingEngineV2 - INFO - 执行策略分析 - 09:40 - 周期: 1分钟, 5分钟
+2025-09-04 09:41:00,265 - TradingEngineV2 - INFO - 执行策略分析 - 09:41 - 周期: 1分钟
+2025-09-04 09:42:00,180 - TradingEngineV2 - INFO - 执行策略分析 - 09:42 - 周期: 1分钟
+2025-09-04 09:43:00,191 - TradingEngineV2 - INFO - 执行策略分析 - 09:43 - 周期: 1分钟
+2025-09-04 09:44:00,181 - TradingEngineV2 - INFO - 执行策略分析 - 09:44 - 周期: 1分钟
+2025-09-04 09:45:00,180 - TradingEngineV2 - INFO - 执行策略分析 - 09:45 - 周期: 1分钟, 5分钟, 15分钟
+2025-09-04 09:46:00,179 - TradingEngineV2 - INFO - 执行策略分析 - 09:46 - 周期: 1分钟
+2025-09-04 09:47:00,284 - TradingEngineV2 - INFO - 执行策略分析 - 09:47 - 周期: 1分钟
+2025-09-04 09:48:00,282 - TradingEngineV2 - INFO - 执行策略分析 - 09:48 - 周期: 1分钟
+2025-09-04 09:49:00,285 - TradingEngineV2 - INFO - 执行策略分析 - 09:49 - 周期: 1分钟
+2025-09-04 09:50:00,281 - TradingEngineV2 - INFO - 执行策略分析 - 09:50 - 周期: 1分钟, 5分钟
+2025-09-04 09:51:00,293 - TradingEngineV2 - INFO - 执行策略分析 - 09:51 - 周期: 1分钟
+2025-09-04 09:52:00,284 - TradingEngineV2 - INFO - 执行策略分析 - 09:52 - 周期: 1分钟
+2025-09-04 09:53:00,284 - TradingEngineV2 - INFO - 执行策略分析 - 09:53 - 周期: 1分钟
+2025-09-04 09:54:00,288 - TradingEngineV2 - INFO - 执行策略分析 - 09:54 - 周期: 1分钟
+2025-09-04 09:55:00,278 - TradingEngineV2 - INFO - 执行策略分析 - 09:55 - 周期: 1分钟, 5分钟
+2025-09-04 09:56:00,288 - TradingEngineV2 - INFO - 执行策略分析 - 09:56 - 周期: 1分钟
+2025-09-04 09:57:00,312 - TradingEngineV2 - INFO - 执行策略分析 - 09:57 - 周期: 1分钟
+2025-09-04 09:58:00,322 - TradingEngineV2 - INFO - 执行策略分析 - 09:58 - 周期: 1分钟
+2025-09-04 09:59:00,311 - TradingEngineV2 - INFO - 执行策略分析 - 09:59 - 周期: 1分钟
+2025-09-04 09:59:31,498 - TradingEngineV2 - WARNING - 检查持仓状态失败: 'TradeAPI' object has no attribute 'get_orders'
+2025-09-04 10:00:00,310 - TradingEngineV2 - INFO - 执行策略分析 - 10:00 - 周期: 1分钟, 5分钟, 15分钟, 30分钟, 1小时
+2025-09-04 10:00:01,149 - TradingEngineV2 - WARNING - 检查持仓状态失败: 'TradeAPI' object has no attribute 'get_orders'
+2025-09-04 10:00:31,157 - TradingEngineV2 - WARNING - 检查持仓状态失败: 'TradeAPI' object has no attribute 'get_orders'
+2025-09-04 10:01:00,321 - TradingEngineV2 - INFO - 执行策略分析 - 10:01 - 周期: 1分钟
+2025-09-04 10:01:01,184 - TradingEngineV2 - WARNING - 检查持仓状态失败: 'TradeAPI' object has no attribute 'get_orders'
+2025-09-04 10:01:31,160 - TradingEngineV2 - WARNING - 检查持仓状态失败: 'TradeAPI' object has no attribute 'get_orders'
+2025-09-04 10:02:00,305 - TradingEngineV2 - INFO - 执行策略分析 - 10:02 - 周期: 1分钟
+2025-09-04 10:02:01,320 - TradingEngineV2 - WARNING - 检查持仓状态失败: 'TradeAPI' object has no attribute 'get_orders'
+2025-09-04 10:02:31,171 - TradingEngineV2 - WARNING - 检查持仓状态失败: 'TradeAPI' object has no attribute 'get_orders'
+2025-09-04 10:03:00,299 - TradingEngineV2 - INFO - 执行策略分析 - 10:03 - 周期: 1分钟
+2025-09-04 10:03:01,119 - TradingEngineV2 - WARNING - 检查持仓状态失败: 'TradeAPI' object has no attribute 'get_orders'
+2025-09-04 10:03:31,136 - TradingEngineV2 - WARNING - 检查持仓状态失败: 'TradeAPI' object has no attribute 'get_orders'
+2025-09-04 10:04:00,303 - TradingEngineV2 - INFO - 执行策略分析 - 10:04 - 周期: 1分钟
+2025-09-04 10:04:01,156 - TradingEngineV2 - WARNING - 检查持仓状态失败: 'TradeAPI' object has no attribute 'get_orders'
+2025-09-04 10:04:31,135 - TradingEngineV2 - WARNING - 检查持仓状态失败: 'TradeAPI' object has no attribute 'get_orders'
+2025-09-04 10:05:00,301 - TradingEngineV2 - INFO - 执行策略分析 - 10:05 - 周期: 1分钟, 5分钟
+2025-09-04 10:05:01,127 - TradingEngineV2 - WARNING - 检查持仓状态失败: 'TradeAPI' object has no attribute 'get_orders'
+2025-09-04 10:05:31,327 - TradingEngineV2 - WARNING - 检查持仓状态失败: 'TradeAPI' object has no attribute 'get_orders'
+2025-09-04 10:06:02,379 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 10:06:04,457 - TradingEngineV2 - ERROR - 没有注册的策略
+2025-09-04 10:08:53,479 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 10:08:55,711 - TradingEngineV2 - ERROR - 没有注册的策略
+2025-09-04 10:09:59,826 - TradingEngineV2 - INFO - 开始加载策略...
+2025-09-04 10:09:59,827 - TradingEngineV2 - INFO - 发现配置中的策略: []
+2025-09-04 10:09:59,827 - TradingEngineV2 - INFO - 策略加载完成，共注册 0 个策略
+2025-09-04 10:09:59,827 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 10:10:02,164 - TradingEngineV2 - ERROR - 没有注册的策略
+2025-09-04 10:12:19,050 - TradingEngineV2 - INFO - 开始加载策略...
+2025-09-04 10:12:19,050 - TradingEngineV2 - INFO - 发现配置中的策略: ['rsi_divergence_btc', 'rsi_divergence_eth', 'ma_crossover_btc']
+2025-09-04 10:12:19,050 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_btc, 激活状态: True
+2025-09-04 10:12:19,051 - TradingEngineV2 - INFO - 策略类型: RSIDivergenceUnifiedAdapter
+2025-09-04 10:12:19,051 - TradingEngineV2 - INFO - 正在导入策略类 RSIDivergenceUnifiedAdapter...
+2025-09-04 10:12:19,051 - TradingEngineV2 - INFO - 正在创建策略实例 rsi_divergence_btc...
+2025-09-04 10:12:19,051 - TradingEngineV2 - INFO - 正在注册策略 rsi_divergence_btc，分配比例: 0.4
+2025-09-04 10:12:19,051 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 已添加到引擎
+2025-09-04 10:12:19,051 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 加载成功
+2025-09-04 10:12:19,051 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_eth, 激活状态: False
+2025-09-04 10:12:19,051 - TradingEngineV2 - INFO - 策略 rsi_divergence_eth 未激活，跳过
+2025-09-04 10:12:19,052 - TradingEngineV2 - INFO - 处理策略: ma_crossover_btc, 激活状态: False
+2025-09-04 10:12:19,052 - TradingEngineV2 - INFO - 策略 ma_crossover_btc 未激活，跳过
+2025-09-04 10:12:19,052 - TradingEngineV2 - INFO - 策略加载完成，共注册 1 个策略
+2025-09-04 10:12:19,052 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 10:12:21,344 - TradingEngineV2 - INFO - 预检查完成 - 总余额: $123.85, 可用余额: $123.85
+2025-09-04 10:12:21,344 - TradingEngineV2 - INFO - 多策略交易引擎启动
+2025-09-04 10:12:31,638 - TradingEngineV2 - ERROR - 获取 BTC-USDT-SWAP 数据失败: 7 columns passed, passed data had 9 columns
+2025-09-04 10:13:02,769 - TradingEngineV2 - ERROR - 获取 BTC-USDT-SWAP 数据失败: 7 columns passed, passed data had 9 columns
+2025-09-04 10:13:02,770 - TradingEngineV2 - INFO - 执行策略分析 - 10:13 - 周期: 1分钟
+2025-09-04 10:13:03,150 - TradingEngineV2 - ERROR - 获取 BTC-USDT-SWAP 数据失败: 7 columns passed, passed data had 9 columns
+2025-09-04 10:13:31,682 - TradingEngineV2 - ERROR - 获取 BTC-USDT-SWAP 数据失败: 7 columns passed, passed data had 9 columns
+2025-09-04 10:14:01,504 - TradingEngineV2 - ERROR - 获取 BTC-USDT-SWAP 数据失败: 7 columns passed, passed data had 9 columns
+2025-09-04 10:14:01,505 - TradingEngineV2 - INFO - 执行策略分析 - 10:14 - 周期: 1分钟
+2025-09-04 10:14:01,871 - TradingEngineV2 - ERROR - 获取 BTC-USDT-SWAP 数据失败: 7 columns passed, passed data had 9 columns
+2025-09-04 10:14:34,008 - TradingEngineV2 - INFO - 开始加载策略...
+2025-09-04 10:14:34,009 - TradingEngineV2 - INFO - 发现配置中的策略: ['rsi_divergence_btc', 'rsi_divergence_eth', 'ma_crossover_btc']
+2025-09-04 10:14:34,009 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_btc, 激活状态: True
+2025-09-04 10:14:34,009 - TradingEngineV2 - INFO - 策略类型: RSIDivergenceUnifiedAdapter
+2025-09-04 10:14:34,009 - TradingEngineV2 - INFO - 正在导入策略类 RSIDivergenceUnifiedAdapter...
+2025-09-04 10:14:34,009 - TradingEngineV2 - INFO - 正在创建策略实例 rsi_divergence_btc...
+2025-09-04 10:14:34,009 - TradingEngineV2 - INFO - 正在注册策略 rsi_divergence_btc，分配比例: 0.4
+2025-09-04 10:14:34,010 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 已添加到引擎
+2025-09-04 10:14:34,010 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 加载成功
+2025-09-04 10:14:34,010 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_eth, 激活状态: False
+2025-09-04 10:14:34,010 - TradingEngineV2 - INFO - 策略 rsi_divergence_eth 未激活，跳过
+2025-09-04 10:14:34,010 - TradingEngineV2 - INFO - 处理策略: ma_crossover_btc, 激活状态: False
+2025-09-04 10:14:34,010 - TradingEngineV2 - INFO - 策略 ma_crossover_btc 未激活，跳过
+2025-09-04 10:14:34,010 - TradingEngineV2 - INFO - 策略加载完成，共注册 1 个策略
+2025-09-04 10:14:34,010 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 10:14:36,382 - TradingEngineV2 - INFO - 预检查完成 - 总余额: $123.85, 可用余额: $123.85
+2025-09-04 10:14:36,382 - TradingEngineV2 - INFO - 多策略交易引擎启动
+2025-09-04 10:15:02,085 - TradingEngineV2 - INFO - 执行策略分析 - 10:15 - 周期: 1分钟, 5分钟, 15分钟
+2025-09-04 10:15:02,090 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 10:15:02,090 - TradingEngineV2 - WARNING - 资金不足，调整仓位大小: 9000.0 -> 0.0
+2025-09-04 10:15:03,054 - TradingEngineV2 - ERROR - 开仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter sz error', 'tag': '', 'ts': '1756952102333'}], 'inTime': '1756952102332972', 'msg': 'All operations failed', 'outTime': '1756952102333095'}
+2025-09-04 10:16:35,827 - TradingEngineV2 - INFO - 开始加载策略...
+2025-09-04 10:16:35,827 - TradingEngineV2 - INFO - 发现配置中的策略: ['rsi_divergence_btc', 'rsi_divergence_eth', 'ma_crossover_btc']
+2025-09-04 10:16:35,828 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_btc, 激活状态: True
+2025-09-04 10:16:35,828 - TradingEngineV2 - INFO - 策略类型: RSIDivergenceUnifiedAdapter
+2025-09-04 10:16:35,828 - TradingEngineV2 - INFO - 正在导入策略类 RSIDivergenceUnifiedAdapter...
+2025-09-04 10:16:35,828 - TradingEngineV2 - INFO - 正在创建策略实例 rsi_divergence_btc...
+2025-09-04 10:16:35,828 - TradingEngineV2 - INFO - 正在注册策略 rsi_divergence_btc，分配比例: 0.4
+2025-09-04 10:16:35,828 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 已添加到引擎
+2025-09-04 10:16:35,828 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 加载成功
+2025-09-04 10:16:35,828 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_eth, 激活状态: False
+2025-09-04 10:16:35,828 - TradingEngineV2 - INFO - 策略 rsi_divergence_eth 未激活，跳过
+2025-09-04 10:16:35,829 - TradingEngineV2 - INFO - 处理策略: ma_crossover_btc, 激活状态: False
+2025-09-04 10:16:35,829 - TradingEngineV2 - INFO - 策略 ma_crossover_btc 未激活，跳过
+2025-09-04 10:16:35,829 - TradingEngineV2 - INFO - 策略加载完成，共注册 1 个策略
+2025-09-04 10:16:35,829 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 10:16:38,131 - TradingEngineV2 - INFO - 预检查完成 - 总余额: $123.85, 可用余额: $123.85
+2025-09-04 10:16:38,131 - TradingEngineV2 - INFO - 多策略交易引擎启动
+2025-09-04 10:17:01,753 - TradingEngineV2 - INFO - 执行策略分析 - 10:17 - 周期: 1分钟
+2025-09-04 10:17:01,757 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 10:17:01,757 - TradingEngineV2 - WARNING - 资金不足，调整仓位大小: 9000.00 -> 61.92
+2025-09-04 10:17:03,023 - TradingEngineV2 - ERROR - 开仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51121', 'sMsg': 'Order quantity must be a multiple of the lot size.', 'tag': '', 'ts': '1756952222197'}], 'inTime': '1756952222197855', 'msg': 'All operations failed', 'outTime': '1756952222197994'}
+2025-09-04 10:18:01,805 - TradingEngineV2 - INFO - 执行策略分析 - 10:18 - 周期: 1分钟
+2025-09-04 10:18:01,809 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 10:18:01,809 - TradingEngineV2 - WARNING - 资金不足，调整仓位大小: 9000.00 -> 61.92
+2025-09-04 10:18:03,071 - TradingEngineV2 - ERROR - 开仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51121', 'sMsg': 'Order quantity must be a multiple of the lot size.', 'tag': '', 'ts': '1756952282324'}], 'inTime': '1756952282323923', 'msg': 'All operations failed', 'outTime': '1756952282324036'}
+2025-09-04 10:19:01,816 - TradingEngineV2 - INFO - 执行策略分析 - 10:19 - 周期: 1分钟
+2025-09-04 10:19:01,820 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 10:19:01,820 - TradingEngineV2 - WARNING - 资金不足，调整仓位大小: 9000.00 -> 61.92
+2025-09-04 10:19:03,791 - TradingEngineV2 - ERROR - 开仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51121', 'sMsg': 'Order quantity must be a multiple of the lot size.', 'tag': '', 'ts': '1756952343063'}], 'inTime': '1756952343063693', 'msg': 'All operations failed', 'outTime': '1756952343063798'}
+2025-09-04 10:20:01,440 - TradingEngineV2 - INFO - 执行策略分析 - 10:20 - 周期: 1分钟, 5分钟
+2025-09-04 10:20:01,443 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 10:20:01,443 - TradingEngineV2 - WARNING - 资金不足，调整仓位大小: 9000.00 -> 61.92
+2025-09-04 10:20:02,387 - TradingEngineV2 - ERROR - 开仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51121', 'sMsg': 'Order quantity must be a multiple of the lot size.', 'tag': '', 'ts': '1756952401657'}], 'inTime': '1756952401656926', 'msg': 'All operations failed', 'outTime': '1756952401657097'}
+2025-09-04 10:21:01,394 - TradingEngineV2 - INFO - 执行策略分析 - 10:21 - 周期: 1分钟
+2025-09-04 10:21:01,397 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 10:21:01,397 - TradingEngineV2 - WARNING - 资金不足，调整仓位大小: 9000.00 -> 61.92
+2025-09-04 10:21:02,221 - TradingEngineV2 - ERROR - 开仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51121', 'sMsg': 'Order quantity must be a multiple of the lot size.', 'tag': '', 'ts': '1756952461496'}], 'inTime': '1756952461496353', 'msg': 'All operations failed', 'outTime': '1756952461496497'}
+2025-09-04 10:22:01,311 - TradingEngineV2 - INFO - 执行策略分析 - 10:22 - 周期: 1分钟
+2025-09-04 10:22:01,313 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 10:22:01,314 - TradingEngineV2 - WARNING - 资金不足，调整仓位大小: 9000.00 -> 61.92
+2025-09-04 10:22:02,166 - TradingEngineV2 - ERROR - 开仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51121', 'sMsg': 'Order quantity must be a multiple of the lot size.', 'tag': '', 'ts': '1756952521447'}], 'inTime': '1756952521446835', 'msg': 'All operations failed', 'outTime': '1756952521447054'}
+2025-09-04 10:23:01,148 - TradingEngineV2 - INFO - 执行策略分析 - 10:23 - 周期: 1分钟
+2025-09-04 10:23:01,151 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 10:23:01,152 - TradingEngineV2 - WARNING - 资金不足，调整仓位大小: 9000.00 -> 61.92
+2025-09-04 10:23:01,959 - TradingEngineV2 - ERROR - 开仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51121', 'sMsg': 'Order quantity must be a multiple of the lot size.', 'tag': '', 'ts': '1756952581237'}], 'inTime': '1756952581237255', 'msg': 'All operations failed', 'outTime': '1756952581237418'}
+2025-09-04 10:24:01,193 - TradingEngineV2 - INFO - 执行策略分析 - 10:24 - 周期: 1分钟
+2025-09-04 10:24:01,196 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 10:24:01,196 - TradingEngineV2 - WARNING - 资金不足，调整仓位大小: 9000.00 -> 61.92
+2025-09-04 10:24:07,050 - TradingEngineV2 - ERROR - 开仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51121', 'sMsg': 'Order quantity must be a multiple of the lot size.', 'tag': '', 'ts': '1756952646332'}], 'inTime': '1756952646332292', 'msg': 'All operations failed', 'outTime': '1756952646332485'}
+2025-09-04 10:25:01,228 - TradingEngineV2 - INFO - 执行策略分析 - 10:25 - 周期: 1分钟, 5分钟
+2025-09-04 10:25:01,231 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 10:25:01,231 - TradingEngineV2 - WARNING - 资金不足，调整仓位大小: 9000.00 -> 61.92
+2025-09-04 10:25:02,101 - TradingEngineV2 - ERROR - 开仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51121', 'sMsg': 'Order quantity must be a multiple of the lot size.', 'tag': '', 'ts': '1756952701365'}], 'inTime': '1756952701365512', 'msg': 'All operations failed', 'outTime': '1756952701365634'}
+2025-09-04 10:25:33,399 - TradingEngineV2 - INFO - 开始加载策略...
+2025-09-04 10:25:33,399 - TradingEngineV2 - INFO - 发现配置中的策略: ['rsi_divergence_btc', 'rsi_divergence_eth', 'ma_crossover_btc']
+2025-09-04 10:25:33,399 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_btc, 激活状态: True
+2025-09-04 10:25:33,399 - TradingEngineV2 - INFO - 策略类型: RSIDivergenceUnifiedAdapter
+2025-09-04 10:25:33,399 - TradingEngineV2 - INFO - 正在导入策略类 RSIDivergenceUnifiedAdapter...
+2025-09-04 10:25:33,408 - TradingEngineV2 - INFO - 正在创建策略实例 rsi_divergence_btc...
+2025-09-04 10:25:33,408 - TradingEngineV2 - INFO - 正在注册策略 rsi_divergence_btc，分配比例: 0.4
+2025-09-04 10:25:33,408 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 已添加到引擎
+2025-09-04 10:25:33,408 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 加载成功
+2025-09-04 10:25:33,408 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_eth, 激活状态: False
+2025-09-04 10:25:33,408 - TradingEngineV2 - INFO - 策略 rsi_divergence_eth 未激活，跳过
+2025-09-04 10:25:33,408 - TradingEngineV2 - INFO - 处理策略: ma_crossover_btc, 激活状态: False
+2025-09-04 10:25:33,408 - TradingEngineV2 - INFO - 策略 ma_crossover_btc 未激活，跳过
+2025-09-04 10:25:33,408 - TradingEngineV2 - INFO - 策略加载完成，共注册 1 个策略
+2025-09-04 10:25:33,408 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 10:26:01,160 - TradingEngineV2 - INFO - 执行策略分析 - 10:26 - 周期: 1分钟
+2025-09-04 10:26:01,163 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 10:26:01,163 - TradingEngineV2 - WARNING - 资金不足，调整仓位大小: 9000.00 -> 61.92
+2025-09-04 10:26:02,017 - TradingEngineV2 - ERROR - 开仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51121', 'sMsg': 'Order quantity must be a multiple of the lot size.', 'tag': '', 'ts': '1756952761297'}], 'inTime': '1756952761297568', 'msg': 'All operations failed', 'outTime': '1756952761297678'}
+2025-09-04 10:27:00,284 - TradingEngineV2 - INFO - 开始加载策略...
+2025-09-04 10:27:00,284 - TradingEngineV2 - INFO - 发现配置中的策略: ['rsi_divergence_btc', 'rsi_divergence_eth', 'ma_crossover_btc']
+2025-09-04 10:27:00,284 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_btc, 激活状态: True
+2025-09-04 10:27:00,284 - TradingEngineV2 - INFO - 策略类型: RSIDivergenceUnifiedAdapter
+2025-09-04 10:27:00,284 - TradingEngineV2 - INFO - 正在导入策略类 RSIDivergenceUnifiedAdapter...
+2025-09-04 10:27:00,293 - TradingEngineV2 - INFO - 正在创建策略实例 rsi_divergence_btc...
+2025-09-04 10:27:00,294 - TradingEngineV2 - INFO - 正在注册策略 rsi_divergence_btc，分配比例: 0.4
+2025-09-04 10:27:00,294 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 已添加到引擎
+2025-09-04 10:27:00,294 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 加载成功
+2025-09-04 10:27:00,294 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_eth, 激活状态: False
+2025-09-04 10:27:00,294 - TradingEngineV2 - INFO - 策略 rsi_divergence_eth 未激活，跳过
+2025-09-04 10:27:00,294 - TradingEngineV2 - INFO - 处理策略: ma_crossover_btc, 激活状态: False
+2025-09-04 10:27:00,294 - TradingEngineV2 - INFO - 策略 ma_crossover_btc 未激活，跳过
+2025-09-04 10:27:00,294 - TradingEngineV2 - INFO - 策略加载完成，共注册 1 个策略
+2025-09-04 10:27:00,294 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 10:27:01,474 - TradingEngineV2 - INFO - 执行策略分析 - 10:27 - 周期: 1分钟
+2025-09-04 10:27:01,477 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 10:27:01,477 - TradingEngineV2 - WARNING - 资金不足，调整仓位大小: 9000.00 -> 61.92
+2025-09-04 10:27:02,334 - TradingEngineV2 - ERROR - 开仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51121', 'sMsg': 'Order quantity must be a multiple of the lot size.', 'tag': '', 'ts': '1756952821581'}], 'inTime': '1756952821581324', 'msg': 'All operations failed', 'outTime': '1756952821581481'}
+2025-09-04 10:27:20,312 - TradingEngineV2 - INFO - 开始加载策略...
+2025-09-04 10:27:20,312 - TradingEngineV2 - INFO - 发现配置中的策略: ['rsi_divergence_btc', 'rsi_divergence_eth', 'ma_crossover_btc']
+2025-09-04 10:27:20,312 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_btc, 激活状态: True
+2025-09-04 10:27:20,312 - TradingEngineV2 - INFO - 策略类型: RSIDivergenceUnifiedAdapter
+2025-09-04 10:27:20,312 - TradingEngineV2 - INFO - 正在导入策略类 RSIDivergenceUnifiedAdapter...
+2025-09-04 10:27:20,321 - TradingEngineV2 - INFO - 正在创建策略实例 rsi_divergence_btc...
+2025-09-04 10:27:20,321 - TradingEngineV2 - INFO - 正在注册策略 rsi_divergence_btc，分配比例: 0.4
+2025-09-04 10:27:20,321 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 已添加到引擎
+2025-09-04 10:27:20,321 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 加载成功
+2025-09-04 10:27:20,322 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_eth, 激活状态: False
+2025-09-04 10:27:20,322 - TradingEngineV2 - INFO - 策略 rsi_divergence_eth 未激活，跳过
+2025-09-04 10:27:20,322 - TradingEngineV2 - INFO - 处理策略: ma_crossover_btc, 激活状态: False
+2025-09-04 10:27:20,322 - TradingEngineV2 - INFO - 策略 ma_crossover_btc 未激活，跳过
+2025-09-04 10:27:20,322 - TradingEngineV2 - INFO - 策略加载完成，共注册 1 个策略
+2025-09-04 10:27:20,322 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 10:27:56,109 - TradingEngineV2 - INFO - 开始加载策略...
+2025-09-04 10:27:56,109 - TradingEngineV2 - INFO - 发现配置中的策略: ['rsi_divergence_btc', 'rsi_divergence_eth', 'ma_crossover_btc']
+2025-09-04 10:27:56,109 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_btc, 激活状态: True
+2025-09-04 10:27:56,109 - TradingEngineV2 - INFO - 策略类型: RSIDivergenceUnifiedAdapter
+2025-09-04 10:27:56,109 - TradingEngineV2 - INFO - 正在导入策略类 RSIDivergenceUnifiedAdapter...
+2025-09-04 10:27:56,109 - TradingEngineV2 - INFO - 正在创建策略实例 rsi_divergence_btc...
+2025-09-04 10:27:56,110 - TradingEngineV2 - INFO - 正在注册策略 rsi_divergence_btc，分配比例: 0.4
+2025-09-04 10:27:56,110 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 已添加到引擎
+2025-09-04 10:27:56,110 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 加载成功
+2025-09-04 10:27:56,110 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_eth, 激活状态: False
+2025-09-04 10:27:56,110 - TradingEngineV2 - INFO - 策略 rsi_divergence_eth 未激活，跳过
+2025-09-04 10:27:56,110 - TradingEngineV2 - INFO - 处理策略: ma_crossover_btc, 激活状态: False
+2025-09-04 10:27:56,110 - TradingEngineV2 - INFO - 策略 ma_crossover_btc 未激活，跳过
+2025-09-04 10:27:56,110 - TradingEngineV2 - INFO - 策略加载完成，共注册 1 个策略
+2025-09-04 10:27:56,110 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 10:27:58,173 - TradingEngineV2 - INFO - 预检查完成 - 总余额: $123.85, 可用余额: $123.85
+2025-09-04 10:27:58,174 - TradingEngineV2 - INFO - 多策略交易引擎启动
+2025-09-04 10:28:01,444 - TradingEngineV2 - INFO - 执行策略分析 - 10:28 - 周期: 1分钟
+2025-09-04 10:28:01,448 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 10:28:01,448 - TradingEngineV2 - WARNING - 资金不足，调整仓位大小: 9000.00 -> 61.92
+2025-09-04 10:28:01,448 - TradingEngineV2 - INFO - 订单数量规范化: 61.92 -> 62
+2025-09-04 10:28:02,296 - TradingEngineV2 - ERROR - 开仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error ', 'tag': '', 'ts': '1756952881537'}], 'inTime': '1756952881536638', 'msg': 'All operations failed', 'outTime': '1756952881537718'}
+2025-09-04 10:29:01,405 - TradingEngineV2 - INFO - 执行策略分析 - 10:29 - 周期: 1分钟
+2025-09-04 10:29:01,409 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 10:29:01,409 - TradingEngineV2 - WARNING - 资金不足，调整仓位大小: 9000.00 -> 61.92
+2025-09-04 10:29:01,409 - TradingEngineV2 - INFO - 订单数量规范化: 61.92 -> 62
+2025-09-04 10:29:02,255 - TradingEngineV2 - ERROR - 开仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error ', 'tag': '', 'ts': '1756952941523'}], 'inTime': '1756952941523160', 'msg': 'All operations failed', 'outTime': '1756952941524582'}
+2025-09-04 10:31:56,843 - TradingEngineV2 - INFO - 开始加载策略...
+2025-09-04 10:31:56,843 - TradingEngineV2 - INFO - 发现配置中的策略: ['rsi_divergence_btc', 'rsi_divergence_eth', 'ma_crossover_btc']
+2025-09-04 10:31:56,843 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_btc, 激活状态: True
+2025-09-04 10:31:56,843 - TradingEngineV2 - INFO - 策略类型: RSIDivergenceUnifiedAdapter
+2025-09-04 10:31:56,844 - TradingEngineV2 - INFO - 正在导入策略类 RSIDivergenceUnifiedAdapter...
+2025-09-04 10:31:56,844 - TradingEngineV2 - INFO - 正在创建策略实例 rsi_divergence_btc...
+2025-09-04 10:31:56,844 - TradingEngineV2 - INFO - 正在注册策略 rsi_divergence_btc，分配比例: 0.4
+2025-09-04 10:31:56,844 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 已添加到引擎
+2025-09-04 10:31:56,844 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 加载成功
+2025-09-04 10:31:56,844 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_eth, 激活状态: False
+2025-09-04 10:31:56,844 - TradingEngineV2 - INFO - 策略 rsi_divergence_eth 未激活，跳过
+2025-09-04 10:31:56,844 - TradingEngineV2 - INFO - 处理策略: ma_crossover_btc, 激活状态: False
+2025-09-04 10:31:56,845 - TradingEngineV2 - INFO - 策略 ma_crossover_btc 未激活，跳过
+2025-09-04 10:31:56,845 - TradingEngineV2 - INFO - 策略加载完成，共注册 1 个策略
+2025-09-04 10:31:56,845 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 10:31:59,170 - TradingEngineV2 - INFO - 预检查完成 - 总余额: $123.85, 可用余额: $123.85
+2025-09-04 10:31:59,170 - TradingEngineV2 - INFO - 多策略交易引擎启动
+2025-09-04 10:32:01,537 - TradingEngineV2 - INFO - 执行策略分析 - 10:32 - 周期: 1分钟
+2025-09-04 10:32:01,541 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 10:32:01,541 - TradingEngineV2 - INFO - USDT金额转换为合约张数: 8.04张
+2025-09-04 10:32:01,541 - TradingEngineV2 - WARNING - 资金不足，调整仓位大小: 8.04 -> 0.55张
+2025-09-04 10:32:01,541 - TradingEngineV2 - INFO - 订单数量规范化: 0.55 -> 1
+2025-09-04 10:32:02,548 - TradingEngineV2 - INFO - 开仓成功: BTC-USDT-SWAP buy 0.5535284914085664 @ 111870.8
+2025-09-04 10:32:03,633 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756953122896'}], 'inTime': '1756953122896796', 'msg': 'All operations failed', 'outTime': '1756953122896894'}
+2025-09-04 10:32:04,955 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756953124206'}], 'inTime': '1756953124206006', 'msg': 'All operations failed', 'outTime': '1756953124206160'}
+2025-09-04 10:32:05,934 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756953125188'}], 'inTime': '1756953125188465', 'msg': 'All operations failed', 'outTime': '1756953125188578'}
+2025-09-04 10:32:06,918 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756953126184'}], 'inTime': '1756953126184103', 'msg': 'All operations failed', 'outTime': '1756953126184246'}
+2025-09-04 10:32:08,269 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756953127184'}], 'inTime': '1756953127184113', 'msg': 'All operations failed', 'outTime': '1756953127184201'}
+2025-09-04 10:38:21,125 - TradingEngineV2 - INFO - 开始加载策略...
+2025-09-04 10:38:21,125 - TradingEngineV2 - INFO - 发现配置中的策略: ['rsi_divergence_btc', 'rsi_divergence_eth', 'ma_crossover_btc']
+2025-09-04 10:38:21,125 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_btc, 激活状态: True
+2025-09-04 10:38:21,126 - TradingEngineV2 - INFO - 策略类型: RSIDivergenceUnifiedAdapter
+2025-09-04 10:38:21,126 - TradingEngineV2 - INFO - 正在导入策略类 RSIDivergenceUnifiedAdapter...
+2025-09-04 10:38:21,126 - TradingEngineV2 - INFO - 正在创建策略实例 rsi_divergence_btc...
+2025-09-04 10:38:21,126 - TradingEngineV2 - INFO - 正在注册策略 rsi_divergence_btc，分配比例: 0.4
+2025-09-04 10:38:21,126 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 已添加到引擎
+2025-09-04 10:38:21,126 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 加载成功
+2025-09-04 10:38:21,126 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_eth, 激活状态: False
+2025-09-04 10:38:21,126 - TradingEngineV2 - INFO - 策略 rsi_divergence_eth 未激活，跳过
+2025-09-04 10:38:21,126 - TradingEngineV2 - INFO - 处理策略: ma_crossover_btc, 激活状态: False
+2025-09-04 10:38:21,126 - TradingEngineV2 - INFO - 策略 ma_crossover_btc 未激活，跳过
+2025-09-04 10:38:21,126 - TradingEngineV2 - INFO - 策略加载完成，共注册 1 个策略
+2025-09-04 10:38:21,127 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 10:38:23,555 - TradingEngineV2 - INFO - 预检查完成 - 总余额: $122.63, 可用余额: $122.63
+2025-09-04 10:38:23,556 - TradingEngineV2 - INFO - 多策略交易引擎启动
+2025-09-04 10:39:01,481 - TradingEngineV2 - INFO - 执行策略分析 - 10:39 - 周期: 1分钟
+2025-09-04 10:39:01,485 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 10:39:01,485 - TradingEngineV2 - INFO - 仓位计算调试: strategy.balance=0.0, self.available_balance=122.6347008133389, available_funds=122.6347008133389
+2025-09-04 10:39:01,485 - TradingEngineV2 - INFO - USDT金额转换为合约张数: 8.04张
+2025-09-04 10:39:01,486 - TradingEngineV2 - WARNING - 资金不足，调整仓位大小: 8.04 -> 0.55张
+2025-09-04 10:39:01,486 - TradingEngineV2 - INFO - 订单数量规范化: 0.55 -> 1
+2025-09-04 10:39:01,486 - TradingEngineV2 - INFO - 杠杆计算: 1张 @ 111870.8
+2025-09-04 10:39:01,486 - TradingEngineV2 - INFO -   持仓价值: 1118.71 USDT
+2025-09-04 10:39:01,486 - TradingEngineV2 - INFO -   交易成本: 1.23 USDT (0.110%)
+2025-09-04 10:39:01,486 - TradingEngineV2 - INFO -   最优杠杆: 50x
+2025-09-04 10:39:01,486 - TradingEngineV2 - INFO -   所需保证金: 22.37 USDT
+2025-09-04 10:39:01,486 - TradingEngineV2 - INFO -   总风险: 23.60 USDT (19.25%)
+2025-09-04 10:39:02,447 - TradingEngineV2 - WARNING - 设置杠杆失败，使用默认杠杆: {'code': '51000', 'data': [], 'msg': 'Parameter posSide error'}
+2025-09-04 10:39:03,364 - TradingEngineV2 - ERROR - 开仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51008', 'sMsg': 'Order failed. Your available USDT balance is insufficient, and your available margin (in USD) is too low for borrowing. ', 'tag': '', 'ts': '1756953542624'}], 'inTime': '1756953542623645', 'msg': 'All operations failed', 'outTime': '1756953542625210'}
+2025-09-04 10:40:01,480 - TradingEngineV2 - INFO - 执行策略分析 - 10:40 - 周期: 1分钟, 5分钟
+2025-09-04 10:40:01,483 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 10:40:01,483 - TradingEngineV2 - INFO - 仓位计算调试: strategy.balance=0.0, self.available_balance=122.6347008133389, available_funds=122.6347008133389
+2025-09-04 10:40:01,483 - TradingEngineV2 - INFO - USDT金额转换为合约张数: 8.04张
+2025-09-04 10:40:01,483 - TradingEngineV2 - WARNING - 资金不足，调整仓位大小: 8.04 -> 0.55张
+2025-09-04 10:40:01,483 - TradingEngineV2 - INFO - 订单数量规范化: 0.55 -> 1
+2025-09-04 10:40:01,483 - TradingEngineV2 - INFO - 杠杆计算: 1张 @ 111870.8
+2025-09-04 10:40:01,484 - TradingEngineV2 - INFO -   持仓价值: 1118.71 USDT
+2025-09-04 10:40:01,484 - TradingEngineV2 - INFO -   交易成本: 1.23 USDT (0.110%)
+2025-09-04 10:40:01,484 - TradingEngineV2 - INFO -   最优杠杆: 50x
+2025-09-04 10:40:01,484 - TradingEngineV2 - INFO -   所需保证金: 22.37 USDT
+2025-09-04 10:40:01,484 - TradingEngineV2 - INFO -   总风险: 23.60 USDT (19.25%)
+2025-09-04 10:40:02,388 - TradingEngineV2 - WARNING - 设置杠杆失败，使用默认杠杆: {'code': '51000', 'data': [], 'msg': 'Parameter posSide error'}
+2025-09-04 10:40:03,328 - TradingEngineV2 - ERROR - 开仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51008', 'sMsg': 'Order failed. Your available USDT balance is insufficient, and your available margin (in USD) is too low for borrowing. ', 'tag': '', 'ts': '1756953602584'}], 'inTime': '1756953602584173', 'msg': 'All operations failed', 'outTime': '1756953602585629'}
+2025-09-04 10:42:19,617 - TradingEngineV2 - INFO - 开始加载策略...
+2025-09-04 10:42:19,617 - TradingEngineV2 - INFO - 发现配置中的策略: ['rsi_divergence_btc', 'rsi_divergence_eth', 'ma_crossover_btc']
+2025-09-04 10:42:19,617 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_btc, 激活状态: True
+2025-09-04 10:42:19,617 - TradingEngineV2 - INFO - 策略类型: RSIDivergenceUnifiedAdapter
+2025-09-04 10:42:19,618 - TradingEngineV2 - INFO - 正在导入策略类 RSIDivergenceUnifiedAdapter...
+2025-09-04 10:42:19,618 - TradingEngineV2 - INFO - 正在创建策略实例 rsi_divergence_btc...
+2025-09-04 10:42:19,618 - TradingEngineV2 - INFO - 正在注册策略 rsi_divergence_btc，分配比例: 0.4
+2025-09-04 10:42:19,618 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 已添加到引擎
+2025-09-04 10:42:19,618 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 加载成功
+2025-09-04 10:42:19,618 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_eth, 激活状态: False
+2025-09-04 10:42:19,618 - TradingEngineV2 - INFO - 策略 rsi_divergence_eth 未激活，跳过
+2025-09-04 10:42:19,618 - TradingEngineV2 - INFO - 处理策略: ma_crossover_btc, 激活状态: False
+2025-09-04 10:42:19,618 - TradingEngineV2 - INFO - 策略 ma_crossover_btc 未激活，跳过
+2025-09-04 10:42:19,618 - TradingEngineV2 - INFO - 策略加载完成，共注册 1 个策略
+2025-09-04 10:42:19,618 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 10:42:21,944 - TradingEngineV2 - INFO - 预检查完成 - 总余额: $122.63, 可用余额: $122.63
+2025-09-04 10:42:21,944 - TradingEngineV2 - INFO - 多策略交易引擎启动
+2025-09-04 10:43:01,530 - TradingEngineV2 - INFO - 执行策略分析 - 10:43 - 周期: 1分钟
+2025-09-04 10:43:01,533 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 10:43:01,534 - TradingEngineV2 - INFO - USDT金额转换为合约张数: 8.04张
+2025-09-04 10:43:01,534 - TradingEngineV2 - WARNING - 资金不足，调整仓位大小: 8.04 -> 0.55张
+2025-09-04 10:43:01,534 - TradingEngineV2 - INFO - 订单数量规范化: 0.55 -> 1
+2025-09-04 10:43:01,534 - TradingEngineV2 - WARNING - 持仓价值过大 (1118.71 USDT > 50%资金)，使用保守杠杆
+2025-09-04 10:43:02,508 - TradingEngineV2 - INFO - 杠杆设置成功: 2x
+2025-09-04 10:43:02,508 - TradingEngineV2 - INFO - 保证金检查: 持仓价值=1118.71 USDT, 需要保证金=559.35 USDT, 可用余额=122.63 USDT
+2025-09-04 10:43:02,509 - TradingEngineV2 - WARNING - 所需保证金过高，降低杠杆
+2025-09-04 10:43:02,509 - TradingEngineV2 - INFO - 调整后杠杆: 18x, 保证金: 62.15 USDT
+2025-09-04 10:43:03,394 - TradingEngineV2 - ERROR - 开仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51008', 'sMsg': 'Order failed. Insufficient USDT margin in account ', 'tag': '', 'ts': '1756953782651'}], 'inTime': '1756953782650917', 'msg': 'All operations failed', 'outTime': '1756953782652007'}
+2025-09-04 10:44:01,494 - TradingEngineV2 - INFO - 执行策略分析 - 10:44 - 周期: 1分钟
+2025-09-04 10:44:01,497 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 10:44:01,497 - TradingEngineV2 - INFO - USDT金额转换为合约张数: 8.04张
+2025-09-04 10:44:01,497 - TradingEngineV2 - WARNING - 资金不足，调整仓位大小: 8.04 -> 0.55张
+2025-09-04 10:44:01,497 - TradingEngineV2 - INFO - 订单数量规范化: 0.55 -> 1
+2025-09-04 10:44:01,497 - TradingEngineV2 - WARNING - 持仓价值过大 (1118.71 USDT > 50%资金)，使用保守杠杆
+2025-09-04 10:44:02,576 - TradingEngineV2 - INFO - 杠杆设置成功: 2x
+2025-09-04 10:44:02,576 - TradingEngineV2 - INFO - 保证金检查: 持仓价值=1118.71 USDT, 需要保证金=559.35 USDT, 可用余额=122.63 USDT
+2025-09-04 10:44:02,576 - TradingEngineV2 - WARNING - 所需保证金过高，降低杠杆
+2025-09-04 10:44:02,576 - TradingEngineV2 - INFO - 调整后杠杆: 18x, 保证金: 62.15 USDT
+2025-09-04 10:44:03,477 - TradingEngineV2 - ERROR - 开仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51008', 'sMsg': 'Order failed. Insufficient USDT margin in account ', 'tag': '', 'ts': '1756953842718'}], 'inTime': '1756953842717655', 'msg': 'All operations failed', 'outTime': '1756953842718723'}
+2025-09-04 10:46:50,741 - TradingEngineV2 - INFO - 开始加载策略...
+2025-09-04 10:46:50,741 - TradingEngineV2 - INFO - 发现配置中的策略: ['rsi_divergence_btc', 'rsi_divergence_eth', 'ma_crossover_btc']
+2025-09-04 10:46:50,741 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_btc, 激活状态: True
+2025-09-04 10:46:50,741 - TradingEngineV2 - INFO - 策略类型: RSIDivergenceUnifiedAdapter
+2025-09-04 10:46:50,741 - TradingEngineV2 - INFO - 正在导入策略类 RSIDivergenceUnifiedAdapter...
+2025-09-04 10:46:50,741 - TradingEngineV2 - INFO - 正在创建策略实例 rsi_divergence_btc...
+2025-09-04 10:46:50,742 - TradingEngineV2 - INFO - 正在注册策略 rsi_divergence_btc，分配比例: 0.4
+2025-09-04 10:46:50,742 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 已添加到引擎
+2025-09-04 10:46:50,742 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 加载成功
+2025-09-04 10:46:50,742 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_eth, 激活状态: False
+2025-09-04 10:46:50,742 - TradingEngineV2 - INFO - 策略 rsi_divergence_eth 未激活，跳过
+2025-09-04 10:46:50,742 - TradingEngineV2 - INFO - 处理策略: ma_crossover_btc, 激活状态: False
+2025-09-04 10:46:50,742 - TradingEngineV2 - INFO - 策略 ma_crossover_btc 未激活，跳过
+2025-09-04 10:46:50,742 - TradingEngineV2 - INFO - 策略加载完成，共注册 1 个策略
+2025-09-04 10:46:50,742 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 10:46:53,127 - TradingEngineV2 - INFO - 预检查完成 - 总余额: $122.63, 可用余额: $122.63
+2025-09-04 10:46:53,127 - TradingEngineV2 - INFO - 多策略交易引擎启动
+2025-09-04 10:47:01,618 - TradingEngineV2 - INFO - 执行策略分析 - 10:47 - 周期: 1分钟
+2025-09-04 10:47:01,622 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 10:47:01,622 - TradingEngineV2 - INFO - USDT金额转换为合约张数: 8.04张
+2025-09-04 10:47:01,622 - TradingEngineV2 - WARNING - 资金不足，调整仓位大小: 8.04 -> 0.55张
+2025-09-04 10:47:01,622 - TradingEngineV2 - INFO - 订单数量规范化: 0.55 -> 1
+2025-09-04 10:47:01,622 - TradingEngineV2 - INFO - 简单杠杆策略: 10x杠杆, 持仓价值=1118.71 USDT, 需要保证金=111.87 USDT
+2025-09-04 10:47:01,622 - TradingEngineV2 - WARNING - 所需保证金过高 (111.87 > 98.11)，跳过交易
+2025-09-04 10:55:18,368 - TradingEngineV2 - INFO - 开始加载策略...
+2025-09-04 10:55:18,368 - TradingEngineV2 - INFO - 发现配置中的策略: ['rsi_divergence_btc', 'rsi_divergence_eth', 'ma_crossover_btc']
+2025-09-04 10:55:18,368 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_btc, 激活状态: True
+2025-09-04 10:55:18,369 - TradingEngineV2 - INFO - 策略类型: RSIDivergenceUnifiedAdapter
+2025-09-04 10:55:18,369 - TradingEngineV2 - INFO - 正在导入策略类 RSIDivergenceUnifiedAdapter...
+2025-09-04 10:55:18,369 - TradingEngineV2 - INFO - 正在创建策略实例 rsi_divergence_btc...
+2025-09-04 10:55:18,369 - TradingEngineV2 - INFO - 正在注册策略 rsi_divergence_btc，分配比例: 0.4
+2025-09-04 10:55:18,369 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 已添加到引擎
+2025-09-04 10:55:18,369 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 加载成功
+2025-09-04 10:55:18,369 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_eth, 激活状态: False
+2025-09-04 10:55:18,369 - TradingEngineV2 - INFO - 策略 rsi_divergence_eth 未激活，跳过
+2025-09-04 10:55:18,370 - TradingEngineV2 - INFO - 处理策略: ma_crossover_btc, 激活状态: False
+2025-09-04 10:55:18,370 - TradingEngineV2 - INFO - 策略 ma_crossover_btc 未激活，跳过
+2025-09-04 10:55:18,370 - TradingEngineV2 - INFO - 策略加载完成，共注册 1 个策略
+2025-09-04 10:55:18,370 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 10:55:20,754 - TradingEngineV2 - INFO - 预检查完成 - 总余额: $122.63, 可用余额: $122.63
+2025-09-04 10:55:20,754 - TradingEngineV2 - INFO - 多策略交易引擎启动
+2025-09-04 10:56:01,432 - TradingEngineV2 - INFO - 执行策略分析 - 10:56 - 周期: 1分钟
+2025-09-04 10:56:01,436 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 10:56:01,436 - TradingEngineV2 - INFO - USDT金额转换为合约张数: 8.04张
+2025-09-04 10:56:01,437 - TradingEngineV2 - WARNING - 资金不足，调整仓位大小: 8.04 -> 0.55张
+2025-09-04 10:56:01,437 - TradingEngineV2 - INFO - 订单数量规范化: 0.55 -> 1
+2025-09-04 10:56:01,437 - TradingEngineV2 - INFO - 简单杠杆策略: 10x杠杆, 持仓价值=1118.71 USDT, 需要保证金=111.87 USDT
+2025-09-04 10:56:01,437 - TradingEngineV2 - WARNING - 保证金需求过高: 需要111.87 + 手续费1.12 = 112.99 USDT
+2025-09-04 10:56:01,437 - TradingEngineV2 - WARNING - 可用限额: 110.37 USDT (账户余额122.63的90%)
+2025-09-04 10:56:01,437 - TradingEngineV2 - INFO - 建议: 增加账户余额或等待价格变化降低合约价值
+2025-09-04 10:59:01,927 - TradingEngineV2 - INFO - 开始加载策略...
+2025-09-04 10:59:01,927 - TradingEngineV2 - INFO - 发现配置中的策略: ['rsi_divergence_btc', 'rsi_divergence_eth', 'ma_crossover_btc']
+2025-09-04 10:59:01,927 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_btc, 激活状态: True
+2025-09-04 10:59:01,927 - TradingEngineV2 - INFO - 策略类型: RSIDivergenceUnifiedAdapter
+2025-09-04 10:59:01,927 - TradingEngineV2 - INFO - 正在导入策略类 RSIDivergenceUnifiedAdapter...
+2025-09-04 10:59:01,927 - TradingEngineV2 - INFO - 正在创建策略实例 rsi_divergence_btc...
+2025-09-04 10:59:01,927 - TradingEngineV2 - INFO - 正在注册策略 rsi_divergence_btc，分配比例: 0.4
+2025-09-04 10:59:01,928 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 已添加到引擎
+2025-09-04 10:59:01,928 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 加载成功
+2025-09-04 10:59:01,928 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_eth, 激活状态: False
+2025-09-04 10:59:01,928 - TradingEngineV2 - INFO - 策略 rsi_divergence_eth 未激活，跳过
+2025-09-04 10:59:01,928 - TradingEngineV2 - INFO - 处理策略: ma_crossover_btc, 激活状态: False
+2025-09-04 10:59:01,928 - TradingEngineV2 - INFO - 策略 ma_crossover_btc 未激活，跳过
+2025-09-04 10:59:01,928 - TradingEngineV2 - INFO - 策略加载完成，共注册 1 个策略
+2025-09-04 10:59:01,928 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 10:59:04,029 - TradingEngineV2 - INFO - 预检查完成 - 总余额: $122.63, 可用余额: $122.63
+2025-09-04 10:59:04,029 - TradingEngineV2 - INFO - 多策略交易引擎启动
+2025-09-04 11:00:01,626 - TradingEngineV2 - INFO - 执行策略分析 - 11:00 - 周期: 1分钟, 5分钟, 15分钟, 30分钟, 1小时
+2025-09-04 11:00:01,630 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 11:00:01,630 - TradingEngineV2 - INFO - USDT金额转换为合约张数: 8.04张
+2025-09-04 11:00:01,630 - TradingEngineV2 - INFO - 基于止损计算风险: 价格风险=1678.06, 每张风险=16.78 USDT
+2025-09-04 11:00:01,631 - TradingEngineV2 - WARNING - 基于1.5%风险目标调整仓位: 8.04 -> 0.11张
+2025-09-04 11:00:01,631 - TradingEngineV2 - INFO - 风险分析: 目标风险1.84 USDT, 5%波动保护
+2025-09-04 11:00:01,631 - TradingEngineV2 - INFO - 订单数量规范化: BTC-USDT-SWAP 0.1096 -> 0.1100 (min_size=0.01)
+2025-09-04 11:00:01,631 - TradingEngineV2 - INFO - 订单数量规范化: 0.11 -> 0.11
+2025-09-04 11:00:01,631 - TradingEngineV2 - INFO - 简单杠杆策略: 10x杠杆, 持仓价值=123.06 USDT, 需要保证金=12.31 USDT
+2025-09-04 11:00:01,631 - TradingEngineV2 - INFO - 保证金检查通过: 需要12.31 USDT, 可用110.37 USDT
+2025-09-04 11:00:02,476 - TradingEngineV2 - INFO - 开仓成功: BTC-USDT-SWAP buy 0.10962172507333326 @ 111870.8
+2025-09-04 11:00:03,740 - TradingEngineV2 - ERROR - 检查平仓条件失败 BTC-USDT-SWAP_0: 'Position' object has no attribute 'open_time'
+2025-09-04 11:00:04,594 - TradingEngineV2 - ERROR - 检查平仓条件失败 BTC-USDT-SWAP_0: 'Position' object has no attribute 'open_time'
+2025-09-04 11:00:05,580 - TradingEngineV2 - ERROR - 检查平仓条件失败 BTC-USDT-SWAP_0: 'Position' object has no attribute 'open_time'
+2025-09-04 11:00:06,593 - TradingEngineV2 - ERROR - 检查平仓条件失败 BTC-USDT-SWAP_0: 'Position' object has no attribute 'open_time'
+2025-09-04 11:00:07,594 - TradingEngineV2 - ERROR - 检查平仓条件失败 BTC-USDT-SWAP_0: 'Position' object has no attribute 'open_time'
+2025-09-04 11:00:08,594 - TradingEngineV2 - ERROR - 检查平仓条件失败 BTC-USDT-SWAP_0: 'Position' object has no attribute 'open_time'
+2025-09-04 11:02:16,738 - TradingEngineV2 - INFO - 开始加载策略...
+2025-09-04 11:02:16,739 - TradingEngineV2 - INFO - 发现配置中的策略: ['rsi_divergence_btc', 'rsi_divergence_eth', 'ma_crossover_btc']
+2025-09-04 11:02:16,739 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_btc, 激活状态: True
+2025-09-04 11:02:16,739 - TradingEngineV2 - INFO - 策略类型: RSIDivergenceUnifiedAdapter
+2025-09-04 11:02:16,739 - TradingEngineV2 - INFO - 正在导入策略类 RSIDivergenceUnifiedAdapter...
+2025-09-04 11:02:16,739 - TradingEngineV2 - INFO - 正在创建策略实例 rsi_divergence_btc...
+2025-09-04 11:02:16,739 - TradingEngineV2 - INFO - 正在注册策略 rsi_divergence_btc，分配比例: 0.4
+2025-09-04 11:02:16,740 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 已添加到引擎
+2025-09-04 11:02:16,740 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 加载成功
+2025-09-04 11:02:16,740 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_eth, 激活状态: False
+2025-09-04 11:02:16,740 - TradingEngineV2 - INFO - 策略 rsi_divergence_eth 未激活，跳过
+2025-09-04 11:02:16,740 - TradingEngineV2 - INFO - 处理策略: ma_crossover_btc, 激活状态: False
+2025-09-04 11:02:16,740 - TradingEngineV2 - INFO - 策略 ma_crossover_btc 未激活，跳过
+2025-09-04 11:02:16,740 - TradingEngineV2 - INFO - 策略加载完成，共注册 1 个策略
+2025-09-04 11:02:16,740 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 11:02:19,142 - TradingEngineV2 - INFO - 预检查完成 - 总余额: $122.54, 可用余额: $122.54
+2025-09-04 11:02:19,142 - TradingEngineV2 - INFO - 多策略交易引擎启动
+2025-09-04 11:03:01,462 - TradingEngineV2 - INFO - 执行策略分析 - 11:03 - 周期: 1分钟
+2025-09-04 11:03:01,466 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 11:03:01,466 - TradingEngineV2 - INFO - USDT金额转换为合约张数: 8.04张
+2025-09-04 11:03:01,466 - TradingEngineV2 - INFO - 基于止损计算风险: 价格风险=1678.06, 每张风险=16.78 USDT
+2025-09-04 11:03:01,466 - TradingEngineV2 - WARNING - 基于1.5%风险目标调整仓位: 8.04 -> 0.11张
+2025-09-04 11:03:01,466 - TradingEngineV2 - INFO - 风险分析: 目标风险1.84 USDT, 5%波动保护
+2025-09-04 11:03:01,466 - TradingEngineV2 - INFO - 订单数量规范化: BTC-USDT-SWAP 0.1095 -> 0.1100 (min_size=0.01)
+2025-09-04 11:03:01,466 - TradingEngineV2 - INFO - 订单数量规范化: 0.11 -> 0.11
+2025-09-04 11:03:01,467 - TradingEngineV2 - INFO - 简单杠杆策略: 10x杠杆, 持仓价值=123.06 USDT, 需要保证金=12.31 USDT
+2025-09-04 11:03:01,467 - TradingEngineV2 - INFO - 保证金检查通过: 需要12.31 USDT, 可用110.28 USDT
+2025-09-04 11:03:02,568 - TradingEngineV2 - INFO - 下单附带止盈止损: 止盈=113884.4744, 止损=110192.738
+2025-09-04 11:03:02,570 - TradingEngineV2 - INFO - 开仓成功: BTC-USDT-SWAP buy 0.10953389861191529 @ 111870.8
+2025-09-04 11:03:07,586 - TradingEngineV2 - INFO - 触发平仓条件: BTC-USDT-SWAP 当前价格=111788.6 原因=stop_loss 止损=110192.738 止盈=113884.4744
+2025-09-04 11:03:08,491 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756954987735'}], 'inTime': '1756954987735800', 'msg': 'All operations failed', 'outTime': '1756954987735953'}
+2025-09-04 11:03:08,588 - TradingEngineV2 - INFO - 触发平仓条件: BTC-USDT-SWAP 当前价格=111788.6 原因=stop_loss 止损=110192.738 止盈=113884.4744
+2025-09-04 11:03:08,940 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756954988186'}], 'inTime': '1756954988186143', 'msg': 'All operations failed', 'outTime': '1756954988186247'}
+2025-09-04 11:03:09,590 - TradingEngineV2 - INFO - 触发平仓条件: BTC-USDT-SWAP 当前价格=111788.6 原因=stop_loss 止损=110192.738 止盈=113884.4744
+2025-09-04 11:03:09,955 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756954989199'}], 'inTime': '1756954989199411', 'msg': 'All operations failed', 'outTime': '1756954989199511'}
+2025-09-04 11:03:10,589 - TradingEngineV2 - INFO - 触发平仓条件: BTC-USDT-SWAP 当前价格=111788.6 原因=stop_loss 止损=110192.738 止盈=113884.4744
+2025-09-04 11:03:10,940 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756954990184'}], 'inTime': '1756954990184647', 'msg': 'All operations failed', 'outTime': '1756954990184745'}
+2025-09-04 11:03:11,585 - TradingEngineV2 - INFO - 触发平仓条件: BTC-USDT-SWAP 当前价格=111788.6 原因=stop_loss 止损=110192.738 止盈=113884.4744
+2025-09-04 11:03:11,944 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756954991186'}], 'inTime': '1756954991185993', 'msg': 'All operations failed', 'outTime': '1756954991186104'}
+2025-09-04 11:03:12,583 - TradingEngineV2 - INFO - 触发平仓条件: BTC-USDT-SWAP 当前价格=111788.6 原因=stop_loss 止损=110192.738 止盈=113884.4744
+2025-09-04 11:03:12,948 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756954992195'}], 'inTime': '1756954992194922', 'msg': 'All operations failed', 'outTime': '1756954992195005'}
+2025-09-04 11:03:13,597 - TradingEngineV2 - INFO - 触发平仓条件: BTC-USDT-SWAP 当前价格=111788.6 原因=stop_loss 止损=110192.738 止盈=113884.4744
+2025-09-04 11:03:13,958 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756954993203'}], 'inTime': '1756954993203810', 'msg': 'All operations failed', 'outTime': '1756954993203961'}
+2025-09-04 11:03:14,596 - TradingEngineV2 - INFO - 触发平仓条件: BTC-USDT-SWAP 当前价格=111788.6 原因=stop_loss 止损=110192.738 止盈=113884.4744
+2025-09-04 11:03:14,966 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756954994210'}], 'inTime': '1756954994210183', 'msg': 'All operations failed', 'outTime': '1756954994210297'}
+2025-09-04 11:03:15,594 - TradingEngineV2 - INFO - 触发平仓条件: BTC-USDT-SWAP 当前价格=111788.6 原因=stop_loss 止损=110192.738 止盈=113884.4744
+2025-09-04 11:03:15,989 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756954995231'}], 'inTime': '1756954995231346', 'msg': 'All operations failed', 'outTime': '1756954995231470'}
+2025-09-04 11:03:16,591 - TradingEngineV2 - INFO - 触发平仓条件: BTC-USDT-SWAP 当前价格=111788.6 原因=stop_loss 止损=110192.738 止盈=113884.4744
+2025-09-04 11:03:16,944 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756954996191'}], 'inTime': '1756954996191242', 'msg': 'All operations failed', 'outTime': '1756954996191370'}
+2025-09-04 11:03:17,594 - TradingEngineV2 - INFO - 触发平仓条件: BTC-USDT-SWAP 当前价格=111788.6 原因=stop_loss 止损=110192.738 止盈=113884.4744
+2025-09-04 11:03:17,946 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756954997190'}], 'inTime': '1756954997189869', 'msg': 'All operations failed', 'outTime': '1756954997190014'}
+2025-09-04 11:03:18,592 - TradingEngineV2 - INFO - 触发平仓条件: BTC-USDT-SWAP 当前价格=111788.6 原因=stop_loss 止损=110192.738 止盈=113884.4744
+2025-09-04 11:03:18,942 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756954998188'}], 'inTime': '1756954998188371', 'msg': 'All operations failed', 'outTime': '1756954998188478'}
+2025-09-04 11:03:19,586 - TradingEngineV2 - INFO - 触发平仓条件: BTC-USDT-SWAP 当前价格=111788.6 原因=stop_loss 止损=110192.738 止盈=113884.4744
+2025-09-04 11:03:19,975 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756954999204'}], 'inTime': '1756954999204012', 'msg': 'All operations failed', 'outTime': '1756954999204130'}
+2025-09-04 11:03:20,585 - TradingEngineV2 - INFO - 触发平仓条件: BTC-USDT-SWAP 当前价格=111788.6 原因=stop_loss 止损=110192.738 止盈=113884.4744
+2025-09-04 11:03:20,963 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756955000210'}], 'inTime': '1756955000210308', 'msg': 'All operations failed', 'outTime': '1756955000210421'}
+2025-09-04 11:03:21,588 - TradingEngineV2 - INFO - 触发平仓条件: BTC-USDT-SWAP 当前价格=111788.6 原因=stop_loss 止损=110192.738 止盈=113884.4744
+2025-09-04 11:03:21,965 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756955001211'}], 'inTime': '1756955001211134', 'msg': 'All operations failed', 'outTime': '1756955001211240'}
+2025-09-04 11:03:22,586 - TradingEngineV2 - INFO - 触发平仓条件: BTC-USDT-SWAP 当前价格=111788.6 原因=stop_loss 止损=110192.738 止盈=113884.4744
+2025-09-04 11:03:22,954 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756955002194'}], 'inTime': '1756955002194557', 'msg': 'All operations failed', 'outTime': '1756955002194697'}
+2025-09-04 11:03:23,588 - TradingEngineV2 - INFO - 触发平仓条件: BTC-USDT-SWAP 当前价格=111788.6 原因=stop_loss 止损=110192.738 止盈=113884.4744
+2025-09-04 11:03:23,959 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756955003204'}], 'inTime': '1756955003203991', 'msg': 'All operations failed', 'outTime': '1756955003204098'}
+2025-09-04 11:03:24,585 - TradingEngineV2 - INFO - 触发平仓条件: BTC-USDT-SWAP 当前价格=111788.6 原因=stop_loss 止损=110192.738 止盈=113884.4744
+2025-09-04 11:03:24,935 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756955004181'}], 'inTime': '1756955004181462', 'msg': 'All operations failed', 'outTime': '1756955004181570'}
+2025-09-04 11:03:25,586 - TradingEngineV2 - INFO - 触发平仓条件: BTC-USDT-SWAP 当前价格=111788.6 原因=stop_loss 止损=110192.738 止盈=113884.4744
+2025-09-04 11:03:25,957 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756955005201'}], 'inTime': '1756955005201133', 'msg': 'All operations failed', 'outTime': '1756955005201224'}
+2025-09-04 11:03:26,582 - TradingEngineV2 - INFO - 触发平仓条件: BTC-USDT-SWAP 当前价格=111788.6 原因=stop_loss 止损=110192.738 止盈=113884.4744
+2025-09-04 11:03:26,959 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756955006198'}], 'inTime': '1756955006198110', 'msg': 'All operations failed', 'outTime': '1756955006198237'}
+2025-09-04 11:03:27,596 - TradingEngineV2 - INFO - 触发平仓条件: BTC-USDT-SWAP 当前价格=111788.6 原因=stop_loss 止损=110192.738 止盈=113884.4744
+2025-09-04 11:03:27,977 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756955007212'}], 'inTime': '1756955007212760', 'msg': 'All operations failed', 'outTime': '1756955007212877'}
+2025-09-04 11:03:28,594 - TradingEngineV2 - INFO - 触发平仓条件: BTC-USDT-SWAP 当前价格=111788.6 原因=stop_loss 止损=110192.738 止盈=113884.4744
+2025-09-04 11:03:28,956 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756955008201'}], 'inTime': '1756955008201540', 'msg': 'All operations failed', 'outTime': '1756955008201635'}
+2025-09-04 11:03:29,593 - TradingEngineV2 - INFO - 触发平仓条件: BTC-USDT-SWAP 当前价格=111788.6 原因=stop_loss 止损=110192.738 止盈=113884.4744
+2025-09-04 11:03:29,949 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756955009192'}], 'inTime': '1756955009192816', 'msg': 'All operations failed', 'outTime': '1756955009192910'}
+2025-09-04 11:11:32,426 - TradingEngineV2 - INFO - 开始加载策略...
+2025-09-04 11:11:32,426 - TradingEngineV2 - INFO - 发现配置中的策略: ['rsi_divergence_btc', 'rsi_divergence_eth', 'ma_crossover_btc']
+2025-09-04 11:11:32,426 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_btc, 激活状态: True
+2025-09-04 11:11:32,427 - TradingEngineV2 - INFO - 策略类型: RSIDivergenceUnifiedAdapter
+2025-09-04 11:11:32,427 - TradingEngineV2 - INFO - 正在导入策略类 RSIDivergenceUnifiedAdapter...
+2025-09-04 11:11:32,427 - TradingEngineV2 - INFO - 正在创建策略实例 rsi_divergence_btc...
+2025-09-04 11:11:32,427 - TradingEngineV2 - INFO - 正在注册策略 rsi_divergence_btc，分配比例: 0.4
+2025-09-04 11:11:32,427 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 已添加到引擎
+2025-09-04 11:11:32,427 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 加载成功
+2025-09-04 11:11:32,427 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_eth, 激活状态: False
+2025-09-04 11:11:32,427 - TradingEngineV2 - INFO - 策略 rsi_divergence_eth 未激活，跳过
+2025-09-04 11:11:32,427 - TradingEngineV2 - INFO - 处理策略: ma_crossover_btc, 激活状态: False
+2025-09-04 11:11:32,427 - TradingEngineV2 - INFO - 策略 ma_crossover_btc 未激活，跳过
+2025-09-04 11:11:32,428 - TradingEngineV2 - INFO - 策略加载完成，共注册 1 个策略
+2025-09-04 11:11:32,428 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 11:11:34,965 - TradingEngineV2 - INFO - 预检查完成 - 总余额: $122.33, 可用余额: $122.33
+2025-09-04 11:11:34,965 - TradingEngineV2 - INFO - 多策略交易引擎启动
+2025-09-04 11:12:02,743 - TradingEngineV2 - INFO - 执行策略分析 - 11:12 - 周期: 1分钟
+2025-09-04 11:13:01,559 - TradingEngineV2 - INFO - 执行策略分析 - 11:13 - 周期: 1分钟
+2025-09-04 11:14:02,182 - TradingEngineV2 - INFO - 执行策略分析 - 11:14 - 周期: 1分钟
+2025-09-04 11:15:02,317 - TradingEngineV2 - INFO - 执行策略分析 - 11:15 - 周期: 1分钟, 5分钟, 15分钟
+2025-09-04 11:15:02,321 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 11:15:02,321 - TradingEngineV2 - INFO - USDT金额转换为合约张数: 8.04张
+2025-09-04 11:15:02,322 - TradingEngineV2 - INFO - 基于止损计算风险: 价格风险=1679.39, 每张风险=16.79 USDT
+2025-09-04 11:15:02,322 - TradingEngineV2 - WARNING - 基于1.5%风险目标调整仓位: 8.04 -> 0.11张
+2025-09-04 11:15:02,322 - TradingEngineV2 - INFO - 风险分析: 目标风险1.84 USDT, 5%波动保护
+2025-09-04 11:15:02,322 - TradingEngineV2 - INFO - 订单数量规范化: BTC-USDT-SWAP 0.1093 -> 0.1100 (min_size=0.01)
+2025-09-04 11:15:02,322 - TradingEngineV2 - INFO - 订单数量规范化: 0.11 -> 0.11
+2025-09-04 11:15:02,322 - TradingEngineV2 - INFO - 简单杠杆策略: 10x杠杆, 持仓价值=123.16 USDT, 需要保证金=12.32 USDT
+2025-09-04 11:15:02,322 - TradingEngineV2 - INFO - 保证金检查通过: 需要12.32 USDT, 可用110.10 USDT
+2025-09-04 11:15:03,285 - TradingEngineV2 - INFO - 下单附带止盈止损: 止盈=109944.32720000003, 止损=113638.99399999999
+2025-09-04 11:15:03,286 - TradingEngineV2 - INFO - 开仓成功: BTC-USDT-SWAP sell 0.10926590270806606 @ 111959.6
+2025-09-04 11:16:01,834 - TradingEngineV2 - INFO - 执行策略分析 - 11:16 - 周期: 1分钟
+2025-09-04 11:16:01,837 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 11:16:01,837 - TradingEngineV2 - INFO - 收到反向信号，考虑平仓: BTC-USDT-SWAP
+2025-09-04 11:16:02,772 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756955762000'}], 'inTime': '1756955762000812', 'msg': 'All operations failed', 'outTime': '1756955762000943'}
+2025-09-04 11:17:02,060 - TradingEngineV2 - INFO - 执行策略分析 - 11:17 - 周期: 1分钟
+2025-09-04 11:17:02,064 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 11:17:02,064 - TradingEngineV2 - INFO - 收到反向信号，考虑平仓: BTC-USDT-SWAP
+2025-09-04 11:17:03,060 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756955822291'}], 'inTime': '1756955822291896', 'msg': 'All operations failed', 'outTime': '1756955822291997'}
+2025-09-04 11:18:01,709 - TradingEngineV2 - INFO - 执行策略分析 - 11:18 - 周期: 1分钟
+2025-09-04 11:18:01,712 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-04 11:18:01,713 - TradingEngineV2 - INFO - 收到反向信号，考虑平仓: BTC-USDT-SWAP
+2025-09-04 11:18:02,646 - TradingEngineV2 - ERROR - 平仓失败: BTC-USDT-SWAP - {'code': '1', 'data': [{'clOrdId': '', 'ordId': '', 'sCode': '51000', 'sMsg': 'Parameter posSide error', 'tag': '', 'ts': '1756955881877'}], 'inTime': '1756955881877372', 'msg': 'All operations failed', 'outTime': '1756955881877498'}

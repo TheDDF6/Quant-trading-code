@@ -1,0 +1,46 @@
+{
+  "okx": {
+    "api_key": "c8d591f2-bdd4-4fb9-b9f8-e984bba58677",
+    "secret_key": "EC2EA955E41747B196C13874E00CF5F0",
+    "passphrase": "!ZPqq19785218zmh",
+    "sandbox": false
+  },
+  "trading": {
+    "symbol": "BTC-USDT-SWAP",
+    "initial_balance": 1000.0,
+    "risk_per_trade": 0.015,
+    "max_leverage": 50,
+    "min_trade_amount": 10.0,
+    "max_positions": 1
+  },
+  "strategy": {
+    "name": "rsi_divergence",
+    "rsi_period": 14,
+    "lookback": 20,
+    "stop_loss_pct": 0.015,
+    "take_profit_ratio": 1.5,
+    "signal_interval_minutes": 30
+  },
+  "risk_management": {
+    "max_daily_loss": 0.05,
+    "max_consecutive_losses": 3,
+    "stop_trading_on_loss": true,
+    "emergency_stop": false
+  },
+  "monitoring": {
+    "log_level": "INFO",
+    "save_trades": true,
+    "alert_on_error": true,
+    "heartbeat_interval": 60
+  },
+  "fees": {
+    "maker_fee": 0.0002,
+    "taker_fee": 0.0005,
+    "user_level": "VIP_1",
+    "primary_order_type": "market",
+    "estimated_slippage": 0.0001,
+    "actual_maker_fee": 0.0002,
+    "actual_taker_fee": 0.0005,
+    "note": "System will use API dynamic rates when available, fallback to actual_* rates"
+  }
+}

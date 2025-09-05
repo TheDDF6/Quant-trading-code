@@ -1,0 +1,9 @@
+2025-09-04 11:09:09,354 - TradingEngineV2 - INFO - 开始加载策略...
+2025-09-04 11:09:09,354 - TradingEngineV2 - INFO - 发现配置中的策略: []
+2025-09-04 11:09:09,354 - TradingEngineV2 - INFO - 策略加载完成，共注册 0 个策略
+2025-09-04 11:09:09,354 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 11:09:34,177 - TradingEngineV2 - INFO - 开始加载策略...
+2025-09-04 11:09:34,177 - TradingEngineV2 - INFO - 发现配置中的策略: []
+2025-09-04 11:09:34,177 - TradingEngineV2 - INFO - 策略加载完成，共注册 0 个策略
+2025-09-04 11:09:34,177 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-04 11:09:34,177 - TradingEngineV2 - ERROR - API连接测试失败

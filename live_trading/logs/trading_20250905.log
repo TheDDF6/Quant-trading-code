@@ -1,0 +1,67 @@
+2025-09-05 01:20:47,316 - TradingEngineV2 - INFO - 开始加载策略...
+2025-09-05 01:20:47,316 - TradingEngineV2 - INFO - 发现配置中的策略: ['rsi_divergence_btc', 'rsi_divergence_eth', 'ma_crossover_btc', 'volatility_breakout_btc']
+2025-09-05 01:20:47,316 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_btc, 激活状态: True
+2025-09-05 01:20:47,316 - TradingEngineV2 - INFO - 策略类型: RSIDivergenceUnifiedAdapter
+2025-09-05 01:20:47,316 - TradingEngineV2 - INFO - 正在导入策略类 RSIDivergenceUnifiedAdapter...
+2025-09-05 01:20:47,317 - TradingEngineV2 - INFO - 正在创建策略实例 rsi_divergence_btc...
+2025-09-05 01:20:47,317 - TradingEngineV2 - INFO - 正在注册策略 rsi_divergence_btc，分配比例: 0.4
+2025-09-05 01:20:47,318 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 已添加到引擎
+2025-09-05 01:20:47,318 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 加载成功
+2025-09-05 01:20:47,318 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_eth, 激活状态: False
+2025-09-05 01:20:47,318 - TradingEngineV2 - INFO - 策略 rsi_divergence_eth 未激活，跳过
+2025-09-05 01:20:47,318 - TradingEngineV2 - INFO - 处理策略: ma_crossover_btc, 激活状态: False
+2025-09-05 01:20:47,318 - TradingEngineV2 - INFO - 策略 ma_crossover_btc 未激活，跳过
+2025-09-05 01:20:47,318 - TradingEngineV2 - INFO - 处理策略: volatility_breakout_btc, 激活状态: False
+2025-09-05 01:20:47,318 - TradingEngineV2 - INFO - 策略 volatility_breakout_btc 未激活，跳过
+2025-09-05 01:20:47,319 - TradingEngineV2 - INFO - 策略加载完成，共注册 1 个策略
+2025-09-05 01:20:47,319 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-05 01:20:50,002 - TradingEngineV2 - INFO - 检测到现有持仓/挂单，进入监控模式
+2025-09-05 01:20:50,002 - TradingEngineV2 - INFO - 账户状态 - 总余额: $123.39, 可用余额: $0.08
+2025-09-05 01:20:50,002 - TradingEngineV2 - INFO - 多策略交易引擎启动
+2025-09-05 01:21:02,390 - TradingEngineV2 - INFO - 执行策略分析 - 01:21 - 周期: 1分钟
+2025-09-05 01:21:02,393 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-05 01:21:02,394 - TradingEngineV2 - INFO - USDT金额转换为合约张数: 8.11张
+2025-09-05 01:21:02,394 - TradingEngineV2 - INFO - 基于止损计算风险: 价格风险=1663.65, 每张风险=16.64 USDT
+2025-09-05 01:21:02,394 - TradingEngineV2 - WARNING - 基于1.5%风险目标调整仓位: 8.11 -> 0.00张
+2025-09-05 01:21:02,394 - TradingEngineV2 - INFO - 风险分析: 目标风险0.00 USDT, 5%波动保护
+2025-09-05 01:21:02,394 - TradingEngineV2 - INFO - 订单数量规范化: BTC-USDT-SWAP 0.0001 -> 0.0100 (min_size=0.01)
+2025-09-05 01:21:02,394 - TradingEngineV2 - INFO - 订单数量规范化: 0.00 -> 0.01
+2025-09-05 01:21:02,394 - TradingEngineV2 - INFO - 简单杠杆策略: 10x杠杆, 持仓价值=11.09 USDT, 需要保证金=1.11 USDT
+2025-09-05 01:21:02,394 - TradingEngineV2 - WARNING - 保证金需求过高: 需要1.11 + 手续费0.01 = 1.12 USDT
+2025-09-05 01:21:02,394 - TradingEngineV2 - WARNING - 可用限额: 0.07 USDT (账户余额0.08的90%)
+2025-09-05 01:21:02,394 - TradingEngineV2 - INFO - 建议: 增加账户余额或等待价格变化降低合约价值
+2025-09-05 01:22:24,444 - TradingEngineV2 - INFO - 开始加载策略...
+2025-09-05 01:22:24,444 - TradingEngineV2 - INFO - 发现配置中的策略: ['rsi_divergence_btc', 'rsi_divergence_eth', 'ma_crossover_btc', 'volatility_breakout_btc', 'rsidivergencev2_5']
+2025-09-05 01:22:24,444 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_btc, 激活状态: True
+2025-09-05 01:22:24,445 - TradingEngineV2 - INFO - 策略类型: RSIDivergenceUnifiedAdapter
+2025-09-05 01:22:24,445 - TradingEngineV2 - INFO - 正在导入策略类 RSIDivergenceUnifiedAdapter...
+2025-09-05 01:22:24,445 - TradingEngineV2 - INFO - 正在创建策略实例 rsi_divergence_btc...
+2025-09-05 01:22:24,445 - TradingEngineV2 - INFO - 正在注册策略 rsi_divergence_btc，分配比例: 0.4
+2025-09-05 01:22:24,445 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 已添加到引擎
+2025-09-05 01:22:24,445 - TradingEngineV2 - INFO - 策略 rsi_divergence_btc 加载成功
+2025-09-05 01:22:24,445 - TradingEngineV2 - INFO - 处理策略: rsi_divergence_eth, 激活状态: False
+2025-09-05 01:22:24,445 - TradingEngineV2 - INFO - 策略 rsi_divergence_eth 未激活，跳过
+2025-09-05 01:22:24,445 - TradingEngineV2 - INFO - 处理策略: ma_crossover_btc, 激活状态: False
+2025-09-05 01:22:24,446 - TradingEngineV2 - INFO - 策略 ma_crossover_btc 未激活，跳过
+2025-09-05 01:22:24,446 - TradingEngineV2 - INFO - 处理策略: volatility_breakout_btc, 激活状态: False
+2025-09-05 01:22:24,446 - TradingEngineV2 - INFO - 策略 volatility_breakout_btc 未激活，跳过
+2025-09-05 01:22:24,446 - TradingEngineV2 - INFO - 处理策略: rsidivergencev2_5, 激活状态: True
+2025-09-05 01:22:24,446 - TradingEngineV2 - INFO - 策略类型: RSIDivergenceV2
+2025-09-05 01:22:24,446 - TradingEngineV2 - WARNING - 未知策略类型: RSIDivergenceV2
+2025-09-05 01:22:24,446 - TradingEngineV2 - INFO - 策略加载完成，共注册 1 个策略
+2025-09-05 01:22:24,446 - TradingEngineV2 - INFO - 多策略交易引擎初始化完成
+2025-09-05 01:22:26,931 - TradingEngineV2 - INFO - 检测到现有持仓/挂单，进入监控模式
+2025-09-05 01:22:26,931 - TradingEngineV2 - INFO - 账户状态 - 总余额: $123.34, 可用余额: $0.08
+2025-09-05 01:22:26,931 - TradingEngineV2 - INFO - 多策略交易引擎启动
+2025-09-05 01:23:02,428 - TradingEngineV2 - INFO - 执行策略分析 - 01:23 - 周期: 1分钟
+2025-09-05 01:23:02,433 - TradingEngineV2 - INFO - 收到 1 个交易信号
+2025-09-05 01:23:02,433 - TradingEngineV2 - INFO - USDT金额转换为合约张数: 8.11张
+2025-09-05 01:23:02,433 - TradingEngineV2 - INFO - 基于止损计算风险: 价格风险=1663.65, 每张风险=16.64 USDT
+2025-09-05 01:23:02,433 - TradingEngineV2 - WARNING - 基于1.5%风险目标调整仓位: 8.11 -> 0.00张
+2025-09-05 01:23:02,433 - TradingEngineV2 - INFO - 风险分析: 目标风险0.00 USDT, 5%波动保护
+2025-09-05 01:23:02,433 - TradingEngineV2 - INFO - 订单数量规范化: BTC-USDT-SWAP 0.0001 -> 0.0100 (min_size=0.01)
+2025-09-05 01:23:02,433 - TradingEngineV2 - INFO - 订单数量规范化: 0.00 -> 0.01
+2025-09-05 01:23:02,434 - TradingEngineV2 - INFO - 简单杠杆策略: 10x杠杆, 持仓价值=11.09 USDT, 需要保证金=1.11 USDT
+2025-09-05 01:23:02,434 - TradingEngineV2 - WARNING - 保证金需求过高: 需要1.11 + 手续费0.01 = 1.12 USDT
+2025-09-05 01:23:02,434 - TradingEngineV2 - WARNING - 可用限额: 0.07 USDT (账户余额0.08的90%)
+2025-09-05 01:23:02,434 - TradingEngineV2 - INFO - 建议: 增加账户余额或等待价格变化降低合约价值

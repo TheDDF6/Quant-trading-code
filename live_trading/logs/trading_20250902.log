@@ -1,0 +1,465 @@
+2025-09-02 22:33:29,704 - core.okx_client - INFO - 初始化实盘模式客户端（真实资金）
+2025-09-02 22:33:30,902 - core.trading_engine - INFO - 交易引擎初始化完成
+2025-09-02 22:33:30,902 - core.trading_engine - INFO - 启动实盘交易引擎
+2025-09-02 22:33:30,903 - core.trading_engine - INFO - 交易对: BTC-USDT-SWAP
+2025-09-02 22:33:30,903 - core.trading_engine - INFO - 沙盒模式: False
+2025-09-02 22:33:30,903 - core.trading_engine - INFO - 
+=== 交易周期 1 ===
+2025-09-02 22:33:35,917 - core.okx_client - ERROR - 获取账户余额失败: timed out
+2025-09-02 22:33:35,918 - core.trading_engine - ERROR - 获取账户信息失败: timed out
+2025-09-02 22:33:40,926 - core.okx_client - ERROR - 获取K线数据失败: timed out
+2025-09-02 22:33:40,958 - core.trading_engine - ERROR - 获取市场数据失败: timed out
+2025-09-02 22:33:40,958 - core.trading_engine - WARNING - 市场数据不足
+2025-09-02 22:33:40,958 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 22:33:42,834 - core.trading_engine - INFO - 接收到停止信号
+2025-09-02 22:33:42,834 - core.trading_engine - INFO - 停止交易引擎
+2025-09-02 22:53:47,290 - core.okx_client - INFO - 初始化实盘模式客户端（真实资金）
+2025-09-02 22:53:48,411 - core.trading_engine - INFO - 交易引擎初始化完成
+2025-09-02 22:53:48,412 - core.trading_engine - INFO - 启动实盘交易引擎
+2025-09-02 22:53:48,412 - core.trading_engine - INFO - 交易对: BTC-USDT-SWAP
+2025-09-02 22:53:48,412 - core.trading_engine - INFO - 沙盒模式: False
+2025-09-02 22:53:48,412 - core.trading_engine - INFO - 
+=== 交易周期 1 ===
+2025-09-02 22:53:51,785 - core.trading_engine - INFO - 发现新交易信号: top_divergence - short
+2025-09-02 22:53:51,785 - core.trading_engine - INFO - 入场: 111282.10, 止损: 112951.33, 止盈: 108778.25
+2025-09-02 22:53:52,510 - core.trading_engine - INFO - 使用实时余额计算仓位: 127.27 USDT
+2025-09-02 22:53:52,897 - core.okx_client - INFO - 获取手续费费率成功 - 等级: Lv1, 挂单: 0.0200%, 吃单: 0.0500%
+2025-09-02 22:53:52,898 - core.trading_engine - INFO - 更新动态手续费费率 - 等级: Lv1, 挂单: 0.0200%, 吃单: 0.0500%
+2025-09-02 22:53:53,288 - core.okx_client - INFO - 获取产品信息成功 - BTC-USDT-SWAP, 面值: 0.01 BTC
+2025-09-02 22:53:53,288 - core.trading_engine - INFO - 更新合约信息 - BTC-USDT-SWAP, 面值: 0.01 BTC
+2025-09-02 22:53:53,288 - core.trading_engine - INFO - 合约计算详情: 仓位价值=101.82, 面值=0.01, 价格=111282.10
+2025-09-02 22:53:53,288 - core.trading_engine - INFO - 原始需要张数=0.091495, 最小张数=0.01, 精度=0.01
+2025-09-02 22:53:53,288 - core.trading_engine - INFO - 调整过程: 0.091495 -> 0.091495 -> 0.100000
+2025-09-02 22:53:53,289 - core.trading_engine - INFO - 合约数量预检查: 需要0.091张 -> 调整为0.1张
+2025-09-02 22:53:53,289 - core.trading_engine - INFO - 仓位风险分解:
+2025-09-02 22:53:53,289 - core.trading_engine - INFO -   策略价格点位: 入场111282.10, 止损112951.33
+2025-09-02 22:53:53,289 - core.trading_engine - INFO -   风险距离: 1669.23 (1.50%)
+2025-09-02 22:53:53,289 - core.trading_engine - INFO -   仓位价值: $101.82
+2025-09-02 22:53:53,289 - core.trading_engine - INFO -   价格止损风险: $1.53
+2025-09-02 22:53:53,289 - core.trading_engine - INFO -   预估手续费成本: $0.12 (0.120%)
+2025-09-02 22:53:53,289 - core.trading_engine - INFO -   总风险: $1.65 (1.30%)
+2025-09-02 22:53:53,289 - core.trading_engine - INFO -   风险预算: $1.91 (1.5%)
+2025-09-02 22:53:53,289 - core.trading_engine - INFO -   杠杆倍数: 1x
+2025-09-02 22:53:53,651 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=0.1
+2025-09-02 22:53:53,651 - core.trading_engine - INFO - 下单合约计算: 仓位价值=$101.82, 合约数量=0.1张
+2025-09-02 22:53:53,652 - core.okx_client - INFO - 下单附带止盈止损:
+2025-09-02 22:53:53,652 - core.okx_client - INFO -   止盈触发价: 108778.25275000001
+2025-09-02 22:53:53,652 - core.okx_client - INFO -   止损触发价: 112951.3315
+2025-09-02 22:53:54,618 - core.trading_engine - INFO - 精确手续费计算:
+2025-09-02 22:53:54,618 - core.trading_engine - INFO -    合约张数: 0.1 张
+2025-09-02 22:53:54,618 - core.trading_engine - INFO -    合约面值: 0.01 BTC
+2025-09-02 22:53:54,618 - core.trading_engine - INFO -    实际仓位价值: $111.28
+2025-09-02 22:53:54,618 - core.trading_engine - INFO -    开仓手续费: $0.0556 (费率: 0.0500%)
+2025-09-02 22:53:54,619 - core.trading_engine - INFO -    计算方式: okx_official_formula
+2025-09-02 22:53:54,619 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=0.1
+2025-09-02 22:53:54,620 - core.trading_engine - INFO - 开仓成功: BTC-USDT-SWAP short 0.0009 @ 111282.10
+2025-09-02 22:53:54,620 - core.trading_engine - INFO - 策略设定: 止损112951.33, 止盈108778.25
+2025-09-02 22:53:54,620 - core.trading_engine - INFO - 风险控制: 价格风险$1.53 + 手续费$0.13 = 总风险$1.66 (1.30%)
+2025-09-02 22:53:54,620 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 22:54:54,620 - core.trading_engine - INFO - 
+=== 交易周期 2 ===
+2025-09-02 22:54:57,353 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 22:54:58,392 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 22:54:58,731 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 22:54:58,732 - core.trading_engine - INFO - 持仓 BTC-USDT-SWAP: short 0.1000 @ 111282.10 (1x杠杆)
+2025-09-02 22:54:58,732 - core.trading_engine - INFO - 当前价格: 111235.90
+2025-09-02 22:54:58,732 - core.trading_engine - INFO - 止盈点: 108778.25, 止损点: 112951.33
+2025-09-02 22:54:58,732 - core.trading_engine - INFO - 价格盈亏: $4.62, 手续费: $5.62
+2025-09-02 22:54:58,732 - core.trading_engine - INFO - 净盈亏: $-1.00 (已扣除手续费)
+2025-09-02 22:54:58,732 - core.trading_engine - INFO - 保证金: $11128.21, 净盈亏占保证金: -0.0%
+2025-09-02 22:54:58,732 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 22:55:58,733 - core.trading_engine - INFO - 
+=== 交易周期 3 ===
+2025-09-02 22:56:00,866 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 22:56:01,529 - core.trading_engine - INFO - [资金] 当前总资金: $9.92 USDT
+2025-09-02 22:56:01,530 - core.trading_engine - INFO -    余额: $0.00, 浮盈浮亏: +9.92 (+0.00%)
+2025-09-02 22:56:02,616 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 22:56:02,958 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 22:56:02,958 - core.trading_engine - INFO - 持仓 BTC-USDT-SWAP: short 0.1000 @ 111282.10 (1x杠杆)
+2025-09-02 22:56:02,958 - core.trading_engine - INFO - 当前价格: 111160.50
+2025-09-02 22:56:02,959 - core.trading_engine - INFO - 止盈点: 108778.25, 止损点: 112951.33
+2025-09-02 22:56:02,959 - core.trading_engine - INFO - 价格盈亏: $12.16, 手续费: $5.61
+2025-09-02 22:56:02,959 - core.trading_engine - INFO - 净盈亏: $6.55 (已扣除手续费)
+2025-09-02 22:56:02,959 - core.trading_engine - INFO - 保证金: $11128.21, 净盈亏占保证金: +0.1%
+2025-09-02 22:56:02,959 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 22:57:02,960 - core.trading_engine - INFO - 
+=== 交易周期 4 ===
+2025-09-02 22:57:05,634 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 22:57:06,325 - core.trading_engine - INFO - [资金] 当前总资金: $0.09 USDT
+2025-09-02 22:57:06,326 - core.trading_engine - INFO -    余额: $0.00, 浮盈浮亏: +0.09 (+0.00%)
+2025-09-02 22:57:07,663 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 22:57:08,017 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 22:57:08,017 - core.trading_engine - INFO - 持仓 BTC-USDT-SWAP: short 0.1000 @ 111282.10 (1x杠杆)
+2025-09-02 22:57:08,017 - core.trading_engine - INFO - 当前价格: 111225.00
+2025-09-02 22:57:08,018 - core.trading_engine - INFO - 止盈点: 108778.25, 止损点: 112951.33
+2025-09-02 22:57:08,018 - core.trading_engine - INFO - 价格盈亏: $5.71, 手续费: $5.62
+2025-09-02 22:57:08,018 - core.trading_engine - INFO - 净盈亏: $0.09 (已扣除手续费)
+2025-09-02 22:57:08,018 - core.trading_engine - INFO - 保证金: $11128.21, 净盈亏占保证金: +0.0%
+2025-09-02 22:57:08,018 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 22:58:08,019 - core.trading_engine - INFO - 
+=== 交易周期 5 ===
+2025-09-02 22:58:10,309 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 22:58:11,342 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 22:58:11,685 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 22:58:11,685 - core.trading_engine - INFO - 持仓 BTC-USDT-SWAP: short 0.1000 @ 111282.10 (1x杠杆)
+2025-09-02 22:58:11,685 - core.trading_engine - INFO - 当前价格: 111246.00
+2025-09-02 22:58:11,685 - core.trading_engine - INFO - 止盈点: 108778.25, 止损点: 112951.33
+2025-09-02 22:58:11,686 - core.trading_engine - INFO - 价格盈亏: $3.61, 手续费: $5.62
+2025-09-02 22:58:11,686 - core.trading_engine - INFO - 净盈亏: $-2.01 (已扣除手续费)
+2025-09-02 22:58:11,686 - core.trading_engine - INFO - 保证金: $11128.21, 净盈亏占保证金: -0.0%
+2025-09-02 22:58:11,686 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 22:59:11,686 - core.trading_engine - INFO - 
+=== 交易周期 6 ===
+2025-09-02 22:59:13,703 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 22:59:14,782 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 22:59:15,128 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 22:59:15,128 - core.trading_engine - INFO - 持仓 BTC-USDT-SWAP: short 0.1000 @ 111282.10 (1x杠杆)
+2025-09-02 22:59:15,128 - core.trading_engine - INFO - 当前价格: 111242.00
+2025-09-02 22:59:15,129 - core.trading_engine - INFO - 止盈点: 108778.25, 止损点: 112951.33
+2025-09-02 22:59:15,129 - core.trading_engine - INFO - 价格盈亏: $4.01, 手续费: $5.62
+2025-09-02 22:59:15,129 - core.trading_engine - INFO - 净盈亏: $-1.61 (已扣除手续费)
+2025-09-02 22:59:15,129 - core.trading_engine - INFO - 保证金: $11128.21, 净盈亏占保证金: -0.0%
+2025-09-02 22:59:15,129 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 23:00:15,129 - core.trading_engine - INFO - 
+=== 交易周期 7 ===
+2025-09-02 23:00:17,450 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:00:18,593 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 23:00:18,982 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.01
+2025-09-02 23:00:18,982 - core.trading_engine - INFO - 持仓 BTC-USDT-SWAP: short 0.1000 @ 111282.10 (1x杠杆)
+2025-09-02 23:00:18,983 - core.trading_engine - INFO - 当前价格: 111320.10
+2025-09-02 23:00:18,983 - core.trading_engine - INFO - 止盈点: 108778.25, 止损点: 112951.33
+2025-09-02 23:00:18,983 - core.trading_engine - INFO - 价格盈亏: $-3.80, 手续费: $5.63
+2025-09-02 23:00:18,983 - core.trading_engine - INFO - 净盈亏: $-9.43 (已扣除手续费)
+2025-09-02 23:00:18,983 - core.trading_engine - INFO - 保证金: $11128.21, 净盈亏占保证金: -0.1%
+2025-09-02 23:00:18,983 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 23:01:18,984 - core.trading_engine - INFO - 
+=== 交易周期 8 ===
+2025-09-02 23:01:21,251 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:01:22,452 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 23:01:22,818 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:01:22,818 - core.trading_engine - INFO - 持仓 BTC-USDT-SWAP: short 0.1000 @ 111282.10 (1x杠杆)
+2025-09-02 23:01:22,818 - core.trading_engine - INFO - 当前价格: 111288.00
+2025-09-02 23:01:22,819 - core.trading_engine - INFO - 止盈点: 108778.25, 止损点: 112951.33
+2025-09-02 23:01:22,819 - core.trading_engine - INFO - 价格盈亏: $-0.59, 手续费: $5.62
+2025-09-02 23:01:22,819 - core.trading_engine - INFO - 净盈亏: $-6.21 (已扣除手续费)
+2025-09-02 23:01:22,819 - core.trading_engine - INFO - 保证金: $11128.21, 净盈亏占保证金: -0.1%
+2025-09-02 23:01:22,819 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 23:02:22,819 - core.trading_engine - INFO - 
+=== 交易周期 9 ===
+2025-09-02 23:02:27,344 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.01
+2025-09-02 23:02:28,383 - core.trading_engine - INFO - [资金] 当前总资金: $0.72 USDT
+2025-09-02 23:02:28,383 - core.trading_engine - INFO -    余额: $0.00, 浮盈浮亏: +0.72 (+0.00%)
+2025-09-02 23:02:29,565 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 23:02:29,932 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:02:29,932 - core.trading_engine - INFO - 持仓 BTC-USDT-SWAP: short 0.1000 @ 111282.10 (1x杠杆)
+2025-09-02 23:02:29,933 - core.trading_engine - INFO - 当前价格: 111249.70
+2025-09-02 23:02:29,933 - core.trading_engine - INFO - 止盈点: 108778.25, 止损点: 112951.33
+2025-09-02 23:02:29,933 - core.trading_engine - INFO - 价格盈亏: $3.24, 手续费: $5.62
+2025-09-02 23:02:29,933 - core.trading_engine - INFO - 净盈亏: $-2.38 (已扣除手续费)
+2025-09-02 23:02:29,933 - core.trading_engine - INFO - 保证金: $11128.21, 净盈亏占保证金: -0.0%
+2025-09-02 23:02:29,933 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 23:03:29,934 - core.trading_engine - INFO - 
+=== 交易周期 10 ===
+2025-09-02 23:03:32,767 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:03:33,925 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 23:03:34,301 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:03:34,301 - core.trading_engine - INFO - 持仓 BTC-USDT-SWAP: short 0.1000 @ 111282.10 (1x杠杆)
+2025-09-02 23:03:34,301 - core.trading_engine - INFO - 当前价格: 111336.10
+2025-09-02 23:03:34,301 - core.trading_engine - INFO - 止盈点: 108778.25, 止损点: 112951.33
+2025-09-02 23:03:34,301 - core.trading_engine - INFO - 价格盈亏: $-5.40, 手续费: $5.62
+2025-09-02 23:03:34,301 - core.trading_engine - INFO - 净盈亏: $-11.02 (已扣除手续费)
+2025-09-02 23:03:34,301 - core.trading_engine - INFO - 保证金: $11128.21, 净盈亏占保证金: -0.1%
+2025-09-02 23:03:34,301 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 23:04:34,302 - core.trading_engine - INFO - 
+=== 交易周期 11 ===
+2025-09-02 23:04:37,829 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.01
+2025-09-02 23:04:39,249 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 23:04:39,618 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:04:39,618 - core.trading_engine - INFO - 持仓 BTC-USDT-SWAP: short 0.1000 @ 111282.10 (1x杠杆)
+2025-09-02 23:04:39,618 - core.trading_engine - INFO - 当前价格: 111235.00
+2025-09-02 23:04:39,618 - core.trading_engine - INFO - 止盈点: 108778.25, 止损点: 112951.33
+2025-09-02 23:04:39,619 - core.trading_engine - INFO - 价格盈亏: $4.71, 手续费: $5.62
+2025-09-02 23:04:39,619 - core.trading_engine - INFO - 净盈亏: $-0.91 (已扣除手续费)
+2025-09-02 23:04:39,619 - core.trading_engine - INFO - 保证金: $11128.21, 净盈亏占保证金: -0.0%
+2025-09-02 23:04:39,619 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 23:05:39,619 - core.trading_engine - INFO - 
+=== 交易周期 12 ===
+2025-09-02 23:05:42,681 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:05:43,423 - core.trading_engine - INFO - [资金] 当前总资金: $10.60 USDT
+2025-09-02 23:05:43,423 - core.trading_engine - INFO -    余额: $0.00, 浮盈浮亏: +10.60 (+0.00%)
+2025-09-02 23:05:44,678 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 23:05:45,055 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.01
+2025-09-02 23:05:45,055 - core.trading_engine - INFO - 持仓 BTC-USDT-SWAP: short 0.1000 @ 111282.10 (1x杠杆)
+2025-09-02 23:05:45,055 - core.trading_engine - INFO - 当前价格: 111130.40
+2025-09-02 23:05:45,055 - core.trading_engine - INFO - 止盈点: 108778.25, 止损点: 112951.33
+2025-09-02 23:05:45,056 - core.trading_engine - INFO - 价格盈亏: $15.17, 手续费: $5.62
+2025-09-02 23:05:45,056 - core.trading_engine - INFO - 净盈亏: $9.55 (已扣除手续费)
+2025-09-02 23:05:45,056 - core.trading_engine - INFO - 保证金: $11128.21, 净盈亏占保证金: +0.1%
+2025-09-02 23:05:45,056 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 23:06:45,056 - core.trading_engine - INFO - 
+=== 交易周期 13 ===
+2025-09-02 23:06:48,973 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:06:49,754 - core.trading_engine - INFO - [资金] 当前总资金: $27.00 USDT
+2025-09-02 23:06:49,754 - core.trading_engine - INFO -    余额: $0.00, 浮盈浮亏: +27.00 (+0.00%)
+2025-09-02 23:06:51,001 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 23:06:51,372 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:06:51,372 - core.trading_engine - INFO - 持仓 BTC-USDT-SWAP: short 0.1000 @ 111282.10 (1x杠杆)
+2025-09-02 23:06:51,373 - core.trading_engine - INFO - 当前价格: 110942.00
+2025-09-02 23:06:51,373 - core.trading_engine - INFO - 止盈点: 108778.25, 止损点: 112951.33
+2025-09-02 23:06:51,373 - core.trading_engine - INFO - 价格盈亏: $34.01, 手续费: $5.60
+2025-09-02 23:06:51,373 - core.trading_engine - INFO - 净盈亏: $28.41 (已扣除手续费)
+2025-09-02 23:06:51,373 - core.trading_engine - INFO - 保证金: $11128.21, 净盈亏占保证金: +0.3%
+2025-09-02 23:06:51,373 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 23:07:51,374 - core.trading_engine - INFO - 
+=== 交易周期 14 ===
+2025-09-02 23:07:54,263 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:07:55,010 - core.trading_engine - INFO - [资金] 当前总资金: $22.01 USDT
+2025-09-02 23:07:55,010 - core.trading_engine - INFO -    余额: $0.00, 浮盈浮亏: +22.01 (+0.00%)
+2025-09-02 23:07:56,244 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 23:07:56,625 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:07:56,625 - core.trading_engine - INFO - 持仓 BTC-USDT-SWAP: short 0.1000 @ 111282.10 (1x杠杆)
+2025-09-02 23:07:56,625 - core.trading_engine - INFO - 当前价格: 111003.30
+2025-09-02 23:07:56,625 - core.trading_engine - INFO - 止盈点: 108778.25, 止损点: 112951.33
+2025-09-02 23:07:56,625 - core.trading_engine - INFO - 价格盈亏: $27.88, 手续费: $5.61
+2025-09-02 23:07:56,625 - core.trading_engine - INFO - 净盈亏: $22.27 (已扣除手续费)
+2025-09-02 23:07:56,626 - core.trading_engine - INFO - 保证金: $11128.21, 净盈亏占保证金: +0.2%
+2025-09-02 23:07:56,626 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 23:08:56,626 - core.trading_engine - INFO - 
+=== 交易周期 15 ===
+2025-09-02 23:08:59,641 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:09:00,407 - core.trading_engine - INFO - [资金] 当前总资金: $7.80 USDT
+2025-09-02 23:09:00,407 - core.trading_engine - INFO -    余额: $0.00, 浮盈浮亏: +7.80 (+0.00%)
+2025-09-02 23:09:02,413 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 23:09:02,806 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:09:02,806 - core.trading_engine - INFO - 持仓 BTC-USDT-SWAP: short 0.1000 @ 111282.10 (1x杠杆)
+2025-09-02 23:09:02,806 - core.trading_engine - INFO - 当前价格: 111119.40
+2025-09-02 23:09:02,806 - core.trading_engine - INFO - 止盈点: 108778.25, 止损点: 112951.33
+2025-09-02 23:09:02,807 - core.trading_engine - INFO - 价格盈亏: $16.27, 手续费: $5.61
+2025-09-02 23:09:02,807 - core.trading_engine - INFO - 净盈亏: $10.66 (已扣除手续费)
+2025-09-02 23:09:02,807 - core.trading_engine - INFO - 保证金: $11128.21, 净盈亏占保证金: +0.1%
+2025-09-02 23:09:02,807 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 23:10:02,807 - core.trading_engine - INFO - 
+=== 交易周期 16 ===
+2025-09-02 23:10:05,204 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:10:06,122 - core.trading_engine - INFO - [资金] 当前总资金: $13.40 USDT
+2025-09-02 23:10:06,123 - core.trading_engine - INFO -    余额: $0.00, 浮盈浮亏: +13.40 (+0.00%)
+2025-09-02 23:10:07,566 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 23:10:07,900 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:10:07,901 - core.trading_engine - INFO - 持仓 BTC-USDT-SWAP: short 0.1000 @ 111282.10 (1x杠杆)
+2025-09-02 23:10:07,901 - core.trading_engine - INFO - 当前价格: 111122.10
+2025-09-02 23:10:07,901 - core.trading_engine - INFO - 止盈点: 108778.25, 止损点: 112951.33
+2025-09-02 23:10:07,901 - core.trading_engine - INFO - 价格盈亏: $16.00, 手续费: $5.61
+2025-09-02 23:10:07,901 - core.trading_engine - INFO - 净盈亏: $10.39 (已扣除手续费)
+2025-09-02 23:10:07,901 - core.trading_engine - INFO - 保证金: $11128.21, 净盈亏占保证金: +0.1%
+2025-09-02 23:10:07,901 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 23:11:07,902 - core.trading_engine - INFO - 
+=== 交易周期 17 ===
+2025-09-02 23:11:11,250 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:11:11,955 - core.trading_engine - INFO - [资金] 当前总资金: $7.53 USDT
+2025-09-02 23:11:11,955 - core.trading_engine - INFO -    余额: $0.00, 浮盈浮亏: +7.53 (+0.00%)
+2025-09-02 23:11:13,298 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 23:11:13,669 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:11:13,669 - core.trading_engine - INFO - 持仓 BTC-USDT-SWAP: short 0.1000 @ 111282.10 (1x杠杆)
+2025-09-02 23:11:13,669 - core.trading_engine - INFO - 当前价格: 111140.70
+2025-09-02 23:11:13,669 - core.trading_engine - INFO - 止盈点: 108778.25, 止损点: 112951.33
+2025-09-02 23:11:13,669 - core.trading_engine - INFO - 价格盈亏: $14.14, 手续费: $5.61
+2025-09-02 23:11:13,669 - core.trading_engine - INFO - 净盈亏: $8.53 (已扣除手续费)
+2025-09-02 23:11:13,669 - core.trading_engine - INFO - 保证金: $11128.21, 净盈亏占保证金: +0.1%
+2025-09-02 23:11:13,669 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 23:12:13,670 - core.trading_engine - INFO - 
+=== 交易周期 18 ===
+2025-09-02 23:12:16,322 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:12:17,361 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 23:12:17,749 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:12:17,749 - core.trading_engine - INFO - 持仓 BTC-USDT-SWAP: short 0.1000 @ 111282.10 (1x杠杆)
+2025-09-02 23:12:17,750 - core.trading_engine - INFO - 当前价格: 111299.50
+2025-09-02 23:12:17,750 - core.trading_engine - INFO - 止盈点: 108778.25, 止损点: 112951.33
+2025-09-02 23:12:17,750 - core.trading_engine - INFO - 价格盈亏: $-1.74, 手续费: $5.62
+2025-09-02 23:12:17,750 - core.trading_engine - INFO - 净盈亏: $-7.36 (已扣除手续费)
+2025-09-02 23:12:17,750 - core.trading_engine - INFO - 保证金: $11128.21, 净盈亏占保证金: -0.1%
+2025-09-02 23:12:17,750 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 23:13:17,751 - core.trading_engine - INFO - 
+=== 交易周期 19 ===
+2025-09-02 23:13:20,066 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.01
+2025-09-02 23:13:21,281 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 23:13:21,650 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:13:21,650 - core.trading_engine - INFO - 持仓 BTC-USDT-SWAP: short 0.1000 @ 111282.10 (1x杠杆)
+2025-09-02 23:13:21,650 - core.trading_engine - INFO - 当前价格: 111278.10
+2025-09-02 23:13:21,650 - core.trading_engine - INFO - 止盈点: 108778.25, 止损点: 112951.33
+2025-09-02 23:13:21,650 - core.trading_engine - INFO - 价格盈亏: $0.40, 手续费: $5.62
+2025-09-02 23:13:21,650 - core.trading_engine - INFO - 净盈亏: $-5.22 (已扣除手续费)
+2025-09-02 23:13:21,650 - core.trading_engine - INFO - 保证金: $11128.21, 净盈亏占保证金: -0.0%
+2025-09-02 23:13:21,650 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 23:14:21,651 - core.trading_engine - INFO - 
+=== 交易周期 20 ===
+2025-09-02 23:14:24,136 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.01
+2025-09-02 23:14:25,202 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 23:14:25,576 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:14:25,576 - core.trading_engine - INFO - 持仓 BTC-USDT-SWAP: short 0.1000 @ 111282.10 (1x杠杆)
+2025-09-02 23:14:25,576 - core.trading_engine - INFO - 当前价格: 111257.80
+2025-09-02 23:14:25,576 - core.trading_engine - INFO - 止盈点: 108778.25, 止损点: 112951.33
+2025-09-02 23:14:25,576 - core.trading_engine - INFO - 价格盈亏: $2.43, 手续费: $5.62
+2025-09-02 23:14:25,577 - core.trading_engine - INFO - 净盈亏: $-3.19 (已扣除手续费)
+2025-09-02 23:14:25,577 - core.trading_engine - INFO - 保证金: $11128.21, 净盈亏占保证金: -0.0%
+2025-09-02 23:14:25,577 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 23:15:25,577 - core.trading_engine - INFO - 
+=== 交易周期 21 ===
+2025-09-02 23:15:28,169 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:15:29,297 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 23:15:29,641 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.01
+2025-09-02 23:15:29,641 - core.trading_engine - INFO - 持仓 BTC-USDT-SWAP: short 0.1000 @ 111282.10 (1x杠杆)
+2025-09-02 23:15:29,642 - core.trading_engine - INFO - 当前价格: 111457.00
+2025-09-02 23:15:29,642 - core.trading_engine - INFO - 止盈点: 108778.25, 止损点: 112951.33
+2025-09-02 23:15:29,642 - core.trading_engine - INFO - 价格盈亏: $-17.49, 手续费: $5.63
+2025-09-02 23:15:29,642 - core.trading_engine - INFO - 净盈亏: $-23.12 (已扣除手续费)
+2025-09-02 23:15:29,642 - core.trading_engine - INFO - 保证金: $11128.21, 净盈亏占保证金: -0.2%
+2025-09-02 23:15:29,642 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 23:16:29,643 - core.trading_engine - INFO - 
+=== 交易周期 22 ===
+2025-09-02 23:16:31,893 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.01
+2025-09-02 23:16:33,438 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 23:16:33,800 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:16:33,801 - core.trading_engine - INFO - 持仓 BTC-USDT-SWAP: short 0.1000 @ 111282.10 (1x杠杆)
+2025-09-02 23:16:33,801 - core.trading_engine - INFO - 当前价格: 111392.20
+2025-09-02 23:16:33,801 - core.trading_engine - INFO - 止盈点: 108778.25, 止损点: 112951.33
+2025-09-02 23:16:33,801 - core.trading_engine - INFO - 价格盈亏: $-11.01, 手续费: $5.63
+2025-09-02 23:16:33,801 - core.trading_engine - INFO - 净盈亏: $-16.64 (已扣除手续费)
+2025-09-02 23:16:33,801 - core.trading_engine - INFO - 保证金: $11128.21, 净盈亏占保证金: -0.1%
+2025-09-02 23:16:33,801 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 23:17:33,802 - core.trading_engine - INFO - 
+=== 交易周期 23 ===
+2025-09-02 23:17:36,484 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.01
+2025-09-02 23:17:37,717 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 23:17:38,064 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=10.0
+2025-09-02 23:17:38,064 - core.trading_engine - INFO - 持仓 BTC-USDT-SWAP: short 0.1000 @ 111282.10 (1x杠杆)
+2025-09-02 23:17:38,064 - core.trading_engine - INFO - 当前价格: 111325.50
+2025-09-02 23:17:38,065 - core.trading_engine - INFO - 止盈点: 108778.25, 止损点: 112951.33
+2025-09-02 23:17:38,065 - core.trading_engine - INFO - 价格盈亏: $-4.34, 手续费: $5.62
+2025-09-02 23:17:38,065 - core.trading_engine - INFO - 净盈亏: $-9.96 (已扣除手续费)
+2025-09-02 23:17:38,065 - core.trading_engine - INFO - 保证金: $11128.21, 净盈亏占保证金: -0.1%
+2025-09-02 23:17:38,065 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 23:18:11,300 - core.trading_engine - INFO - 接收到停止信号
+2025-09-02 23:18:11,300 - core.trading_engine - INFO - 停止交易引擎
+2025-09-02 23:18:11,300 - core.trading_engine - WARNING - 仍有持仓，请手动处理:
+2025-09-02 23:18:11,300 - core.trading_engine - WARNING - - BTC-USDT-SWAP: short 0.1000
+2025-09-02 23:26:47,244 - core.okx_client - INFO - 初始化实盘模式客户端（真实资金）
+2025-09-02 23:26:48,331 - core.trading_engine - INFO - 交易引擎初始化完成
+2025-09-02 23:27:07,337 - core.okx_client - INFO - 初始化实盘模式客户端（真实资金）
+2025-09-02 23:27:08,414 - core.trading_engine - INFO - 交易引擎初始化完成
+2025-09-02 23:27:09,627 - core.okx_client - INFO - 获取手续费费率成功 - 等级: Lv1, 挂单: 0.0200%, 吃单: 0.0500%
+2025-09-02 23:27:09,627 - core.trading_engine - INFO - 更新动态手续费费率 - 等级: Lv1, 挂单: 0.0200%, 吃单: 0.0500%
+2025-09-02 23:27:10,035 - core.okx_client - INFO - 获取产品信息成功 - BTC-USDT-SWAP, 面值: 0.01 BTC
+2025-09-02 23:27:10,035 - core.trading_engine - INFO - 更新合约信息 - BTC-USDT-SWAP, 面值: 0.01 BTC
+2025-09-02 23:27:10,035 - core.trading_engine - INFO - 合约数量调整: minSz=0.01, lotSz=0.01, 最终张数=0.5
+2025-09-02 23:29:08,598 - core.okx_client - INFO - 初始化实盘模式客户端（真实资金）
+2025-09-02 23:29:09,701 - core.trading_engine - INFO - 交易引擎初始化完成
+2025-09-02 23:29:09,701 - core.trading_engine - INFO - 启动实盘交易引擎
+2025-09-02 23:29:09,701 - core.trading_engine - INFO - 交易对: BTC-USDT-SWAP
+2025-09-02 23:29:09,701 - core.trading_engine - INFO - 沙盒模式: False
+2025-09-02 23:29:09,701 - core.trading_engine - INFO - 
+=== 交易周期 1 ===
+2025-09-02 23:29:13,723 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 23:29:13,726 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 23:30:13,726 - core.trading_engine - INFO - 
+=== 交易周期 2 ===
+2025-09-02 23:30:22,696 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 23:30:22,697 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 23:31:22,698 - core.trading_engine - INFO - 
+=== 交易周期 3 ===
+2025-09-02 23:31:26,803 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 23:31:26,805 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 23:32:14,075 - core.okx_client - INFO - 初始化实盘模式客户端（真实资金）
+2025-09-02 23:32:15,188 - core.trading_engine - INFO - 交易引擎初始化完成
+2025-09-02 23:32:16,754 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP:
+2025-09-02 23:32:16,754 - core.trading_engine - INFO -   原始数量: 0.1, 处理后数量: 0.1
+2025-09-02 23:32:16,754 - core.trading_engine - INFO -   开仓价格: $111,280.00
+2025-09-02 23:32:16,754 - core.trading_engine - INFO -   当前价格: $111,149.60
+2025-09-02 23:32:16,754 - core.trading_engine - INFO -   持仓价值: $111.28 USDT
+2025-09-02 23:32:16,754 - core.trading_engine - INFO -   占用保证金: $111.15 USDT
+2025-09-02 23:32:16,754 - core.trading_engine - INFO -   未实现盈亏: $+0.13 USDT (+0.12%)
+2025-09-02 23:32:16,754 - core.trading_engine - INFO -   关联的止盈止损订单: 无
+2025-09-02 23:32:26,805 - core.trading_engine - INFO - 
+=== 交易周期 4 ===
+2025-09-02 23:32:31,259 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP: 原始数量=0.1, 处理后数量=0.1
+2025-09-02 23:32:31,260 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 23:32:52,429 - core.trading_engine - INFO - 接收到停止信号
+2025-09-02 23:32:52,429 - core.trading_engine - INFO - 停止交易引擎
+2025-09-02 23:32:58,988 - core.okx_client - INFO - 初始化实盘模式客户端（真实资金）
+2025-09-02 23:33:00,091 - core.trading_engine - INFO - 交易引擎初始化完成
+2025-09-02 23:33:00,091 - core.trading_engine - INFO - 启动实盘交易引擎
+2025-09-02 23:33:00,091 - core.trading_engine - INFO - 交易对: BTC-USDT-SWAP
+2025-09-02 23:33:00,091 - core.trading_engine - INFO - 沙盒模式: False
+2025-09-02 23:33:00,091 - core.trading_engine - INFO - 
+=== 交易周期 1 ===
+2025-09-02 23:33:03,852 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP:
+2025-09-02 23:33:03,852 - core.trading_engine - INFO -   原始数量: 0.1, 处理后数量: 0.1
+2025-09-02 23:33:03,852 - core.trading_engine - INFO -   开仓价格: $111,280.00
+2025-09-02 23:33:03,853 - core.trading_engine - INFO -   当前价格: $111,136.10
+2025-09-02 23:33:03,853 - core.trading_engine - INFO -   持仓价值: $111.28 USDT
+2025-09-02 23:33:03,853 - core.trading_engine - INFO -   占用保证金: $111.14 USDT
+2025-09-02 23:33:03,853 - core.trading_engine - INFO -   未实现盈亏: $+0.14 USDT (+0.13%)
+2025-09-02 23:33:03,853 - core.trading_engine - INFO -   关联的止盈止损订单: 无
+2025-09-02 23:33:03,855 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 23:33:31,560 - core.trading_engine - INFO - 接收到停止信号
+2025-09-02 23:33:31,560 - core.trading_engine - INFO - 停止交易引擎
+2025-09-02 23:36:10,107 - core.okx_client - INFO - 初始化实盘模式客户端（真实资金）
+2025-09-02 23:36:11,221 - core.trading_engine - INFO - 交易引擎初始化完成
+2025-09-02 23:36:18,029 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP - [SHORT] 空仓:
+2025-09-02 23:36:18,029 - core.trading_engine - INFO -   原始数量: 0.1, 处理后数量: 0.1
+2025-09-02 23:36:18,029 - core.trading_engine - INFO -   开仓价格: $111,280.00
+2025-09-02 23:36:18,029 - core.trading_engine - INFO -   当前价格: $110,928.30
+2025-09-02 23:36:18,029 - core.trading_engine - INFO -   持仓价值: $111.28 USDT
+2025-09-02 23:36:18,029 - core.trading_engine - INFO -   占用保证金: $110.93 USDT
+2025-09-02 23:36:18,029 - core.trading_engine - INFO -   未实现盈亏: $+0.35 USDT (+0.32%)
+2025-09-02 23:36:18,029 - core.trading_engine - INFO -   关联的止盈止损订单: 无
+2025-09-02 23:39:59,687 - core.okx_client - INFO - 初始化实盘模式客户端（真实资金）
+2025-09-02 23:40:00,750 - core.trading_engine - INFO - 交易引擎初始化完成
+2025-09-02 23:40:02,113 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP - [SHORT] 空仓:
+2025-09-02 23:40:02,113 - core.trading_engine - INFO -   原始数量: 0.1, 处理后数量: 0.1
+2025-09-02 23:40:02,113 - core.trading_engine - INFO -   开仓价格: $111,280.00
+2025-09-02 23:40:02,113 - core.trading_engine - INFO -   当前价格: $110,912.60
+2025-09-02 23:40:02,113 - core.trading_engine - INFO -   持仓价值: $111.28 USDT
+2025-09-02 23:40:02,113 - core.trading_engine - INFO -   占用保证金: $110.91 USDT
+2025-09-02 23:40:02,113 - core.trading_engine - INFO -   未实现盈亏: $+0.37 USDT (+0.33%)
+2025-09-02 23:40:02,113 - core.trading_engine - INFO -   关联的止盈止损订单: 无
+2025-09-02 23:40:03,333 - core.trading_engine - INFO -   OCO止盈止损订单: 1个
+2025-09-02 23:40:03,333 - core.trading_engine - INFO -     止盈: 触发价$108,778.20, 委托价$108,778.30
+2025-09-02 23:40:03,333 - core.trading_engine - INFO -     止损: 触发价$112,951.30, 委托价$112,951.40
+2025-09-02 23:47:15,478 - core.okx_client - INFO - 初始化实盘模式客户端（真实资金）
+2025-09-02 23:47:16,585 - core.trading_engine - INFO - 交易引擎初始化完成
+2025-09-02 23:47:19,321 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP - [SHORT] 空仓:
+2025-09-02 23:47:19,321 - core.trading_engine - INFO -   原始数量: 0.1, 处理后数量: 0.1
+2025-09-02 23:47:19,321 - core.trading_engine - INFO -   开仓价格: $111,280.00
+2025-09-02 23:47:19,321 - core.trading_engine - INFO -   当前价格: $110,973.90
+2025-09-02 23:47:19,321 - core.trading_engine - INFO -   持仓价值: $111.28 USDT
+2025-09-02 23:47:19,321 - core.trading_engine - INFO -   占用保证金: $110.97 USDT
+2025-09-02 23:47:19,321 - core.trading_engine - INFO -   未实现盈亏: $+0.31 USDT (+0.28%)
+2025-09-02 23:47:19,321 - core.trading_engine - INFO -   关联的止盈止损订单: 无
+2025-09-02 23:47:20,734 - core.trading_engine - INFO -   策略委托单: 1个
+2025-09-02 23:47:20,734 - core.trading_engine - INFO -     [OCO] 双向止盈止损:
+2025-09-02 23:47:20,734 - core.trading_engine - INFO -       止盈: 触发价$108,778.20, 委托价$108,778.30
+2025-09-02 23:47:20,734 - core.trading_engine - INFO -       止损: 触发价$112,951.30, 委托价$112,951.40
+2025-09-02 23:47:20,734 - core.trading_engine - INFO -       创建时间: 2025-09-02 22:53:54
+2025-09-02 23:48:27,979 - core.okx_client - INFO - 初始化实盘模式客户端（真实资金）
+2025-09-02 23:48:29,077 - core.trading_engine - INFO - 交易引擎初始化完成
+2025-09-02 23:48:29,077 - core.trading_engine - INFO - 启动实盘交易引擎
+2025-09-02 23:48:29,078 - core.trading_engine - INFO - 交易对: BTC-USDT-SWAP
+2025-09-02 23:48:29,078 - core.trading_engine - INFO - 沙盒模式: False
+2025-09-02 23:48:29,078 - core.trading_engine - INFO - 
+=== 交易周期 1 ===
+2025-09-02 23:48:32,790 - core.trading_engine - INFO - OKX持仓同步 BTC-USDT-SWAP - [SHORT] 空仓:
+2025-09-02 23:48:32,790 - core.trading_engine - INFO -   原始数量: 0.1, 处理后数量: 0.1
+2025-09-02 23:48:32,791 - core.trading_engine - INFO -   开仓价格: $111,280.00
+2025-09-02 23:48:32,791 - core.trading_engine - INFO -   当前价格: $110,953.20
+2025-09-02 23:48:32,791 - core.trading_engine - INFO -   持仓价值: $111.28 USDT
+2025-09-02 23:48:32,791 - core.trading_engine - INFO -   占用保证金: $110.95 USDT
+2025-09-02 23:48:32,791 - core.trading_engine - INFO -   未实现盈亏: $+0.33 USDT (+0.29%)
+2025-09-02 23:48:32,791 - core.trading_engine - INFO -   关联的止盈止损订单: 无
+2025-09-02 23:48:34,214 - core.trading_engine - INFO -   策略委托单: 1个
+2025-09-02 23:48:34,215 - core.trading_engine - INFO -     [OCO] 双向止盈止损:
+2025-09-02 23:48:34,215 - core.trading_engine - INFO -       止盈: 触发价$108,778.20, 委托价$108,778.30
+2025-09-02 23:48:34,215 - core.trading_engine - INFO -       止损: 触发价$112,951.30, 委托价$112,951.40
+2025-09-02 23:48:34,215 - core.trading_engine - INFO -       创建时间: 2025-09-02 22:53:54
+2025-09-02 23:48:34,218 - core.trading_engine - INFO - 等待60秒后继续...
+2025-09-02 23:49:13,301 - core.trading_engine - INFO - 接收到停止信号
+2025-09-02 23:49:13,302 - core.trading_engine - INFO - 停止交易引擎

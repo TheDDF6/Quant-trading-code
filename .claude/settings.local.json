@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(/c/Users/12865/AppData/Local/Programs/Python/Python313/python.exe -c \"from analysis.parameter_sensitivity_optimized import run_parameter_sensitivity_test_optimized; result = run_parameter_sensitivity_test_optimized(''''BTC-USDT'''', ''''rsi_divergence_unified'''', timeframe=''''5m''''); print(f''''最终结果: {\"\"成功\"\" if result else \"\"失败\"\"}'''')\")"
+    ],
+    "deny": [],
+    "ask": [],
+    "additionalDirectories": [
+      "D:\\d\\VSC"
+    ]
+  }
+}

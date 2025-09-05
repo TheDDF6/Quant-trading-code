@@ -1,0 +1,250 @@
+{
+  "system": {
+    "name": "Multi-Strategy Trading System",
+    "version": "2.0.0",
+    "environment": "sandbox",
+    "description": "支持多策略并行运行的交易系统"
+  },
+  "okx": {
+    "api_key": "c8d591f2-bdd4-4fb9-b9f8-e984bba58677",
+    "secret_key": "EC2EA955E41747B196C13874E00CF5F0",
+    "passphrase": "!ZPqq19785218zmh",
+    "sandbox": true
+  },
+  "trading_engine": {
+    "main_loop_interval": 10,
+    "data_update_interval": 30,
+    "max_concurrent_positions": 5,
+    "emergency_stop_on_loss": true,
+    "trades_file": "data/multi_strategy_trades.json"
+  },
+  "strategy_manager": {
+    "total_balance": 10000.0,
+    "reserved_balance": 0.1,
+    "update_interval": 30,
+    "max_signal_history": 1000,
+    "max_total_risk": 0.05,
+    "max_concurrent_positions": 1,
+    "fund_allocation_mode": "shared_pool"
+  },
+  "risk_manager": {
+    "max_total_risk": 0.05,
+    "max_daily_loss": 0.03,
+    "max_drawdown": 0.1,
+    "max_position_count": 5,
+    "min_balance_ratio": 0.2,
+    "var_confidence": 0.95,
+    "var_lookback_days": 30,
+    "monitor_interval": 10
+  },
+  "strategies": {
+    "rsi_divergence_btc": {
+      "class": "RSIDivergenceUnifiedAdapter",
+      "active": true,
+      "allocation_ratio": 0.4,
+      "config": {
+        "rsi_period": 14,
+        "rsi_oversold": 30,
+        "rsi_overbought": 70,
+        "lookback_period": 20,
+        "min_divergence_distance": 5,
+        "peak_window": 3,
+        "stop_loss_pct": 0.015,
+        "take_profit_ratio": 1.2,
+        "trailing_stop_pct": 0.008,
+        "min_signal_strength": 0.6,
+        "volume_confirmation": true,
+        "risk_method": "fixed_percentage",
+        "supported_symbols": [
+          "BTC-USDT-SWAP"
+        ],
+        "timeframes": [
+          "5m"
+        ],
+        "max_position_size": 0.8,
+        "risk_per_trade": 0.02,
+        "debug": false
+      }
+    },
+    "rsi_divergence_eth": {
+      "class": "RSIDivergenceUnifiedAdapter",
+      "active": false,
+      "allocation_ratio": 0.3,
+      "config": {
+        "rsi_period": 14,
+        "rsi_oversold": 30,
+        "rsi_overbought": 70,
+        "lookback_period": 20,
+        "min_divergence_distance": 5,
+        "peak_window": 3,
+        "stop_loss_pct": 0.02,
+        "take_profit_ratio": 1.2,
+        "trailing_stop_pct": 0.01,
+        "min_signal_strength": 0.65,
+        "volume_confirmation": true,
+        "risk_method": "fixed_percentage",
+        "supported_symbols": [
+          "ETH-USDT-SWAP"
+        ],
+        "timeframes": [
+          "5m"
+        ],
+        "max_position_size": 0.7,
+        "risk_per_trade": 0.018,
+        "debug": false
+      }
+    },
+    "ma_crossover_btc": {
+      "class": "MovingAverageCrossover",
+      "active": false,
+      "allocation_ratio": 0.3,
+      "config": {
+        "fast_period": 10,
+        "slow_period": 20,
+        "ma_type": "EMA",
+        "rsi_period": 14,
+        "rsi_neutral_min": 40,
+        "rsi_neutral_max": 60,
+        "volume_multiplier": 1.2,
+        "stop_loss_pct": 0.02,
+        "take_profit_ratio": 2.0,
+        "trailing_stop_pct": 0.01,
+        "trend_filter_period": 50,
+        "min_trend_strength": 0.005,
+        "supported_symbols": [
+          "BTC-USDT-SWAP"
+        ],
+        "timeframes": [
+          "15m",
+          "1h"
+        ],
+        "max_position_size": 0.6,
+        "risk_per_trade": 0.015
+      }
+    },
+    "volatility_breakout_btc": {
+      "class": "VolatilityBreakoutUnifiedAdapter",
+      "active": false,
+      "allocation_ratio": 0.3,
+      "config": {
+        "bb_period": 20,
+        "bb_std": 2.0,
+        "bb_threshold": 0.04,
+        "atr_period": 14,
+        "stop_loss_mult": 1.5,
+        "trailing_mult": 2.0,
+        "volume_mult": 1.5,
+        "enable_volume_filter": false,
+        "min_signal_strength": 0.6,
+        "risk_method": "fixed_percentage",
+        "supported_symbols": [
+          "BTC-USDT-SWAP"
+        ],
+        "timeframes": [
+          "1h"
+        ],
+        "max_position_size": 0.7,
+        "risk_per_trade": 0.02,
+        "debug": false
+      }
+    }
+  },
+  "symbol_settings": {
+    "BTC-USDT-SWAP": {
+      "contract_value": 0.01,
+      "min_size": 0.01,
+      "max_leverage": 50,
+      "tick_size": 0.1,
+      "priority": 1
+    },
+    "ETH-USDT-SWAP": {
+      "contract_value": 0.1,
+      "min_size": 1,
+      "max_leverage": 50,
+      "tick_size": 0.01,
+      "priority": 2
+    },
+    "BNB-USDT-SWAP": {
+      "contract_value": 1.0,
+      "min_size": 1,
+      "max_leverage": 25,
+      "tick_size": 0.001,
+      "priority": 3
+    }
+  },
+  "data_sources": {
+    "primary": {
+      "provider": "okx",
+      "timeframes": [
+        "1m",
+        "5m",
+        "15m",
+        "1h",
+        "4h",
+        "1d"
+      ],
+      "history_limit": 100,
+      "update_interval": 30
+    },
+    "backup": {
+      "provider": "local_cache",
+      "cache_duration": 300
+    }
+  },
+  "position_management": {
+    "default_leverage": 10,
+    "max_leverage": 50,
+    "position_sizing": {
+      "method": "fixed_risk",
+      "default_risk_pct": 0.02,
+      "max_position_pct": 0.8
+    },
+    "stop_management": {
+      "enable_trailing_stop": true,
+      "trailing_stop_pct": 0.01,
+      "break_even_trigger": 1.5
+    }
+  },
+  "fees": {
+    "maker_fee": 0.0002,
+    "taker_fee": 0.0005,
+    "funding_rate_estimate": 0.0001,
+    "slippage_estimate": 0.0001,
+    "use_dynamic_rates": true
+  },
+  "monitoring": {
+    "log_level": "INFO",
+    "log_rotation": {
+      "max_size_mb": 100,
+      "backup_count": 10
+    },
+    "alerts": {
+      "enable_email": false,
+      "enable_webhook": false,
+      "alert_levels": [
+        "ERROR",
+        "CRITICAL"
+      ]
+    },
+    "heartbeat_interval": 60,
+    "save_trades": true,
+    "performance_tracking": true
+  },
+  "backtesting": {
+    "enable_paper_trading": true,
+    "paper_balance": 10000.0,
+    "comparison_mode": false,
+    "save_backtest_results": true
+  },
+  "advanced": {
+    "multi_threading": true,
+    "max_workers": 4,
+    "cache_enabled": true,
+    "cache_size": 1000,
+    "optimization": {
+      "enable_signal_batching": true,
+      "batch_size": 10,
+      "enable_data_compression": true
+    }
+  }
+}
