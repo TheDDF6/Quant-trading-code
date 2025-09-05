@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-"""
-波动率收缩/扩张策略 (Volatility Breakout)
-基于布林带的波动率收缩识别和突破入场
-"""
+# volatility_breakout.py - 波动率收缩/扩张策略
+"""波动率收缩/扩张策略 (Volatility Breakout)
+基于布林带的波动率收缩识别和突破入场"""
 
 import numpy as np
 import pandas as pd

@@ -1,6 +1,9 @@
 # test_walk_forward.py - 走向前分析测试脚本
 from core.backtest import load_and_prepare_data
-from time_series_validation import walk_forward_analysis, analyze_walk_forward_results
+from core.time_series_validation import (
+    walk_forward_analysis,
+    analyze_walk_forward_results,
+)
 
 def run_walk_forward_test():
     """运行走向前分析测试"""

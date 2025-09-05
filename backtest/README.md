@@ -20,9 +20,13 @@ backtest/
 │   ├── backtest.py                  # 主回测引擎
 │   └── time_series_validation.py   # 走向前分析引擎
 ├── strategies/                      # 📈 交易策略
-│   ├── rsi_divergence.py           # RSI背离策略
-│   ├── ma_cross.py                 # 移动平均策略  
-│   └── rsi_trend_divergence.py     # RSI趋势背离策略
+│   ├── ma_crossover.py             # 移动平均策略
+│   ├── rsi_divergence_unified_adapter.py # RSI背离适配器
+│   ├── experimental/               # 实验策略
+│   │   ├── rsi_simple.py           # 简化RSI背离策略
+│   │   └── rsi_trend_divergence.py # RSI趋势背离策略
+│   └── legacy/                     # 历史策略
+│       └── rsi_divergence.py       # RSI背离策略(旧版)
 ├── tests/                          # 🧪 测试模块
 │   ├── test_monthly_walk_forward.py # 月度走向前测试
 │   ├── realistic_parameter_test.py  # 现实参数测试

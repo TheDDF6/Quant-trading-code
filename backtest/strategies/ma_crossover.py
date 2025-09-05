@@ -1,4 +1,4 @@
-# strategies/ma_cross.py
+# ma_crossover.py - 移动平均交叉策略
 import pandas as pd
 
 def generate_signals(df, short=10, long=50):

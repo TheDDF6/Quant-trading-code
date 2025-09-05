@@ -1,7 +1,4 @@
-
-# ================================
-# strategies/rsi_divergence.py (改进版)
-# ================================
+# rsi_divergence.py - RSI背离策略 (旧版)
 
 import pandas as pd
 import talib

@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
-"""
-RSI背离策略的包装器 - 用于backtest目录
-解决相对导入问题
-"""
+# rsi_divergence_unified_wrapper.py - RSI背离策略包装器
+"""用于backtest目录的RSI背离策略包装器，解决相对导入问题"""
 
 import sys
 from pathlib import Path

@@ -9,7 +9,7 @@ import numpy as np
 from typing import Dict, List, Any, Optional
 import logging
 
-from .volatility_breakout_strategy import VolatilityBreakoutStrategy
+from .volatility_breakout import VolatilityBreakoutStrategy
 from .base_strategy import Signal
 
 
