@@ -49,8 +49,11 @@ class RSIDivergenceUnifiedAdapter(BaseStrategy):
         # 支持的交易对和时间框架
         self.supported_symbols = unified_config.get('supported_symbols', ['BTC-USDT-SWAP'])
         self.timeframes = unified_config.get('timeframes', ['5m'])
-        
+
         self.logger.info(f"统一RSI背离策略适配器初始化完成: {strategy_id}")
+
+        # 记录每个交易对最后一次生成信号的时间戳，避免重复信号
+        self._last_signal_time: Dict[str, pd.Timestamp] = {}
     
     def get_supported_symbols(self) -> List[str]:
         """获取支持的交易对"""
@@ -75,8 +78,19 @@ class RSIDivergenceUnifiedAdapter(BaseStrategy):
             if symbol is None:
                 symbol = self.supported_symbols[0] if self.supported_symbols else "BTC-USDT-SWAP"
             
-            # 使用统一策略分析市场
-            unified_signals = self.unified_strategy.analyze_market(market_data, symbol)
+            # 获取最新k线的时间戳
+            latest_ts = market_data.index[-1] if not market_data.empty else None
+
+            # 如果没有新数据或时间戳未前进，则无需分析
+            last_ts = self._last_signal_time.get(symbol)
+            if latest_ts is None or (last_ts is not None and latest_ts <= last_ts):
+                return []
+
+            # 使用统一策略分析市场，筛选最新k线的信号
+            unified_signals = [
+                s for s in self.unified_strategy.analyze_market(market_data, symbol)
+                if s.timestamp == latest_ts
+            ]
             
             # 转换为实盘交易系统的Signal格式
             live_signals = []
@@ -95,6 +109,8 @@ class RSIDivergenceUnifiedAdapter(BaseStrategy):
                 live_signals.append(live_signal)
             
             if live_signals and self.logger:
+                # 记录此次信号时间，避免后续重复
+                self._last_signal_time[symbol] = latest_ts
                 self.logger.info(f"生成 {len(live_signals)} 个信号 ({symbol})")
             
             return live_signals
