@@ -8,10 +8,26 @@
 
 import pandas as pd
 import numpy as np
-import talib
 from typing import List, Dict, Any, Tuple
 from datetime import datetime
 import logging
+
+try:
+    import talib
+except ModuleNotFoundError:
+    def _rsi(series, timeperiod=14):
+        """Lightweight RSI implementation used if TA-Lib is unavailable."""
+        delta = series.diff()
+        gain = delta.where(delta > 0, 0.0)
+        loss = -delta.where(delta < 0, 0.0)
+        avg_gain = gain.rolling(window=timeperiod, min_periods=timeperiod).mean()
+        avg_loss = loss.rolling(window=timeperiod, min_periods=timeperiod).mean()
+        rs = avg_gain / avg_loss
+        rsi = 100 - (100 / (1 + rs))
+        return rsi
+
+    class talib:  # type: ignore
+        RSI = staticmethod(_rsi)
 
 from .base_unified_strategy import UnifiedStrategy, UnifiedSignal
 
