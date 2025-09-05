@@ -1,7 +1,20 @@
 # ideal_backtest.py - 理想化动态风险回测系统
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+try:
+    import matplotlib.pyplot as plt
+except Exception:  # pragma: no cover - optional dependency
+    class _DummyPlot:
+        """Fallback object when matplotlib is unavailable."""
+        rcParams = {}
+
+        def __getattr__(self, _):
+            def _noop(*args, **kwargs):
+                pass
+
+            return _noop
+
+    plt = _DummyPlot()
 from pathlib import Path
 import importlib
 import sys
@@ -17,7 +30,7 @@ project_root = current_dir.parent.parent  # 回到项目根目录
 sys.path.insert(0, str(project_root))
 
 # 配置
-DATA_DIR = Path(r"D:\VSC\crypto_data")
+DATA_DIR = Path(__file__).resolve().parents[2] / "crypto_data"
 plt.rcParams['font.sans-serif'] = ['SimHei', 'Arial Unicode MS']
 plt.rcParams['axes.unicode_minus'] = False
 
